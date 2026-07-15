@@ -408,7 +408,7 @@
       cells: { 0: [1], 3: [2, 3, 4] },
     },
   ];
-  var NSIZE = [30, 23, 19, 17, 16, 15, 14, 14, 14, 13];
+  var NSIZE = [37.5, 29, 24, 21, 20, 19, 17.5, 17.5, 17.5, 16];
   (function () {
     var wrap = document.getElementById("mjgrid");
     MJ.forEach(function (box) {

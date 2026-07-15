@@ -40,7 +40,7 @@ body {
   background: var(--ink);
   color: var(--chalk);
   font-family: var(--sans);
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.6;
   background-image:
     linear-gradient(rgba(46, 92, 138, 0.16) 1px, transparent 1px),
@@ -59,7 +59,7 @@ a {
 body.compact {
   --gap: 18px;
   --pad: 13px;
-  font-size: 13.5px;
+  font-size: 17px;
   line-height: 1.45;
 }
 body.compact .depth {
@@ -70,10 +70,10 @@ body.compact .sec {
   padding-top: 14px;
 }
 body.compact .sec > h2 {
-  font-size: 24px;
+  font-size: 30px;
 }
 body.compact h3 {
-  font-size: 17px;
+  font-size: 21px;
   margin: 12px 0 5px;
 }
 body.compact h4 {
@@ -86,7 +86,7 @@ body.compact li {
   margin-bottom: 2px;
 }
 body.compact table {
-  font-size: 11.5px;
+  font-size: 14.5px;
   margin: 6px 0 9px;
 }
 body.compact th,
@@ -98,7 +98,7 @@ body.compact details {
 }
 body.compact summary {
   padding: 7px 11px;
-  font-size: 15px;
+  font-size: 19px;
 }
 body.compact .body {
   padding: 0 11px 10px;
@@ -108,7 +108,7 @@ body.compact .mast {
   padding: 12px 14px;
 }
 body.compact .mast h1 {
-  font-size: clamp(26px, 3.6vw, 38px);
+  font-size: clamp(32.5px, 4.5vw, 47.5px);
 }
 body.compact .lede {
   display: none;
@@ -120,7 +120,7 @@ body.compact .note,
 body.compact .todo {
   padding: 7px 10px;
   margin: 8px 0;
-  font-size: 12.5px;
+  font-size: 15.5px;
 }
 body.compact .fig {
   margin: 8px 0;
@@ -179,7 +179,7 @@ main {
 .mast h1 {
   font-family: var(--disp);
   font-weight: 800;
-  font-size: clamp(34px, 5.2vw, 58px);
+  font-size: clamp(42.5px, 6.5vw, 72.5px);
   line-height: 0.92;
   margin: 0;
   text-transform: uppercase;
@@ -191,7 +191,7 @@ main {
 }
 .eyebrow {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--chalk-dim);
@@ -217,7 +217,7 @@ main {
   width: 100%;
   color: var(--chalk);
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
@@ -256,7 +256,7 @@ body.compact .toggle .sw::after {
 
 .rail h2 {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 12.5px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--chalk-dim);
@@ -280,7 +280,7 @@ body.compact .toggle .sw::after {
   color: var(--chalk-dim);
   font-family: var(--disp);
   font-weight: 600;
-  font-size: 10.5px;
+  font-size: 13px;
   line-height: 1;
   text-transform: uppercase;
   text-decoration: none;
@@ -304,7 +304,7 @@ body.compact .toggle .sw::after {
 }
 .plan-key {
   font-family: var(--mono);
-  font-size: 9.5px;
+  font-size: 12px;
   color: var(--chalk-dim);
   letter-spacing: 0.08em;
   margin: -6px 0 18px;
@@ -318,7 +318,7 @@ body.compact .toggle .sw::after {
   border: 1px solid var(--line);
   color: var(--chalk);
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   border-radius: var(--radius);
 }
 #q::placeholder {
@@ -330,7 +330,7 @@ body.compact .toggle .sw::after {
 }
 .hitcount {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   color: var(--amber);
   margin: 6px 0 14px;
   min-height: 14px;
@@ -351,7 +351,7 @@ mark {
 .sec > h2 {
   font-family: var(--disp);
   font-weight: 800;
-  font-size: clamp(26px, 3.4vw, 38px);
+  font-size: clamp(32.5px, 4.2vw, 47.5px);
   text-transform: uppercase;
   margin: 0 0 4px;
   line-height: 1;
@@ -359,7 +359,7 @@ mark {
 }
 .sec > .sub {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--cyan);
@@ -368,7 +368,7 @@ mark {
 h3 {
   font-family: var(--disp);
   font-weight: 600;
-  font-size: 21px;
+  font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin: 20px 0 8px;
@@ -376,7 +376,7 @@ h3 {
 }
 h4 {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--chalk-dim);
@@ -417,7 +417,7 @@ summary {
   padding: 11px 14px;
   font-family: var(--disp);
   font-weight: 600;
-  font-size: 17px;
+  font-size: 21px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #fff;
@@ -434,7 +434,7 @@ summary::before {
   content: "+";
   font-family: var(--mono);
   color: var(--cyan);
-  font-size: 14px;
+  font-size: 17.5px;
   font-weight: 600;
   width: 11px;
 }
@@ -454,7 +454,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   font-family: var(--mono);
-  font-size: 12.5px;
+  font-size: 15.5px;
   margin: 10px 0 14px;
 }
 th,
@@ -468,7 +468,7 @@ th {
   background: rgba(46, 92, 138, 0.3);
   color: var(--cyan);
   font-weight: 500;
-  font-size: 10.5px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -484,20 +484,20 @@ td.num {
   background: rgba(95, 211, 243, 0.07);
   padding: 10px 13px;
   margin: 12px 0;
-  font-size: 14px;
+  font-size: 17.5px;
 }
 .todo {
   border-left: 3px solid var(--amber);
   background: rgba(240, 180, 75, 0.08);
   padding: 10px 13px;
   margin: 12px 0;
-  font-size: 14px;
+  font-size: 17.5px;
 }
 .todo::before {
   content: "UNVERIFIED";
   display: block;
   font-family: var(--mono);
-  font-size: 9.5px;
+  font-size: 12px;
   letter-spacing: 0.2em;
   color: var(--amber);
   margin-bottom: 4px;
@@ -507,20 +507,20 @@ td.num {
   background: rgba(216, 72, 74, 0.09);
   padding: 10px 13px;
   margin: 12px 0;
-  font-size: 14px;
+  font-size: 17.5px;
 }
 .conflict::before {
   content: "SOURCES DISAGREE";
   display: block;
   font-family: var(--mono);
-  font-size: 9.5px;
+  font-size: 12px;
   letter-spacing: 0.2em;
   color: var(--r-red);
   margin-bottom: 4px;
 }
 .src {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   color: var(--chalk-dim);
   letter-spacing: 0.05em;
 }
@@ -528,7 +528,7 @@ td.num {
 .tag {
   display: inline-block;
   font-family: var(--mono);
-  font-size: 9.5px;
+  font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 2px 6px;
@@ -584,7 +584,7 @@ td.num {
 }
 .fig figcaption {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   color: var(--chalk-dim);
   padding: 7px 10px;
   border-top: 1px solid var(--line);
@@ -633,7 +633,7 @@ td.num {
 }
 .field label {
   font-family: var(--mono);
-  font-size: 9.5px;
+  font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--chalk-dim);
@@ -645,7 +645,7 @@ input[type="search"] {
   border: 1px solid var(--line);
   color: var(--chalk);
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   padding: 6px 8px;
   border-radius: var(--radius);
   min-width: 88px;
@@ -658,13 +658,13 @@ input:focus {
 .readout {
   font-family: var(--disp);
   font-weight: 800;
-  font-size: 38px;
+  font-size: 47.5px;
   line-height: 1;
   color: var(--cyan);
 }
 .readout small {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--chalk-dim);
   display: block;
@@ -684,7 +684,7 @@ input:focus {
   gap: 8px;
   align-items: center;
   font-family: var(--mono);
-  font-size: 11.5px;
+  font-size: 14.5px;
 }
 .bar .track {
   height: 13px;
@@ -730,7 +730,7 @@ input:focus {
   border: 1px solid var(--line);
   color: var(--chalk-dim);
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 12.5px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 5px 10px;
@@ -772,7 +772,7 @@ input:focus {
 .mj-card h5 {
   font-family: var(--disp);
   font-weight: 800;
-  font-size: clamp(15px, 2.1vw, 21px);
+  font-size: clamp(19px, 2.6vw, 26px);
   line-height: 0.94;
   text-transform: uppercase;
   margin: 0;
@@ -780,7 +780,7 @@ input:focus {
 }
 .mj-card .realm {
   font-family: var(--mono);
-  font-size: 8.5px;
+  font-size: 10.5px;
   letter-spacing: 0.13em;
   text-transform: uppercase;
   color: var(--cardtxt);
@@ -790,7 +790,7 @@ input:focus {
 }
 .mj-card .sigil {
   font-family: var(--mono);
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--cardtxt);
@@ -856,7 +856,7 @@ input:focus {
 }
 .mj-legend {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   color: var(--chalk-dim);
   letter-spacing: 0.04em;
   margin: 0 0 14px;
@@ -901,7 +901,7 @@ input:focus {
 }
 .room-card .thumb .ph {
   font-family: var(--mono);
-  font-size: 8.5px;
+  font-size: 10.5px;
   color: #456c93;
   letter-spacing: 0.1em;
   text-align: center;
@@ -912,7 +912,7 @@ input:focus {
 .room-card h5 {
   font-family: var(--disp);
   font-weight: 800;
-  font-size: 19px;
+  font-size: 24px;
   line-height: 1;
   text-transform: uppercase;
   margin: 0;
@@ -925,7 +925,7 @@ input:focus {
 }
 .room-card .kv {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   color: var(--chalk-dim);
   line-height: 1.5;
 }
@@ -934,7 +934,7 @@ input:focus {
   font-weight: 500;
 }
 .room-card .rnotes {
-  font-size: 12.5px;
+  font-size: 15.5px;
   color: var(--chalk-dim);
   margin: 0;
   padding-left: 15px;
@@ -951,7 +951,7 @@ body.compact .room-card {
   gap: 5px;
 }
 body.compact .room-card h5 {
-  font-size: 15px;
+  font-size: 19px;
 }
 
 /* ---- graphics ---- */
@@ -968,17 +968,24 @@ body.compact .room-card h5 {
 }
 .viz figcaption {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   color: var(--chalk-dim);
   margin-top: 8px;
   letter-spacing: 0.04em;
+}
+.viz-tight {
+  margin: 0;
+  padding: 8px;
+}
+.mt-12 {
+  margin-top: 12px;
 }
 .rawtoggle {
   background: none;
   border: 1px solid var(--line);
   color: var(--chalk-dim);
   font-family: var(--mono);
-  font-size: 9.5px;
+  font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   padding: 4px 9px;
@@ -1008,7 +1015,7 @@ body.compact .room-card h5 {
 .sb {
   display: inline-block;
   font-family: var(--mono);
-  font-size: 8.5px;
+  font-size: 10.5px;
   letter-spacing: 0.1em;
   padding: 1px 4px;
   border: 1px solid var(--line);
@@ -1031,7 +1038,7 @@ body.compact .room-card h5 {
 .pb {
   display: inline-block;
   font-family: var(--mono);
-  font-size: 8.5px;
+  font-size: 10.5px;
   letter-spacing: 0.1em;
   padding: 1px 5px;
   background: var(--amber);
@@ -1042,7 +1049,7 @@ body.compact .room-card h5 {
 }
 .room-card .dr {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 12.5px;
   display: flex;
   gap: 2px;
   flex-wrap: wrap;
@@ -1062,7 +1069,7 @@ body.compact .room-card h5 {
   border: 1px solid var(--cyan);
   color: var(--cyan);
   font-family: var(--disp);
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding: 9px;
@@ -1075,7 +1082,7 @@ body.compact .room-card h5 {
   border-top: 1px solid var(--line);
   padding-top: 16px;
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 13px;
   color: var(--chalk-dim);
   letter-spacing: 0.06em;
 }
