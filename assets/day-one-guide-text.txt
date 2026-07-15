@@ -1,0 +1,2629 @@
+        Mastering Day One Trophy
+                    a Blue Prince guide by nirinirino aka duck
+
+
+
+First published 10 June 2026, Patch 1.7.1
+Last updated 15 June 2026, Patch 1.7.1
+Intermission
+
+
+
+   Preamble and Disclaimer
+   I write this guide in hopes that more people will
+   want to do Day One runs for fun. Or at least, I’d like
+   to help humans and ducks struggling with doing
+   Day One right now.
+   My Day One all-time win rate as of writing is 31% in
+   200 games (with win rate of last 50 games at 38%).        I keep track of
+                                                             my runs at this
+   This guide will include datamined information              Google sheet
+   speciﬁcally for understanding game mechanics.
+   Viewer discretion is advised.
+
+   Feel free to leave comments if you have any questions /
+   think this guide can be improved on!
+   Like and Subscribe!
+Part 1: Day One and Routes to Room 46
+                the fundamental knowledge to reach room 46
+
+
+
+- Day One constants
+- Veteran Mode
+- Some puzzles you should know before attempting Day One
+- Path Overview
+   - Antechamber Access
+   - Underground Cartside Access
+   - Underground Gearside Access
+- Alternative win condition
+- Quick analysis and route playstyles            the roadmap to your inheritance
+Part 1: Day One and Routes to Room 46
+
+
+
+   Day One constants
+     -    First draft is always Bedroom, Closet or Hallway
+             -    Room orientation/rotation is not ﬁxed
+     -    Trunk in Bedroom
+     -    Cloister is empty
+     -    Dinner is always Fish (Aquarium for +10)
+     -    Some things are true not for Day One speciﬁcally, but
+          for the ﬁrst time in each save ﬁle:
+             -    Security has to be drafted from its center door
+             -    Garage trunk will have Upgrade Disk
+     -    You start with 0 stars
+             -    Drafting Observatory earns you 1 coin (barring experiment,
+                  Chamber of Mirrors, or Powered Laundry to earn stars)
+             -    Telescope is not in item pool if you do not start a day with Stars
+Part 1: Day One and Routes to Room 46
+
+
+
+   Veteran Mode
+  -    Veteran Mode can be activated only at Day One, and affects
+       the entire saveﬁle from that point onward
+  -    Veteran Mode is intended to be activated by experienced
+       players, and provides beneﬁts for ﬁnding items/rooms that
+       help reaching Room 46, but provides no long term
+       difference
+  -    Known activation criteria (any one):
+          -    Draft ﬁrst 3 rooms in 35 seconds
+          -    Draft ﬁrst 4 rooms in 50 seconds
+          -    Draft ﬁrst 5 rooms in 60 seconds
+          -    Open Apple Orchard before drafting more than one room
+          -    Dig up Conservatory before drafting more than one room
+  -    An indicator that this is activated is Utility
+       Closet/Garage/Billiard Room being offered early
+Part 1: Day One and Routes to Room 46
+
+
+
+   Some puzzles you should know before attempting Day One
+
+     -    Red letter puzzles: (select text to reveal)
+             -    Boudoir (1225), Drawing Room (0415), Oﬃce
+                  (0303), Study (0812), Shelter (Nov 7, with time)
+     -    Pump Room solutions:
+             -    Fountain drain (empty), Reservoir boat (max -1)
+                  and Pool drain (empty)
+     -    Tomb entry to Catacomb
+     -    Basement entries
+             -    Foundation and Power Hammer
+     -    Rotating Gear puzzle:
+             -    Reaching North Lever, Reaching Mechanarium
+Part 1: Day One and Routes to Room 46
+
+
+
+   Requirement to opening access to Room 46
+   The following steps can be done at any order, but
+   all three has to be fulﬁlled
+   1.     Open a door to enter Antechamber
+             -    Any one of the ﬁve rooms with East/West/South
+                  Antechamber door lever will work
+   2.     Reach Cartside of Underground
+             -    Tomb, or Pump room
+   3.     Reach Gearside of Underground
+             -    Pump room, Foundation or Power Hammer
+
+   Note that Pump room cannot be used to reach
+   both sides of Underground unless it is Powered by
+   Boiler Room
+Part 1: Day One and Routes to Room 46
+
+
+
+   Antechamber Access
+     -    You will need to pull down a West/East/South Antechamber lever to enter
+          Antechamber. There are 5 possible rooms to ﬁnd these six levers
+
+                West                               South                   East
+
+                               Secret Garden               Greenhouse               Great Hall
+                                                            Broken Lever           Reward Door
+
+
+
+
+                               Mechanarium                 Weight Room               Secret Garden
+                                                                                      Power Hammer
+                                   5th Door                Power Hammer
+                                                                                  (or Garage back panel)
+                              Underground
+                              Gearside Access
+                              is required to add
+                              this room
+Part 1: Day One and Routes to Room 46
+
+
+
+   Underground Cartside Access
+     -    If you reach this side of Underground ﬁrst, simply pull the cart back
+     -    This side also contains Upgrade Disk
+     -    If you have Burning Glass, you can reach Precipice to very very rarely do the
+          Chess Puzzle
+
+                                        Tomb                        Pump Room
+
+                                                                  Drain Fountain and
+                                                                  use Basement Key
+Part 1: Day One and Routes to Room 46
+
+
+
+   Underground Gearside Access
+  -    If you reach this side of Underground ﬁrst, set the gear
+       such that you can reach Underpass from the Cartside
+  -    This side also contains Mechanarium ﬂoorplan
+  -    If entering via Basement, you may obtain Lost and
+       Found ﬂoorplan or Upgrade Disk
+          -   Upgrade Disk requires either (1) lowered Foundation elevator or
+              (2) Power Hammer and Basement Key
+
+
+
+                             The Foundation                 Sealed Entrance       Pump Room
+
+                            Lower Elevator                  Craft Power         Lower Reservoir by
+                            from its back, and              Hammer,             1 and cross with
+                            use Basement Key                enter via Grounds   boat from Cartside
+
+                            Passes Basement                 Passes Basement
+Part 1: Day One and Routes to Room 46
+
+
+
+   Alternative win condition: Laboratory Experiment
+   If you have Satellite Dish unlocked,              Example of lab win:
+   Laboratory can offer an experiment which
+   opens up an Antechamber door
+   The following are required:
+   1.     Shovel, Hammer and Powered Lab to
+          obtain all 3 Microchips
+   2.     Burning Glass and 3 Microchips to
+          unlock Satellite Dish
+   3.     “Open Antechamber door” experiment
+          with a trigger that can be activated 4
+                                                     [Blue Prince] Day One without
+          times (you still need 4 even if you have   pulling down a lever
+          pulled levers, i.e. from Secret Garden)    (https://youtu.be/sh_jart9no0)
+Part 1: Day One and Routes to Room 46
+
+
+
+   100-games Statistics
+   To provide comparison of the effectiveness of all the routes to Room 46 (100-game set winrate 36%)
+
+
+
+
+                                                                             Link to sheet:
+                                                                             https://docs.google.co
+                                                                             m/spreadsheets/d/1yT
+                                                                             yYeqWx5O0VAMasiTV
+                                                                             7lRFLzxTYyUK5g5B1u
+                                                                             ub7iHU
+Part 1: Day One and Routes to Room 46
+
+
+
+   100-games Statistics, quick analysis and playstyles (1)
+Run segment statistic
+- 15 runs die in the early game
+          -    Early pathblock, no path north
+          -    Possibly get blocked with Security Door
+- 14 runs die in the midgame
+          -    Often blocked by security door,
+          -    or multiple locked doors with no Garage
+          -    Lack of gems may also cause loss
+- 36 wins out of 71 runs that reach lategame
+
+Outer Room
+- I use strategy where I open Outer as soon as possible (unless dice is guaranteed via Powered
+  Laundry/Boudoir Upgrade), then look for Trading Post/Tomb (63.59%, 52.01% if Greenhouse active)
+- Tomb (33 picks, 21 wins) covers games with good shops or if Secret Garden Key is already found
+- Trading Post (16 picks, 9 wins) is consistent at ﬁnding Antechamber access (via SGK), and good at
+  games low on keys (ﬁnds Lockpick, Keycard, Silver Key, Prism Key, SGK)
+Part 1: Day One and Routes to Room 46
+
+
+
+   100-games Statistics, quick analysis and playstyles (2)
+Antechamber access
+ - Great Hall (26 picks, 15 wins) is relatively easy to ﬁnd
+   because drafting near full house meant that the
+   gemless pool dries up quickly
+ - Secret Garden (22 picks, 15 wins) can be consistently
+   found via Billiard Room, trunk, Trading Post, with
+   Locksmith/Music Room as backup
+ - Weight Room (13 picks, 9 wins) provides easiest door
+   to Antechamber, but the diﬃculty is in mitigating its
+   downside
+ - Mechanarium (4 pick, 4 wins) is for runs that have
+   Underground Gear access ﬁrst. Often used as backup
+   alongside Great Hall.
+ - Greenhouse’s (1 pick 0 win) strength is not in its lever
+   access, but in how strongly it enables Veranda to craft
+   Power Hammer
+Part 1: Day One and Routes to Room 46
+
+
+
+   100-games Statistics, quick analysis and playstyles (3)
+Underground Cart Access:
+ - Tomb (33 picks, 21 wins). Majority of these runs open Tomb early, but some
+   are runs with Powered Laundry dice and gets to pick Tomb + Pump easily
+ - Pump (19 picks, 14 wins) is composed of 9 Trading Post wins, and another
+   5 that ﬁnds Silver Key naturally
+Underground Gear Access:
+ - Power Hammer (28 picks, 21 wins) often found naturally with near-full
+   house, but forcible with Trading Post provided you have Lever.
+ - Reservoir Boat (11 picks, 10 wins) is near-guaranteed win since you have
+   both Underground access
+ - Foundation Elevator (10 picks, 4 wins) is often diﬃcult to force, though the
+   room itself is good for being gemless 3-way
+Guest Segment
+
+
+
+
+      Guest Segment: Day One from
+        the lens of a Speedrunner
+                      by z4mdogg, so this segment is a bit cursed
+                Current PBs: 10:32 Bequest% (2nd), 13:59 Cursed% (3rd)
+                         check him out on twitch.tv/z4mdogg,
+                he does a lot of cursed (day one) inheritance speedruns
+
+
+
+    -    Route to Room 46
+    -    Collecting Items in Order
+    -    Know what items to ignore
+    -    Dartboard optimization
+    -    Memorize fastest combinations to puzzles
+Guest Segment
+
+
+
+  Route to Room 46
+  Speedruns for glitchless Inheritance runs (in
+  Bequest, Dare or Curse modes) will almost always
+  go for:
+  Secret Garden/Great Hall + Pool + Tomb.
+  Great Hall has higher maximum speed, but Secret
+  Garden is not slow either (and preferred for
+  Dare/Curse)
+  Tomb + Pool in particular skips doing Basement,
+  which saves a lot of time
+Guest Segment
+
+
+
+  Collecting Items in Order
+     -   Collecting a unique special item
+         for the ﬁrst time each day often
+         incurs animation delay
+     -   If you are collecting multiple
+         items at once, collect resource    1   2
+         items ﬁrst (key, coin, gem)
+         before special items
+
+     -   You can alternatively remove
+         time delay by quickly opening
+         and closing your Blueprints
+Guest Segment
+
+
+
+  Know what items to ignore
+     -   Some items are not worth collecting when
+         going for speed, for example:
+            -   Upgrade Disks
+            -   Magnifying glass
+            -   Vault keys
+            -   Car keys
+     -   In addition if some items spawns in the
+         Workshop (i.e. Battery Pack), leave it there
+         until it is needed to craft something
+     -   Some things save considerable time:
+            -   Running shoes increase movement speed,
+                especially outside
+            -   Compass reduces the number of rooms that need
+                to be drafted to create a path
+Guest Segment
+
+
+
+  Dartboard Optimization
+     -   When collecting dartboard rewards, the
+         sides of the board does not have
+         collision hitbox - you can collect keys
+         faster through the sides
+     -   On Day One, the dartboard always has 6
+         questions and is always the same
+         pattern:
+            -   (Single Number), (Addition), (Subtraction),
+                (Subtraction), (Multiplication), (Subtraction
+                and Multiplication)
+            -   The possible answers are always limited so
+                                                                  Aiming for the red circle area lets you reach
+                you can pre-position your cursor to reduce          keys before the dartboard is fully open
+                movement (i.e. Multiplication is likely to give
+                12 or 20, near the top)
+Guest Segment
+
+
+
+  Memorize fastest combinations to puzzles
+     -   Accounting for input (PC or Controller),
+         you should plan for puzzle solutions
+         ahead of time
+     -   Example common solves to memorize
+            -   Safe codes (415, 1225, 812)
+                  -   Most safes have multiple combinations due
+                      to DD/MM and MM/DD dates both accepted
+            -   Parlor puzzle solutions
+            -   Pump Room for Reservoir boat (Fill tank 1                  2                 1
+                from Greenhouse then from Reservoir)
+            -   Gear Puzzle (Rotate ﬁrst gear 4 times for
+                fastest to Room 46, take Mechanarium on           Fastest solve for reservoir boat is to
+                the way back from Underpass if required)           pull steps (1) and (2) into Tank 1
+  Part 2: Resource Management
+           this section is more fundamental than the last
+
+
+
+- Basic Terminology                           -   Backtracking
+- My Personal Strategy                        -   Items and Coins
+  and Priorities                              -   Leaving Resources
+- Rules of Drafting                           -   Gems
+- Open Doors                                  -   Keys
+- Path Dependency                             -   Security Doors
+- Dice                                        -   Not entering rooms
+- Wasted Doors                                               foundational theory, vital for architects
+Intermission
+
+
+
+   Intermission : THE Drafting Strategy advice
+      -    There is one important page
+           in Drafting Strategy volume
+           3 that hides a lot of good
+           practice.
+      -    I will try to explain and
+           revisit the genius of this
+           page multiple times in this
+           guide, for it hides many
+           good practices with one
+           simple advice
+Part 2: Resource Management
+
+
+
+  Basic Terminology
+   -   Draft = selecting an open door and                     Advance
+       adding a new room to the manor
+   -   Round = one offer of 3 rooms when
+       drafting a room
+          -   One draft may have multiple rounds if rerolls                       Pierce
+              are used                                                                       Edge
+                                                                                    Center
+   -   Room Coordinate
+          -   Entrance Hall is at C1
+   -   Empty Room = Position at Mansion that
+                                                                                             Corner
+       do not yet have a room drafted
+   -   Positional terminologies:                                        Retreat
+          -   Refer to diagram
+   -   “North Door” = Door pointing North.
+          -   I.e. North Door at Entrance Hall points to C2
+Part 2: Resource Management
+
+
+
+  My personal strategy and priorities
+     -    Early ranks, the priority is to
+             -   (1) Not Waste Doors
+             -   (2) Not Waste Empty Rooms
+             -   (3) Find a path north
+             -   (4) Avoid putting Backtrack rooms
+     -    Mid ranks, the priority is often to
+             -   (1) Be wary of gem usage
+             -   (2) Not Waste Empty Rooms
+             -   (3) Find garage
+             -   (4) Get Security Access
+     -    Late ranks, with a smaller room pool,
+             -   (1) Get goal rooms (i.e. Great Hall/The
+                 Pool/Foundation)
+             -   (2) Be wary of key usage
+             -   (3) Find step generation (Kitchen, Dining Room, Lab)
+Part 2: Resource Management
+
+
+
+  Rules of Drafting Rooms part 1
+     -    The Draft Pool: Once a room has been drafted, it
+          normally cannot be drafted again
+             -   Day One Bequest Pool is the smallest, as you have not
+                 unlocked any Found Floorplan/ Studio Additions
+             -   This meant the more rooms you can draft in one day, the
+                 easier it is to ﬁnd certain rooms with the drained pool
+     -    Room Placement Restriction: Certain rooms must
+          be drafted at certain positions in the mansions,
+          sometimes with a required rotation/orientation
+             -   Four-way rooms including Foundation and Mechanarium
+                 must be drafted at Center tiles
+             -   Three-way rooms including Boiler Room cannot be drafted at
+                 Corners
+             -   Green rooms are often found at West/East wings, with rules
+                 for their orientation (i.e. Terrace must be West/East pierce,
+                 Veranda must be West/East advance/retreat)
+Part 2: Resource Management
+
+
+
+  Rules of Drafting Rooms part 2
+   -    The game will as far as possible avoid offering 3
+        dead ends at the same draft.
+          -    Known exceptions are from Cloister of Draxus, niche duct
+               draw situations, and at corners if you are out of 2-way bend
+               rooms
+                                                                               Image courtesy of milanista_00
+   -    The ﬁrst room will always cost 0 gems (or steps
+        with Hovel).
+          -    If it happens to cost, its cost will be bypassed
+   -    When a room on the corner/edge is being drafted,
+        then the game will avoid offering room orientations
+        that gives a wall heading to outside the manor.
+          -    This provides massive predictability when drafting rooms at
+               these tiles
+   -    The game tends to avoid offering room you just saw
+          -    This includes both rooms just rerolled using a dice, or rooms
+               just seen from previous draft
+Part 2: Resource Management
+
+
+
+  Open Doors
+     -    Open Doors: The number of doors you
+          have pointing toward empty room slots
+                                                   3 Open Doors from
+     -    You will need at least 1 Open Door to       Entrance Hall
+          continue your run
+     -    However you often want at least 2
+          Open Doors to cover different sections
+          of the mansion, or to make sure you do
+          not get blocked                                      4 Open Doors,
+                                                               but not all Open
+                                                               Doors are equally
+                                                               valuable
+Part 2: Resource Management
+
+
+
+  Open Door - Draftable Area
+     -    Draftable Area: The rooms that
+          can be reached if you are
+          starting draft from ONE open
+          door, assuming you do not
+          immediately draft Dead End
+             -   Rooms closer and at the direction
+                 of the open door has higher
+                 likelihood of being draftable
+             -   The resulting shape is generally
+                 cone-shaped
+                                                       In reality Draftable Area is a “percentage chance” you
+                                                     reach a room from an Open Door, but for simplicity sake
+                                                          I’ll be drawing a “cone shape” for the next slides
+Part 2: Resource Management
+
+
+
+  Open Door - Draftable Area Factors
+Things that affect the shape of the
+Draftable Area:
+   -   Affected by Direction of Door
+   -   Affected by Compass/Not
+          -    Slightly less likely to ﬁnd door pointing
+               north without Compass,
+          -    VERY unlikely to ﬁnd door pointing south
+               with it
+   -   Affected by Edge:
+          -    Rooms on edge have predictable
+               orientations as they avoid pointing
+               outward
+   -   Affected by “Obstacle” Rooms
+   -   Affected by Draft Pool                              Draftable Area droops down without     Obstacles (other rooms already
+          -    More dead ends = lower Draftable Area
+                                                           compass due to the slight aversion      drafted) can massively cut the
+               radius
+                                                                 for rooms to point north       draftable area of nearby Open Doors
+Part 2: Resource Management
+
+
+
+  Open Door - Effective Area
+     -    Effective Area: Draftable Area from
+          one open door that does not overlap
+          with Draftable Area from other Open
+          Doors
+     -    The larger is the Effective Area, the
+          more valuable is this open door for
+          creating a path
+             -   vice versa - rooms with small effective
+                                                           The Draftable Area of the Pantry Open Door
+                 areas will and should dead end sooner     (yellow) and Passageway Open Door (orange)
+                                                           overlaps due to their proximity.
+
+                                                           Passageway’s Effective Area is hence tiny in
+                                                           comparison to Pantry’s, and should dead end
+                                                           sooner.
+Intermission
+
+
+
+   Intermission: Center Closet
+      -    The Draftable Area of West door at
+           Entrance Hall almost always include B2
+           (due to paths redirected by the manor
+           walls)
+      -    The Draftable Area of East door at
+           Entrance Hall almost always include D2
+
+      -    The Effective Area of North door at
+           Entrance Hall is very limited
+               -   It is beneﬁcial to place a dead end or a
+                   straight here. Hence this is one major point
+                   favoring center closet start
+Part 2: Resource Management
+
+
+
+  Path Dependency and Chokepoints
+     -    If an Empty Room is only accessible from one
+          Open Door, then we can say that this Empty
+          Room has a Path Dependency from that Open
+          Door
+             -   A2 is Path Dependent from the Open Door at Parlor (A1)
+     -    Multiple rooms at very different locations can be
+          dependent on one Open Door.
+             -   D3, E3, D4, E4, E5, D6 and E6 are all Path Dependent on
+                 the Open Door from Commissary (D5)
+Part 2: Resource Management
+
+
+
+  Comparing the different deﬁnitions
+     -    Draftable Area is a measure of potential of an
+          Open Door
+             -   The door at Commissary is likely to reach the blue
+                 cone-shaped area
+
+     -    Effective Area is a measure of actual
+          usefulness of the Open Door
+             -   Due to overlap with Chapel door, Commissary door is
+                 likely to only cover around columns D and E
+
+     -    Path Dependency deﬁnes a target, how much
+          we want to demand out of this Open Door.
+             -   The segment accessible from E6 to E5 and below is
+                 very dependent on the path from Commissary
+Part 2: Resource Management
+
+
+
+  Chokepoints
+     -    The route to resolve this Path Dependency
+          may have Chokepoints - speciﬁc slots where
+          the room has to be at a speciﬁc orientation to
+          reach the destination
+             -   In the example: The dependence of rooms D4 E4 D3
+                 E3 on the door from Commissary passes through two
+                 chokepoints at E5 and E6
+             -   Having doors point the right way to point towards
+                 Antechamber can also be deemed a chokepoint
+Part 2: Resource Management
+
+
+
+  Ivory Dice
+     -    Ivory dice is the main currency used for rerolling
+          drafting rooms offered.
+     -    Dice has two main uses:
+             -   Resolving bad branches
+             -   Forcing certain rooms
+     -    Possible sources to ﬁnd dice for Day One are:
+             -   Naturally occurring pair of dice in rooms
+             -   1 Ivory Die in Closet
+             -   Pair of dice in trunk (approximately 19.3%)
+             -   Use of Burning Glass at Tomb
+             -   Trade of items at Trading Post
+             -   Powered Laundry
+             -   Boudoir or Guest Bedroom upgrades
+     -    There are other sources of room rerolling, such as:
+             -   Study
+             -   Drawing Room
+Part 2: Resource Management
+
+
+
+  Dice or Die - Resolving Chokepoints
+     -    Effective use of one dice to
+          resolve pathing issues can
+          be measured by how many
+          chokepoints it resolves.
+     -    Dice does not have to be
+          used at chokepoints - it is
+          beneﬁcial for pathing as
+          long as it reduces future
+          chokepoints
+
+                                         Dice used at D5 to can instead put a branching room (i.e. Drawing
+                                         Room), saving further headache down the road
+Intermission
+
+
+
+   Intermission : THE Drafting Strategy advice - Choking
+   Room Pool
+   -    Drafting early ranks (more
+        speciﬁcally the open doors
+        with lower effective area)
+        provides an important
+        beneﬁt: you remove rooms
+        with fewer doors out of the
+        pool before tackling
+        chokepoint rooms.
+           -   This means you are more
+               likely to place
+               Passageway/Chapel
+               multi-way door rooms at
+               places that need to have
+               multiways
+Part 2: Resource Management
+
+
+
+  Dieing to see you - Forcing rooms
+  Since there are a few valuable rooms to ﬁnd (The Pool, Foundation,
+  Great Hall, Servant’s Quarters), it is best to know ways to make
+  them more likely to appear
+     -    The Draft Pool: Once a room has been drafted, it normally
+          cannot be drafted again
+     -    Room Placement Restrictions: Some rooms cannot be drafted
+          at corners/edges/certain drafting directions
+     -    Alternative Drafting Conditions: Use of Library, Silver Key or
+          Secret Passage/Prism Key/Duck Draw can restrict/weight the
+          available options of rooms further
+             -   Silver Key at edges is reliable for ﬁnding Pool. Silver Key however cannot
+                 ﬁnd Foundation
+     -    Dice: after exhausting all techniques in the book, you can just
+          reroll rooms
+Part 2: Resource Management
+
+
+
+  Adding rooms
+  Adding rooms into the pool risks making it harder to ﬁnd required rooms -
+  make sure that adding these rooms provide value
+
+     -    Mechanarium is almost always worth taking - you get enough
+          Mechanical room to make it a gemless 4-way with West lever access
+     -    Aquarium experiment is beneﬁcial with Nursery/Sleeping
+          Mask/Terrace/Veranda/Hallpass, but can be dangerous for adding so
+          many rooms to the pool
+     -    The game really likes to offer Morning Room once added by Kitchen,
+          so be mindful about its orientation when on East wing
+     -    Lost and Found always have Upgrade Disk as one of the items, and is
+          not worth taking
+     -    Closed Exhibit is a rarity (because Study is so hard to ﬁnd), but
+          beneﬁcial if low on keys (3-way with security access, that often has
+          Lockpick)
+     -    Her Ladyship’s Chamber is re-added when Burning Glass is used to
+          open Lady Epsen’s Tomb
+Part 2: Resource Management
+
+
+
+  Available Door Average
+     -    Available Door Average is the average number of doors
+          of rooms left in the drafting pool
+     -    This number typically is around 2.0 to 2.5, depending on
+          what rooms have been drafted
+             -   The more 3-way and 4-way rooms drafted, the lower the ADA falls.
+             -   The more Dead Ends you draft, the higher the ADA becomes.
+     -    If you have ADA of 2.0, this means that if you place every
+          room in the drafting pool eﬃciently without wasting
+          door, you do not get new Open Doors.
+             -   For Example: if every room in the pool is a bend, every room would
+                 use up an Open Door when drafted and adds one new Open Door to
+                 replace it.
+Part 2: Resource Management
+
+
+
+  Effective Door Average
+     -    Due to the fact that the chance for every
+          room to be offered is NOT EQUAL, Available
+          Door Average is not a fully useful measure
+          unless we add weighting.
+     -    Effective Door Average is the average
+          number doors you see when drafting from a
+          particular Open Door.
+     -    EDA is affected by Room Rarity, Special
+          Drafting (i.e. Duck draft/Library), or where
+          the Open Door is pointing to (a
+          corner/edge/center tile)
+Part 2: Resource Management
+
+
+
+  Wasted Doors
+     -    Wasted Doors: The number of doors that
+          fail to continue the path due to being
+          pointed toward a wall or another open
+          door
+             -   Door to wall = 1 wasted door
+             -   Door connecting another open door = 2 wasted
+                 doors, but creates a shortcut
+     -    Drafting along the borders of the manor is
+          good at reducing wasted doors, because
+          the room orientation is restricted (and
+          hence, very predictable)
+Part 2: Resource Management
+
+
+
+  Wasted Door - Deadpool
+     -    Wasting a door affects the number
+          of available doors in the pool for the
+          rest of the day
+             -   Waste too many doors early, you will
+                 have to deal with Dead Ends in the pool at
+                 every draft after
+             -   Conversely, wasting doors later do not
+                 punish you as hard because you have
+                 fewer drafts remaining
+     -    This effect is especially prominent
+          when wasting Commonplace doors
+             -   Vice versa, you will not feel this effect as
+                 badly when wasting doors of Rare rooms
+Part 2: Resource Management
+
+
+
+  Spiral of Dead End
+     -    Wasting a door early reduces EDA for the rest
+          of the day
+     -    With lower EDA, you have fewer path options
+     -    You are less likely to ﬁnd ideal paths toward
+          directions that you want
+             -   And when you do good directional door, they often
+                 require wasting a door
+     -    This causes you to waste more doors, causing
+          you to spiral further into getting more Dead
+          Ends.
+  How to avoid the above?
+                 DO NOT WASTE DOORS EARLY
+Part 2: Resource Management
+
+
+
+  How to reduce wasted doors
+     -    Keep your Open Doors apart (so their Drafting
+          Areas avoid overlapping)
+     -
+     -    Keep your Open Doors “unobstructed”
+     -    Making drafting orientation predictable (holding
+          Compass, Ornate Compass, drafting towards
+          edges/corners)
+Part 2: Resource Management
+
+
+
+  Backtracking
+     -    Travelling from one position to
+          another costs 1 step per room
+          travelled
+     -    Travelling between one position to
+          another and back again incurs twice
+          the step cost
+     -    To save on steps, try to either:
+             -   Finish whatever the room has to offer
+                 such that you have no need to return to it
+             -   If you have to backtrack, place the room
+                 close to your current branch
+                                                              Example of excellent drafting path: lower rank rooms do
+             -   Bunch several backtrack rooms together       not require backtracking (unless you leave Trunks there),
+                 so one backtrack solves several goals        Commissary, Utility Closet and Dining Room are closer to
+                                                              main backtrack path, requiring smaller backtrack distance
+Part 2: Resource Management
+
+
+
+  Backtracking - Rooms to return
+     -    A lot of rooms gain beneﬁt from being
+                                                                           You should return to shops when
+          able to return to them when you have                              you can afford the items/trade
+
+          more resource later
+     -    As stated before - travelling from one
+          point to these rooms then back incurs
+          twice the step cost.                                              You can choose to open Trunks
+             -   It is hence best to place these rooms closer to             later when you have Hammer
+                 your position, preferably at
+                     - (1) later ranks or
+                     - (2) near major junctions or
+                     - (3) near other rooms to return. (so you
+                        can return for multiple goals at once)
+                                                                   Returning to Utility lets you turn on Darkroom lights, or
+                                                                        reactivate Security Door if you ﬁnd Keycard
+Part 2: Resource Management
+
+
+
+  Backtracking - Branching
+  - Once you travelled down one path until you get a
+    good Open Door, I recommend to immediately
+    backtrack to resolve other lower-value Open
+    Doors
+        - The Open Door at Corridor toward B3 is has great
+          Effective Area - very valuable at creating a path
+          forward, and prefers to be a 3-way or 4-way room
+        - Close up the other Open Doors ﬁrst to remove
+          dead ends and bends, and also to reduce
+          backtrack
+  - Then at these small branches, place rooms that
+    do not require backtracking
+                                                              Once you have good access to B3 via Corridor,
+  - If the other path somehow results in another                 return to (try) close A1-A2 and D1-E2.
+    great Open Door, it may be ﬁne to proceed using            If somehow D1-E2 creates a great new path,
+                                                              you can continue there instead, wasting only 1
+    that path instead - at worst you only waste 1 door                      door at Corridor
+Intermission
+
+
+
+   Intermission : THE Drafting Strategy advice - Backtracking
+   -    Going too deep in the ranks
+        without resolving earlier
+        branches will have an
+        invisible but very large cost
+        of backtracking
+           -   Entrance Hall → Passageway
+               = 8 steps
+           -   Entrance Hall → Passageway
+               → back to Entrance to use up
+               Open Doors → Passageway
+               = 8x3 = 24 steps
+Part 2: Resource Management
+                                                                                   Type 1: Expendable
+  Items and Coins
+   -   Items, as resource items, generally fall into one of three
+       categories:
+          -    (1) Single-use/Expendable interaction with things in rooms
+                  - Sledgehammer, Sleeping Mask, Shovel
+          -    (2) Provides passive beneﬁts
+                  - Running Shoes, Lockpick, Metal Detector, Compass
+          -    (3) Special Keys (They are more similar to keys than items)
+                  - Prism Key, Silver Key, Secret Garden Key
+   -   Coins is treated similarly to Single-use interaction                       Type 2: Passive   Type 3:
+       resources, but interacts mostly with Shop rooms                                              Special
+   -   Type 1 Single-use items/Coins often beneﬁts from                                             Keys
+       backtracking to previously drafted rooms/shops
+          -    Existence and interactions that these type 1 items have thus are
+               impactful to how you place your rooms
+                 - Place shops in later ranks, unless you are already rich
+                 - Open early trunks when you dont have hammer, but later
+                     trunks can be speculated since it is closer to backtrack
+Part 2: Resource Management
+
+
+
+  Item blocking
+  Each room has a list of items it can spawn, but notably it
+  will not try to spawn a special item if one already exists in
+  the mansion/used in a contraption
+  Example: If you have a Shovel from the Courtyard, you won’t
+  ﬁnd Shovel at Commissary or Workshop
+  Notes:                                                          If you have both Shovel and Hammer before
+                                                                  opening Commissary, it will always sell Gem,
+     -    Items offered in Commissary/Trading Post do not              Key, Set of Gems and Upgrade Disk
+          count as “existing”, and thus can still be spawned by
+          new rooms
+     -    Items traded away via Trading Post are put back into
+          the pool of available items
+     -    Silver Key/Prism Key are returned to the pool once
+          used, but not Secret Garden Key                                              This key right here
+                                                                                       is single-use, like
+                                                                                       plastics
+Part 2: Resource Management
+
+
+
+  Item hoarding
+  Since some rooms have smaller item list / guaranteed special
+  Item, this helps you more likely ﬁnd item
+     -    Workshop always spawns item that can be made
+          contraption, drafting this later may help you ﬁnd the last
+          piece for Power Hammer
+     -    Billiard Room’s dartboard puzzle 20% Keycard defaults into
+          2 Keys - it is recommended you ﬁrst draft Guest Bedroom to
+          ﬁsh for Keycard so you get more keys on average
+     -    Commissary avoids spawning item that is already available
+          - use this to your advantage to make it more likely to sell
+          gems
+     -    With Trading Post, holding onto items makes it easier to
+          force dice trade/trade into items you need
+Part 2: Resource Management
+
+
+
+  Leaving Resources and Remembering Scattered
+  Resources
+     -    It is important to keep track reasons to backtrack
+          to certain rooms. Examples include:
+             -   Trunk left at Den/Bedroom/Courtyard
+             -   Shop items (at Kitchen/Commissary/Trading Post)
+             -   Dinner at Dining Room
+             -   Dig spots at green rooms, occasionally Storeroom/Tomb
+             -   Items not taken (at Workshop or Compass when it was
+                 bad to take)
+             -   Coin at Pantry, when still ﬁshing for Coin Purse at Parlor
+             -   Unsolved Dartboard puzzle, when still ﬁshing for Keycard       3 different reasons to return -
+                 at Guest Bedroom                                             Security Door, Trunk and Dig Spot
+
+     -    It is also important to peek nearby rooms to keep
+          track which doors were security doors
+Part 2: Resource Management
+
+
+
+  Two Items with special mention:
+  Compass                                                                       Battery Pack
+     -    Massively biases rotation orientation of                               -   On pickup, may
+          rooms toward the north                                                     make Workshop
+     -    Creates very predictable orientation -
+                                                                                     less likely to
+          perfect for reducing wasted doors, at
+          cost of making backﬁlling ranks super
+                                                                                     appear on
+          unlikely                                                                   speciﬁcally Day
+     -    Due to how locked door percentages                                         One Veteran
+                                                     If you have Compass,
+          work (doors at higher rank more likely     you can kiss the area in
+          to be locked), you save some keys in       green goodbye, unless
+          the long run by opening North Door         you ﬁnd a 4-way room
+          rather than South/East/West door to        to point south
+
+          draft rooms
+Part 2: Resource Management
+
+
+
+  Gems
+     -    Gems is a fundamental “cost” to a room
+             -   Higher cost gems are implied to have more valuable effects
+     -    Having 0 gems means you no longer pick between 3
+          options
+             -   The 2nd and 3rd offered rooms per round may be gem rooms,
+                 with higher chance at higher ranks
+     -    There are more rooms in the pool that take away
+          gem than give gem
+             -   Thus you have to be picky in terms of what gem rooms you
+                 take, and try to manipulate rooms to give you more gems on
+                 average
+     -    Having more gems make it more likely to see
+          gemmed rooms
+             -   Speciﬁcally, you see slightly more gem rooms if you have 1 or
+                 4 gems while drafting
+                    - Speciﬁcs: Drafting/Advanced - Blue Prince Wiki
+Part 2: Resource Management
+
+
+
+  Gems - Rooms that pay for itself
+     -    There are MANY gem rooms that
+          refunds partially or more its gem
+          cost
+             -   This is a MAJOR MA JOR reason why you
+                 do not want to be at 0 gem, unless
+                 necessary
+     -    Thus while at low gems, consider                  LETS GO
+                                                            GAMBLING
+                                                            LETS GO
+
+          avoiding some rooms even though                   GAMBLING
+
+
+
+
+          they may be important:
+             -   Avoid placing garage/security if you are
+                 comfortable on keys, but have only 1 gem
+Part 2: Resource Management
+
+
+
+  Gems - What to do when at low gems
+   -    Prioritize drafting towards
+        edges/corners/closed off paths to draft
+        Dead Ends
+          -    Dead Ends are very often gem-positive
+   -    Accept Red Rooms
+          -    Red Rooms offer multi-doors and costs no gem
+               (except Aquarium), making them ideal for
+               carving a path forward without/at low gems
+   -    As far as possible, keep one gem
+   -    Avoid gem-negative rooms
+          -    Sometimes it’s wise to avoid Garage/Security if
+               it keeps you above 0 gems
+Part 2: Resource Management
+
+
+
+  Keys
+     -    Keys represent your room budget - the more keys, the
+          more rooms in the mansion you are allowed to draft
+     -    Doors are key-locked starting from Rank 4
+     -    Rooms are more likely to be locked (or be security
+          doors) at higher ranks
+             -   Opening doors using North door tends to save keys over using
+                 South door
+     -    Locked percentage randomness is “controlled”. You
+          are very unlikely to receive too many locked/unlocked
+          doors in a row
+             -   For speciﬁcs, refer to Security Doors, Locked Doors and Lockpicking
+                 Mechanics [Major Gameplay Spoilers] : r/BluePrince
+                                                                                       Possible locked doors are marked
+                                                                                                    orange
+Intermission
+
+
+
+   Intermission : THE Drafting Strategy advice - Keys
+   -    Rooms at lower ranks are
+        less likely to be locked or
+        be security doors
+   -    This meant they are
+        excellent for building
+        resources, before you enter
+        the later ranks
+Part 2: Resource Management
+
+
+
+  Keys - what to do at low keys
+     -    Lean west wing to ﬁnd Garage, if you have not
+     -    Avoid opening trunks with keys
+     -    Avoid drafting from Open Doors with small Effective
+          Areas
+             -   In other words, try to branch out to many different doors
+     -    At middle ranks (where locked odds is around 30-60%),
+          you can have multiple open doors point to same empty
+          room
+             -   This wastes doors, but in exchange you get to have more chances
+                 to get an unlocked door
+     -    If you have Security Door access, prefer drafting rooms
+          that can have them
+     -    Know your key sources:
+             -   Locksmith, Powered Furnace, Laundry, Servant’s Quarters, Music
+                 Room, Locker Room, Walk-In Closet, Lockpick set, Metal Detector,
+                 lab experiment
+Intermission
+
+
+
+   Intermission : Red Rooms
+      -    They have 0 gem cost (except Aquarium),
+           and tend to be branching (though it can
+           cost in other ways, such as steps,
+           consistency)
+      -    Red Rooms are friends when low on either
+           Keys or Gems
+      -    Conversely, Red Rooms are ﬁends when
+           high on Keys and Gems - they can throw
+           wrench at getting a consistent gameplan
+      -    A lot of Red Rooms have Security Doors -
+           embrace or avoid them depending if you
+           have Security access or not
+Part 2: Resource Management
+
+
+
+  Security Doors
+     -    Starting from Rank 3, doors can be Security Doors (I call
+          them Secdoors).
+             -   Passageway at High security is bugged and may have security
+                 doors at lower than rank 3
+     -    Security Doors are more likely to spawn at a higher rank
+     -    Generally, you need either (1) Keycard or (2) Utility Closet
+          with Security rooms to unlock Security Doors
+     -    Security settings affect limit of Secdoors in manor. High
+          has an additional effect to make secdoors more likely.
+             -   This limit does not count doors created by Closed Exhibit
+             -   Low: New rooms stop creating new secdoors after 3
+             -   Medium: 4
+             -   High: 6                                                       Security Doors can be at or above
+                                                                                 these orange marked doors
+Part 2: Resource Management
+
+
+
+  Security Doors - Rooms
+     -    Only certain rooms can
+          have Security Doors
+     -    Some doors at these rooms
+          can only be Security Door at
+          High security
+  Legend:
+    - Unmarked: Can be Security Door
+    - O: Can be Security Door at high
+       security
+    - X: Cannot be Security Door
+    - Triangle: You always enter from
+       this door
+
+  Corriyard upgrade cannot have Security Doors
+Part 2: Resource Management
+
+
+
+  Security Doors - Playing around Access
+     -    Keycard can be found earliest at Closet,
+          Guest Bedroom, Billiard Room and inside
+          trunks.
+     -    If you fail to ﬁnd keycard at any of the early
+          rooms:
+             -   you should try to draft Utility Closet and Security
+                 earlier.
+             -   If you only have only one Open Door, avoid 2-door
+                 rooms that can have Security Door (Workshop,
+                 Commissary, Lab, Patio at certain orientation)
+     -    If you have Security but not Utility Closet,
+          consider not setting the Security Level to
+          High immediately
+Part 2: Resource Management
+
+
+
+  Not entering rooms
+     -    Sometimes you beneﬁt from not entering rooms
+             -   Room(s) with security door but you do not have Security
+                 Door access yet
+             -   Workshop when the item on the table is Battery/Lever you
+                 cannot immediately beneﬁt from                                  Avoid entering room if you see
+             -   Garage drafted from North Door can have their keys taken      security door(s) you cannot open /
+                 without needing to enter the rooms                              Workshop you cannot use yet
+
+     -    In some cases, you can beneﬁt merely from peeking
+          what is in the next room
+             -   You can sometimes check if coin/fruit is spread by
+                 Oﬃce/Secret Garden
+             -   Items sold at Commissary can be peeked from one of its
+                 doors, but not the other
+             -   When very low on steps it is important to be mindful of the
+                 pathing, and not enter every room
+                                                                                You can take these 3 keys in
+                                                                                North-door garage from the
+                                                                                   room south (Security)
+Part 3: Unexplained Game Mechanics
+          a lot of game-mechanic spoilers here, you have been warned
+              I’ll try to simplify to key points, but it can get technical
+
+
+
+-   Dynamic Rarity
+-   Day One Upgrade Disk
+-   Veteran Mode
+-   Making sense of Dynamic Rarity
+-   The Drafting Process Overview
+-   The Many Different Drafting Procedures
+                                                                             dig deep and unearth what lies under the hood
+Part 3: Unexplained Game Mechanics
+
+
+
+   Dynamic Rarity
+     -    The game assigns an internal rarity for
+          every room, separate from their visual
+          rarity. This is called Dynamic Rarity
+             -   For speciﬁcs refer to: Dynamic Rarity -- Room Rarity
+                 Changes behind the scenes [Major Gameplay Spoilers] :
+                 r/BluePrince or Rarity - Blue Prince Wiki
+     -    This causes most rooms in the pool to
+          have a more common rarity than stated
+             -   i.e. Security, Courtyard, West Wing Hall are
+                 Dynamic Common, despite claiming as Standard
+     -    And then there are rooms that are harder
+          to ﬁnd on Day One Bequest:                                     From this sheet onward, when I talk about rarity,
+             -   The Pool and Study                                                I talk about Dynamic Rarity
+Part 3: Unexplained Game Mechanics
+
+
+
+   Day One Upgrade Disk
+     -    Upgrade Disk has no impact on rooms you already have
+          drafted, WITH EXCEPTION OF NURSERY
+             -   If you already have Nursery, upgrading to +8 steps improves this +5
+                 effect to +8, while the other two upgrades only removes the +5 effect
+     -    Starting from patch 1.7, Upgrade Disk logic for Day One
+          Veteran has been reworked such that it avoids rooms you
+          have already drafted
+             -   This seem to work only from the second Disk used onward, with only
+                 70% probability of choosing rooms you have not drafted
+             -   Speciﬁcs: Upgrade disks changes for patch 1.7 : r/BluePrince69
+     -    Several rooms are more likely to be upgraded as a result, as
+          they tend not to be drafted early:
+             -   Aquarium, Mail Room, Cloister
+     -    Upgrade Disk can be traded at Trading Post as tier 4
+          equivalent item, a tier which includes Secret Garden Key
+             -   It is recommended not to use ﬁrst Upgrade Disk until you have seen
+                 the Outer Room, or unless the Upgrade Disk is found super early.
+Part 3: Unexplained Game Mechanics
+
+
+
+   Veteran Mode effects
+   -    Easier to ﬁnd certain rooms:
+           -    Changes Dynamic Rarity of certain rooms to be more common for Day One:
+                  - Billiard Room, Utility Closet, Boiler Room, Workshop
+           -    Resets dynamic rarity of certain rooms that are supposed to be less
+                common on Day One Bequest:
+                  - Notably it does NOT reset rarity of Pool (still at Unusual) and Study
+                      (still at Rare)
+           -    Activates Forced Draw for Garage
+   -    Item pool changes
+           -    Increases base item luck bracket spawn from 18% to 23%
+           -    Adds Compass and Magnifying Glass to item pool
+           -    Closet no longer have 1 guaranteed Special Item
+   -    Relaxes Outer Room logic, now possible to see Tomb/Trading
+        without reroll
+   -    Details of the changes introduced by Veteran Mode can be
+        found at
+        V Mode -- What it is and what Day 1 Trophy hunters should know about it [Gameplay Spoilers] :
+        r/BluePrinceUncensored
+Part 3: Unexplained Game Mechanics
+
+
+
+ The
+ Drafting
+ Pool for
+ Day One
+ Here is an image of
+ all the draftable
+ rooms on Day One
+ Bequest Veteran
+ Mode, and their
+ speciﬁc Dynamic
+ Rarities
+
+ *table does not include
+ special draftable rooms
+ such as Secret Garden
+Part 3: Unexplained Game Mechanics
+
+
+
+   How to make sense of Dynamic Rarity?
+     -    Common rooms are basically unavoidable
+             -   Expect that at some point you will draft all of them
+     -    When Commons are mostly expended, you will start seeing
+          Standards at mid ranks.
+             -   They tend to have multiple 3-way rooms (Gym, Chapel, Darkroom, Dining
+                 Room) - You will be able to branch more liberally at this stage
+     -    Unusual are offered infrequently
+             -   Win-condition rooms tend to be here - try to pick them when you see the
+                 right Unusuals
+             -   Gem Unusual are much harder to see than Free Unusual, because you are
+                 likely to have emptied the free pool than gem pool
+     -    Do not plan your game around seeing any Rares
+     -    Special drafting procedures like duck draft, priority ﬁlter
+          (Furnace, Greenhouse), Silver Key and Prism Key provides
+          ways to circumvent the rarity system
+Part 3: Unexplained Game Mechanics
+
+
+
+   Impact of the Rarity on the Entire Drafting Pool
+     -    Impact 1: Wasting Doors in the Early game vs Midgame
+             -   There are a lot of Dead Ends in Free Common room pool, but a lot
+                 of 3-ways on Free Standard room pool
+             -   This meant that in the early game, you will be tested on not wasting
+                 doors in order to place all the dead ends wisely
+             -   Meanwhile rooms will begin to branch extensively in the mid-game,
+                 allowing runs to survive even with some wasted doors
+     -    Impact 2: Gem economy
+             -   There are more rooms that demand/spend gem in the Gem pool
+                 (Passageway, Security, Kitchen) than there are enough gems made
+                 by Free pool (Den, Parlor, Guest Bedroom)
+                                                                                        >
+             -   This meant it is important to be picky for what gem rooms you
+                 want to pick
+             -   This also means Commissary sets that sells gems are much
+                 stronger than sets that do not
+Part 3: Unexplained Game Mechanics
+
+
+
+   The Drafting Process - Overview
+   The procedure to choose
+   rooms follows the priority
+   as shown (from top to
+   bottom)
+     -    i.e. Using Silver Key at
+          Library will override
+          Library drafting.
+     -    Silver Key will not
+          work from Secret
+          Passage
+   Room rotations get
+   chosen independently
+   after the room choices are
+   ﬁnal
+Part 3: Unexplained Game Mechanics
+
+
+
+   The Drafting Process - [O] Outer Room for Day One Veteran
+   Mode
+- The 8 possible Outer Rooms are randomly ordered to
+  positions 1 to 8, and 3 positions are taken per round
+     - Hence 2 dice is suﬃcient to guarantee any Outer Room
+     - The 8 positions repeat - position 9 to 16 is the same as 1 to 8
+       (useful if you have Archives)
+- Some rooms (Shrine, Schoolhouse, Tomb) have a
+  10% of being pushed to a later position                                Calculated odds for Outer rooms for
+                                                                          the two Outer rooms that matter
+- Having Greenhouse pushes Root Cellar to position 1
+     - Similarly, having Banner of the King/Scepter pushes room of the
+       selected color(s) forward
+- Using Blessing of the Monk inserts the affected
+  room into position 3
+Part 3: Unexplained Game Mechanics
+
+
+
+   The Drafting Process - [A] Guaranteed Draw
+   This drafting process ALWAYS gets you certain
+   rooms, though their orientation/rotation is not ﬁxed
+
+     -    The very ﬁrst draft of Day One will always have
+          Bedroom, Closet or Hallway
+     -    With Blessing of the Monk, slot 3 of Outer
+          Room will be the affected room
+     -    With Reading Nook, slot 3 is always Library
+     -    With Tunnel, your draft always contains Tunnel
+     -    Not relevant for Day One, but the ﬁrst draft in mansion
+          after reaching Room 46 will have Mt. Holly Gift Shop at
+          slot 3.
+Part 3: Unexplained Game Mechanics
+
+
+
+   The Drafting Process - [B] Forced Draw
+   This drafting process has a chance to force certain
+   rooms if certain criteria (such as position) is met.
+     -    The only eligible rooms are Conservatory,
+          Garage, Morning Room and Utility Closet
+     -    Forced Draw ignores rarity
+     -    For Utility Closet and Garage in particular,
+          Forced Draw is active only until you have seen
+          it once
+             -   Using Secret Garden Key on valid positions still
+                 conducts a room draw in the background, which may
+                 use up this opportunity
+Part 3: Unexplained Game Mechanics
+
+
+
+   The Drafting Process - [C] Duck Draw
+Rooms with duck connectors are LIKELY to offer you other
+rooms with duck connectors
+ - If there is boiler power anywhere in the estate, duck draw
+   becomes VERY LIKELY                                                        Powered
+                                                                                Rooms
+     - Steam power doesn’t need to be connected to the current door you are
+       drafting to enjoy this effect
+ - There are Powered and Connector rooms.
+     - Powered Rooms can duck draw into only Connectors
+     - Connector Rooms can duck draw into all rooms
+     - Boiler room counts as a Powered room                                             Connector
+ - Duck draw ignores rarity                                                               Rooms
+                                                                                                    Weak
+                                                                                                    Duct
+ - Duck draw prefers gemless room
+ - Electric Eel Aquarium does not have duck drafting effect
+     - Other rooms can duck draft into Eel, but only as last resort
+Part 3: Unexplained Game Mechanics
+
+
+
+     The Drafting Process - [D] Priority Filters
+ -    Priority ﬁlter causes only certain rooms meeting
+      the criteria to be prioritized
+ -    Rarity matters, but the pool of available room will
+      be so pinched that rarity effects become negligible
+ -    Example of priority ﬁlters that needs activation:
+         -   Color Filters (Greenhouse, Furnace, Banner of the King,
+             Royal Scepter)
+         -   Draxus, The Dead or Southern Cross constellation
+         -   Electromagnet (pulls Mechanical rooms AND Rotunda)
+         -   Schoolhouse (pulls Classroom, Library, Dormitory)
+ -    Some priority ﬁlters are always active - they are
+      always easy to ﬁnd:
+         -   Observatory, Commissary (13%)
+         -   Position-restricted Green rooms (often called “Patio Filter”)
+             (5%, enhanced to 50% with Greenhouse)
+         -   Secret Passage is for some reason in the “Patio Filter”
+Part 3: Unexplained Game Mechanics
+
+
+
+   The Drafting Process - [E] Normal drafting
+  -    First the Gem group is chosen for each slot
+         -    Slot 1 is always Gemless draft.
+         -    Slot 2 and 3 may be Gem draft, more likely to be gem at higher ranks
+  -    Some rooms you have recently seen are ﬁltered out:
+         -    Discard ﬁlter: If you use a reroll, the three rooms will not be offered
+              again immediately
+         -    Runback ﬁlter: If you just drafted a room, the two rooms you rejected
+              are not likely to be offered immediately after
+ -     Rarity ﬁnally matters
+         -    The game will generally try to offer and expend lower rarity rooms until
+              3 remains before offering higher rarity rooms
+         -    In other words, you are far less likely to see Unusual/Rare rooms
+  -    Validation occurs at end to make sure that the three rooms
+       are not duplicates and not all Dead-Ends
+Part 3: Unexplained Game Mechanics
+
+
+
+   The Drafting Process - [L] Library
+   Library Drafting is a variant of normal drafting that
+   has three additional effects:
+
+     -    Filters out certain rooms out of the pool
+             -   Notably, you cannot ﬁnd Furnace and Maid’s Chamber
+     -    If you have 0 gem, offers two free rooms. Else it
+          offers two gem rooms.
+             -   Take note of this if you are planning to draft Study
+     -    Pulls from mostly Unusual and Rare room pools
+          (approximately 50:50)
+     -    This is the only consistent tool to ﬁnd
+          Foundation/Study/Attic on Day One
+Part 3: Unexplained Game Mechanics
+
+
+
+   The Drafting Process - [S] Silver Key Drafting
+- Silver Key drafting ignores rarity
+- Silver Key attempts to pull 3-way or
+  4-way rooms, before trying 2-way rooms
+    -   You can force Silver Key to choose 3-way rooms
+        by drafting to an Edge
+- The drafting pool is pinched:
+    -   No dead-ends, many 2-way rooms are not
+        available, and Foundation is also removed
+    -   Locker Room is treated as a 3-way room
+    -   Gallery and Trophy Room are in 2-way pool, even
+        on Day One
+- Silver Key prefers to give you gemless
+  rooms, unless you have 4+ gems
+- If the silver pool is fully empty, the slot
+  defaults to mostly normal drafting
+  (prioritizes gemless rooms)
+Part 3: Unexplained Game Mechanics
+
+
+
+   The Drafting Process - [P] Prism Key/Secret Passage
+     -    Prism Drafting is JANK
+             -   I gave up trying to explain, so I’ll leave a link here and
+                 instead list the weird stuffs possible with Prism Drafting
+             -   Prism Key/Advanced - Blue Prince Wiki
+     -    You can draft rooms not yet added to the pool
+             -   Morning Room, Casino, Solarium
+     -    When pulling green rooms, it is very likely to give
+          Slot 1 Cost Bypassed Gem room (because most
+          green rooms have a gem cost)
+     -    Prism Key can give duplicates of rooms already in
+          mansion if the pool is pinched
+     -    Prism Draft can have 4-way rooms at Edges, or
+          3-way rooms at Corners
+     -    If you use Prism Key on Aquarium, you can
+          reselect color by hovering in and out of Prism Key
+Part 4: Speciﬁc Room Interactions
+      in a way this section has more datamined information than the previous section
+
+
+
+-   Garage                          -   Weight Room                      -   Utility Closet
+-   Laboratory                      -   Greenhouse                       -   Security
+-   Tomb                            -   Mechanarium                      -   Billiard Room
+-   Trading Post                    -   Boiler Room                      -   Closet
+-   The Pool                        -   Furnace                          -   Veranda
+-   Pump Room                       -   Archives
+-   The Foundation                  -   Laundry Room
+-   Workshop                        -   Commissary
+-   Secret Garden                   -   Secret Passage
+-   Great Hall                      -   Nursery
+
+                                                                                       these rooms will feel like home
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Garage
+      -    Garage is required to reach Outer Room
+      -    First time you reach a valid Garage position, you will have
+           a 90% Forced Draft for Garage (if ﬁrst two slots are not
+           Dead End)
+              -    If you do not take this the offer will expire - so you have to plan your   Gem cost: 1
+                   route around picking the ﬁrst valid Garage tile you see
+              -    Using Secret Garden Key on these tiles may mess up and use this            Dynamic:
+                   opportunity because the game rolls for Garage in the background.            Commonplace
+      -    3 key for 1 gem is a ﬂat out good trade                                            Position: West
+      -    Requires Utility Closet or Boiler power to open garage                              wing A4 to A8,
+      -    If drafted from North door, the hitbox for the three keys is                        no West Retreat
+           slightly outside the room, allowing pickup from outside                            Special Drafting:
+           Garage (saving 2 steps)                                                             Forced Draft,
+      -    Using Car Keys grant Upgrade Disk on Day One                                        Duct (Powered)
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Laboratory
+      -    If you mash down while the options for Laboratory loads,
+           you can reach the Cancel button. This allows you to “reroll”
+           experiments
+              -    Lab rerolling is BUSTED strong
+              -    You are allowed to do this up to 3 times, which upgrades to inﬁnitely if
+                   you have Satellite Dish                                                    Gem cost: 1
+      -    Several good experiments are:
+              -    (Trigger) Bedroom drafted after second                                     Dynamic: Standard
+              -    (Trigger) Security Door unlocked
+                                                                                              Special Drafting:
+              -    (Reward) Set steps to 40 (can work with Red room trigger)
+              -    (Reward) Set dice to 2                                                      Duct (Powered)
+              -    (Reward) Gain 1 key for every 2 Hallways
+      -    Powering Lab using Boiler Room lets you access
+           Blackbridge, to access a terminal from a room you do not
+           have drafted
+              -    I often use this to spread gold, which is very strong with Laundry you
+                   will often have
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Tomb
+      -    Immediately provides Underground Cartside access
+      -    It is worth immediately entering to move cart and get
+           Upgrade disk and 5 coins (paying 6 steps, fewer with
+           Shoes)
+      -    Tomb runs prefer seeing more shops, especially strong                    Special
+           with Duct drafting pulling Laundry Room                                  Drafting:
+      -    If you have Conference Room:                                              Outer Room
+              -    You will start receiving coins for new dead ends at Conference
+                   Room instead                                                      (10% to be
+              -    5 coin from Drafting Tomb is never moved to Conference            pushed to
+                                                                                     position 8)
+      -    If you have Burning Glass, you can get:
+              -    4 dice, 1 Upgrade Disk,
+              -    access to Chess puzzle
+              -    opening Lady Epsen’s tomb adds Her Ladyship’s Chamber to the
+                   drafting pool
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Trading Post
+      -    Lets you trade special items to other special items of
+           the same/lower tier
+      -    Regarding trading:
+              -    Accepts items that would usually be bad in Day 1 runs:
+                                                                                  Special
+                   Upgrade Disks, Microchips, Car Keys                            Drafting:
+              -    Good at providing key access (Keycard, Lockpick, Metal
+                   Detector, Special Keys)                                         Outer Room
+              -    Occasionally trade items into dice with amount equal to tier
+              -    Notably cannot provide Broken Lever
+      -    With Burning Glass, blowing up dynamite earns you
+           40 coins and an Upgrade Disk
+Part 4: Speciﬁc Room Interactions
+
+
+                                                                        Item Can be offered              Only trade-in
+   How to use Trading Post eﬃciently                                     Tier
+
+
+                                                                         1
+      -    Trade in microchips and look for Car Keys
+           ASAP for extra Upgrade Disk to trade
+      -    Main goals: Silver Key, Secret Garden Key and                 2
+           dice.
+              -    Consistently gets you Pump room and Antechamber
+                   access                                                3
+      -    Secondary goal: Set up contraptions                                      + All 4 Vault Keys
+              -    Note it cannot ﬁnd Broken Lever for Power Hammer
+      -    The more items you hold in inventory, the more                4
+                                                                                                         +All Contraptions
+           pinched the pool of items it can offer.
+              -    So try to hoard items, and only trade them away if          Table of relevant tradeable items
+                   necessary
+                                                                             Telescope is not available on Day One
+              -    Hoarding works exceptionally well if you collect
+                   multiple of the same item tier
+                                                                             Items highlighted yellow are important
+Intermission
+
+
+
+   Intermission: Choosing an Outer room
+   -    Trading Post
+           -   Higher overall consistency (multiple chances to ﬁnd Silver Key, Secret Garden
+               Key and Battery) but is expensive step-wise (necessitates multiple backtracks)
+           -   It is beneﬁcial for Trading Post to have good exit from high ranks via Garage
+           -   Trading Post is also likely to ﬁll the house due to ability to trade into Special Keys
+               and Lockpick
+   -    Tomb
+           -   Simpler, faster and cheaper on steps
+           -   Fewer keys overall meant that less agency on runs (unable to fully draft house),
+               but you only need to hit one win condition among three (Power Hammer, Pool or
+               Foundation)
+   -    If you see one of the two rooms (while holding dice), it’s often best
+        to just pick them instead of rerolling to hopefully force the other
+        room
+           -   Provided no Archives or Greenhouse, you can 100% get either one with 2 dice,              Save that dice, unless if
+               and 94.76% to see at least one of them with 1 dice                                       you need that Trading Post
+Intermission
+
+
+
+   Intermission: Choosing an Outer room if you miss
+      -    The next best outer rooms are Toolshed, Hovel and Shelter
+      -    Toolshed
+               -   Provides immediate resource to help open Trunks/ lockpick to open doors/
+                   pieces for Power Hammer
+               -   Immediate resource is good for keeping runs alive
+      -    Hovel
+               -   This is for speciﬁcally runs that suffer from low gemcount (Commissary
+                   failing to sell gem, forced Observatory etc)
+               -   Note that if you get too low on steps, you cannot draft rooms that cost
+                   steps (i.e. Nursery)
+      -    Shelter
+               -   The best outer room for abusing Boiler Room strats, as it lets you take
+                   Archives and Weight Room without punishment
+               -   Don’t forget the 1 gem inside the safe :)
+               -   Keep an eye on possible Satellite Dish win with this Outer Room
+Part 4: Speciﬁc Room Interactions
+
+
+
+   The Pool
+    - Even after activating Veteran Mode, Dynamic Rarity for The
+      Pool remains Unusual on Day 1 Bequest.
+              -    With a large number of Gem Unusuals in the pool, this room is diﬃcult to
+                   ﬁnd normally
+    - Silver Key on an edge is the only consistent way to ﬁnd this                            Gem cost: 1
+      room                                                                                    Dynamic: Unusual
+          - It is recommended to hold 4 gems with Silver Key so Slot 2 of the draft can        (Standard on
+            be a gem draft                                                                     Dare/Curse)
+          - Expending all other 3-way gem draft helps (Drawing Room, Security, Boiler,
+            Courtyard, Aquarium)
+                - Security and Boiler have additional position restriction, which may help
+          - Dice helps when you have multiple gem 3-ways in the pool
+      -    Adds 1 Important room (Pump Room), 1 Strong room
+           (Locker) and 1 Bad room (Sauna)
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Pump Room
+      -    Provides access to Underground Cartside or
+           Underground Gearside
+             -     Both are not possible unless you use Boiler/steam power
+             -     For Underground Cartside access, drain fountain fully and
+                   bring Basement Key                                            Gem cost: 0
+              -    For Underground Gearside boat access, reduce Reservoir by 1   Dynamic: Standard
+      -    When used to drain The Pool, it will always have 14
+                                                                                 Special Drafting:
+           coins                                                                  Duct (Powered)
+      -    When used to water Greenhouse, it will have ﬂower
+           gems depending on where Greenhouse was/is
+           drafted.
+Part 4: Speciﬁc Room Interactions
+
+
+
+   The Foundation
+      -    Elevator can be lowered if you reach the back panel
+              -    Using Elevator lets you reach Upgrade Disk and Underground
+                   Gearside if you have Basement Key
+      -    Always have at least 2 dig spots
+      -    If you have all of Power Hammer, Basement Key and                    Gem cost: 0
+
+           Security Door access, you can enter Foundation from                  Dynamic: Unusual
+
+           outside the house                                                    Position: Center
+              -    You do not need the elevator back panel lowered to do this    tile, Rank 3 or
+                                                                                 above, not at C8
+                                                                                Special Drafting:
+                                                                                 NOT from Silver
+                                                                                 Key
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Workshop
+      -    Always spawns 1 item that is a component for
+           crafting
+      -    It may be useful to hold off drafting this to increase
+           odds for crafting Power Hammer                                            Gem cost: 0
+              -    For example if you have early Veranda, you’d preferably draft a
+                   couple green rooms ﬁrst to take out Hammer Shovel Detector        Dynamic: Standard
+                   and Broken Lever before ﬁnally ﬁnding the Battery at
+                   Workshop
+      -    Be careful when picking up Battery Pack before
+           having Workshop - 50% to make Workshop less likely
+           on Day One Veteran
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Workshop - what to craft
+    - Contraptions to look out for:
+        - Power Hammer = Hammer + Lever + Battery:
+           - Opens multiple avenues to room 46
+           - Opens Sealed Entrance to basement, Weight Room/Secret Garden walls
+             for lever
+        - Dowsing Rod = Shovel + Compass:
+           - Loses Shovel and Compass effects.
+           - Generates a lot of items
+        - Detector Shovel = Shovel + Detector:
+           - Finds keys, coins and special keys more frequently from digs, but cannot
+             ﬁnd Turnip
+        - Burning Glass = Detector + Glass:
+           - Loses Detector.
+           - Beneﬁts from Tomb/Trading Post outer rooms
+        - Pick Sound Ampliﬁer = Detector + Lockpick:
+           - Loses Detector.
+           - Useful with low keys, or when opening Great Hall
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Secret Garden
+      -    Immediate access to West Antechamber lever
+      -    With Power Hammer, or if you access back panel
+           from Garage, also provides access to East
+           Antechamber lever
+                                                                                Special Drafting:
+      -    Item pool only has 4 items (Shovel, Detector,                         Secret Garden
+           Hammer, Broken Lever)                                                 Key
+              -    If you have Veranda, you (mostly) get 2 items out of green
+                   rooms. It may be worth to delay drafting Secret Garden to
+                   make sure you get Broken Lever
+      -    If you have Conference Room, it always spawns 3
+           Oranges and 4 Apples (potentially fewer food than a
+           natural spread, but located together)
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Great Hall
+      -    The six side doors consists of 2 path doors, 2 dead-ends and 2
+           reward doors
+              -    The two reward doors must be on different sides (same with the dead-ends)
+              -    Reward doors can only be at corners
+      -    One reward door has Upgrade Disk, the other is some items and
+           East Antechamber Lever                                                                  Gem cost: 0
+              -    Metal Detector may let you ﬁnd the lever reward door if the item(s) is Key or
+                   coins                                                                           Dynamic: Unusual
+              -    Having Maid’s Chamber will takeaway the items at the lever door
+      -    It is recommended to bring Lockpick, Picksound Ampliﬁer, have
+           Foyer, or already be key-rich before opening the doors
+              -    Lockpick and Picksound Ampliﬁer are counted as different checks - door
+                   previously cannot be lockpicked can be re-picked with Picksound
+      -    If you have multiple Great Hall (due to Pool Hall or Secret
+           Passage):
+              -    the room layout will be the same.
+              -    The second Upgrade Disk door will have items instead of Upgrade Disk
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Weight Room
+      -    You immediately lose half your steps when the room is
+           drafted, with rounding working in player’s favor
+      -    With Power Hammer, provides South Antechamber Lever
+      -    The only item in its pool is Broken Lever                                     Gem cost: 0
+      -    Very likely to be pulled from Duct draft because it is
+                                                                                         Dynamic: Rare
+           gemless connector room
+                                                                                         Special Drafting:
+      -    Playing around the downside:                                                   Duct (Connector)
+              -    Eat dinner/kitchen/dig turnips after opening Weight Room               , Furnace 40%
+              -    Laboratory experiment that sets to 40 steps is extremely helpful to    Filter
+                   offset the room’s downside
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Greenhouse
+      -    Will always contain 1 item, from small pool of 4 possible
+           items
+              -    Hammer, Shovel, Detector and Watering Can
+      -    Activates two different Priority ﬁlters:
+              -    Green rooms 40% ﬁlter
+              -    The always-active 5% “patio ﬁlter” gets enhanced to 50%   Gem cost: 1
+      -    Greenhouse is awfully useful for empowering Veranda to            Dynamic: Common
+           eventually craft Power Hammer                                     Position:
+      -    With Broken Lever you can open South Antechamber door,             East Advance or
+           but personally I prefer crafting Power Hammer instead              West Retreat,
+      -    Using Power Hammer lets you open a path toward a center            not at E2
+           tile                                                              Special Drafting:
+      -    Directing water supply via Pump Room makes Flower Gems             Always Active 5%
+           appear in this room, amount depending on Soil Quality              “Patio Filter”
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Mechanarium
+      -    Underground Gear access is required to add this
+           room to the pool
+              -    This room is very often a free 4-way with antechamber access,
+                   so it is recommended to add this room whenever possible
+      -    This room is deemed as a “4-way room” and cannot
+                                                                                        Gem cost: 0
+           be drafted on edges/corners
+      -    Mech attempts to generate path doors ﬁrst, then the                          Dynamic: Unusual
+           diagonal doors                                                               Position: Center
+              -    If path door points toward wall of another room, it will skip that
+                   door (making it easier to make diagonal doors)
+      -    The diagonal doors contain, in order:
+              -    1st diagonal: West Antechamber Lever
+              -    2nd diagonal: Silver Key, defaulting into Keycard then SGK
+              -    3rd diagonal: Upgrade Disk
+              -    4th diagonal: Sanctum Key
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Boiler Room
+      -    Boiler room has a a LOT of position restriction,
+           mostly because it has to be drafted from the two
+           doors not separated by the bridge
+      -    Unlike its duct-cousins, Boiler room never can have                      Gem cost: 1
+           Security Door
+                                                                                    Dynamic: Standard
+      -    Activating steam power will massively empower duct
+                                                                                    Position:
+           draws anywhere in the estate                                              no edge pierce,
+              -    The blue-line visual indicator however depends on this boiler     no East Retreat,
+                   power directed to the door, which may be relevant for Archives    no West Advance,
+                   or Darkroom                                                       no rank 1,
+                                                                                     no rank 9
+                                                                                    Special Drafting:
+                                                                                     Duct (Powered)
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Furnace
+      -    Furnace activates a red 30% priority ﬁlter, causing
+           other red rooms to easily appear
+              -    If Dowsing Rod points to this room, the Furnace’s effect of
+                   pulling red rooms is entirely disabled
+      -    Powered Furnace will generate one key when you                               Gem cost: 0
+
+           enter Furnace                                                                Dynamic: Rare
+              -    Redirecting power away and into the Furnace re-activates this        Special Drafting:
+                   ability. This allows for conversion from Steps to Keys                Duct (Powered)
+              -    The hitbox for key printing is actually slightly outside the room,
+                   letting you save 2 steps per key printed (if you print multiple
+                   keys)
+              -    Key printing is a cheap and consistent way to earn keys if you
+                   have the steps
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Archives
+      -    Very useful and powerful room when at low gems/keys,
+           though to be avoided if you have plenty
+      -    Bringing File Cabinet Key from Patio gives Upgrade Disk
+      -    There are many ways to identify the Archived room:
+              -    Gem cost is visible                                              Gem cost: 0
+              -    Security door opened with Keycard reveals Stated room rarity     Dynamic: Unusual
+              -    Rooms drawn by normal drafting are sorted by Gem cost, then by
+                   stated rarity                                                    Special Drafting:
+              -    Active steam power from Boiler/Electric Eel Aquarium will have    Duct (Connector)
+                   Blue line if the room has duct                                    , Furnace 30%
+              -    Outer rooms positions repeat - position 9-16 are same to 1-8      Filter
+              -    The three rooms cannot (normally) all be dead-ends
+              -    Furnace heat effect will appear and stay once one red room is
+                   drawn
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Laundry Room
+      -    THE most gold-eﬃcient shop for solving low gem
+           issue
+              -    Gems to coins swap is awfully eﬃcient especially with Tomb
+                   starts, i.e. holding 10 coins can be swapped into 5 gems
+              -    With enough coins, this can also be used to solve for keys   Gem cost: 1
+              -    Look for this shop if Commissary did not offer gems          Dynamic: Rare
+      -    Not affected by Coupon Book
+                                                                                Special Drafting:
+      -    When powered, can be used to swap keys and dice                       Duct (Powered)
+           (and swap gems and steps)
+              -    This is one of few consistent ways to get dice on Day One,
+                   and with Lab for 40 steps will often lead to blowout wins
+Intermission
+
+
+
+   Intermission: Nurse’s Station inﬁnite
+   The combination of:
+
+      -     Nurse’s Station (free movement within 10-11
+            step radius from Nurse’s Station),
+      -     Powered Furnace (to convert steps into keys)
+      -     And Powered Laundry (convert keys into dice,
+            gem, gold and steps)
+
+   lets you earn “inﬁnite” steps, gems, keys and dice
+   admittedly a very slow inﬁnite but shush
+
+
+
+
+   There are other sources of inﬁnite in the game, for
+   example Casino to earn inﬁnite coins, Bedroom
+   adjacent to another Bedroom (or to opened
+   Antechamber) for inﬁnite steps
+Intermission
+
+
+
+   Intermission: Boiler Room Strats
+      -    If you allow Lab rerolling tech,
+           Boiler power can be used to
+           launder dice with good
+           consistency for Day One:
+               -   Get Boiler Room
+               -   Duct into a connector
+               -   From connector room, duct into
+                   edges to drop Lab/Laundry/Furnace
+               -   Use Lab rerolling to get “Set to 40
+                   steps” with any good trigger
+               -   Use Powered Lab to blackbridge into
+                   Oﬃce for some starting coin
+               -   Print keys using Furnace using your
+                   many steps
+               -   Trade keys into dice using Laundry
+                   Room                                  Look at this very normal amount of dice I got on a Day One run :D
+               -   Where applicable, use trade between
+                   Steps and Gems (to earn a lot of
+                   gems)
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Commissary
+      -    Commissary offers 1 out of 7 possible sets, and only
+           can offer them if you have none of the items on offer
+              -    If selection is invalid, the next selection on the list is chosen
+                   instead
+              -    This meant that depending on the items you have on hand,
+                   certain sets are more likely than others                            Gem cost: 1
+      -    If none of the 7 sets are valid, Commissary will always                     Dynamic: Common
+           offer Gem, Key and Upgrade Disk (and Shovel if
+                                                                                       Special Drafting:
+           possible)                                                                    Always Active
+      -    It is very important for most Day One runs for                               13% Priority
+           Commissary to sell gems, because it provides                                 Filter
+           freedom while drafting
+      -    You can peek what Commissary is selling from one of
+           the door, but not possible from the other door
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Manipulating Commissary sets (to give gems)
+      -    With no items, you have 4/7 of
+           getting Gems
+      -    Having only Shovel or only
+           Hammer would make this odd
+           worse (2/7), but with both it is
+           guaranteed (7/7)
+      -    Sleeping Mask is the best single
+           item to make Comm sell gems
+           (6/7)
+
+                                              Set A defaults to B, to C, etc. Set G defaults to Set A.
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Secret Passage
+      -    For some reason, this room is in the “Patio ﬁlter” meant for
+           green rooms (valid as of Patch 1.7.1)
+              -    This meant that it is easy to ﬁnd Secret Passage if you have
+                   Greenhouse
+      -    Often it is recommended to pull green room to get the cost                     Gem cost: 1
+
+           bypass and the multi-door room,                                                Dynamic: Unusual
+              -    Morning Room is also ﬁndable without needing to buy from Kitchen, as   Position:
+                   long as the positional restriction is met                               no rank 1,
+      -    When low on keys, Secret Passage for Yellow is useful for                       no rank 9,
+                                                                                           cannot point to
+           two shops that give keys (Locksmith and Laundry)                                corners
+      -    It can help to ﬁnd win condition with orange into Great Hall                   Special Drafting:
+                                                                                           Always Active 5%
+                                                                                           “Patio Filter”
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Nursery
+      -    Recommended to be drafted early to
+           beneﬁt from the multiple bedrooms later
+      -    If you have Nursery already drafted,
+           upgrading it to +8 steps nursery will grant                    Gem cost: 1
+           newly drafted bedrooms +8 bonus, instead
+                                                                          Dynamic: Common
+           of +5
+              -    Selecting the other upgrades will “delete” your
+                   already drafted Nursery’s drafting ability, so avoid
+                   that
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Utility Closet
+      -    It is set to Dynamic Common when V mode is activated,
+           so seeing this early is a good indicator of Veteran mode
+           being active
+      -    The trigger to turn on Darkroom is to switch it on from
+                                                                                             Gem cost: 0
+           Utility Closet while the Darkroom is in the mansion
+              -    You do not need to enter Darkroom to “trip it off”, saving 2 steps        Dynamic: Common
+      -    Despite its overall importance to reach Outer Room, do
+           avoid drafting this early
+              -    The further it is from Darkroom, the harder it is to justify turning on
+                   the Darkroom lights back on
+              -    Drafting this before seeing the Billiard Room/Guest Bedroom may
+                   force you to backtrack here to turn on the Security Doors when you
+                   get Keycard
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Security
+      -    Security has a cutscene where Simon enters Security.
+           Tied to this, the ﬁrst Security on a save ﬁle has to be
+           drafted from its center door
+      -    The Security Door settings (Low to High) have two                                Gem cost: 1
+           effects:
+                                                                                            Dynamic: Common
+              -    First it sets a limit, after which rooms will stop generating Security
+                   Doors                                                                    Position:
+                      - Low = 3                                                              must be drafted
+                                                                                             from center door
+                      - Medium = 4
+                      - High = 6                                                            Special Drafting:
+              -    Second, High setting makes doors more likely to be Security Doors         Duct (Connector)
+                      - To minimize number of locked doors encountered in a day,
+                          avoid setting this to High too early
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Billiard Room
+      -    Dart rewards on Veteran Mode have the following
+           probabilities:
+              -    20% Secret Garden Key
+              -    25% Silver Key
+              -    20% Keycard
+              -    35% 2 Keys                                                         Gem cost: 0
+      -    Defaults:                                                                  Dynamic: Common
+              -    If you have Keycard, the reward defaults to 2 Keys
+              -    If you have Secret Garden Key or Silver Key, the reward defaults
+                   to Keycard, which defaults to 2 Keys if you also have it
+      -    It is recommended you look for Keycard ﬁrst before
+           solving Dartboard (look for Guest Bedroom), so you
+           can get more keys on average
+      -    Conversely, you should solve Dartboard before
+           drafting Utility Closet in case you ﬁnd Keycard
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Closet
+      -    When V Mode is not active, it has 100% to
+           spawning one special item
+              -    realistically this is the ﬁrst few drafts of Bequest Day One,
+                   before V is activated
+      -    With V Mode, it has 50% of spawning one special                         Gem cost: 0
+           item, and 50% of spawning only resource items                           Dynamic: Common
+      -    Thus, it is often recommended to draft Closet in
+           your ﬁrst few rooms
+              -    Center Closet 1st draft is recommended for this, as well as
+                   to put a no-bend room on C2
+      -    You should pick up item from Closet before
+           drafting next rooms due to Metal Detector and
+           Lucky Rabbit’s Foot
+Part 4: Speciﬁc Room Interactions
+
+
+
+   Veranda
+      -    Veranda is expected to always spawn 1 item
+      -    After which, you can expect 2 items out of the next
+           Green rooms you draft
+              -    Having Lucky Rabbit’s Foot would make you see 3 items from the
+                   ﬁrst 2 Green Rooms you see                                       Gem cost: 2
+      -    This effect, along with Greenhouse, is incredibly                        Dynamic: Standard
+           powerful for crafting Power Hammer and getting a lot                     Position:
+           of gems from Trunks                                                       East or West
+                                                                                     Advance or
+      -    Notable item spawns:                                                      Retreat
+              -    Broken Lever can spawn in Aquarium or Secret Garden
+              -    Battery Pack can spawn in Patio                                  Special Drafting:
+                                                                                     Always Active 5%
+      -    Note that all of the above expects you start with normal                  “Patio Filter”,
+           luck before drafting Veranda (no Maid’s Chamber)                          Greenhouse 40%
+                                                                                     Filter
+       Part 5: “What would duck do?”
+
+Every ﬁrst slide will be a question,
+and every second slide will be “my answer”
+
+I may add more examples in this section periodically
+as I encounter good learning moments
+(I also need to add more “Hard” questions too)
+
+
+
+
+                                                       examples to nurture understanding
+Part 5: Case Studies                    Question 1
+                                     Diﬃculty: Low
+   What room would you draft here?
+Part 5: Case Studies
+
+
+
+   What room would you draft here?
+ Corridor
+
+  - If there is any takeaway from reading
+      this guide, please let it be this:
+
+            DON’T WASTE
+            DOORS EARLY
+  -   Wasted doors early means more dead
+      ends for EVERY ONE of the 30+
+      DRAFTS REMAINING
+  -   Corridor may give no resource, but
+      saving doors in the drafting pool is the
+      best “resource” to get here
+  -   Approach Day One with mindset that
+      you will see and draft every Common
+      room eventually
+  -   Additionally Corridor provides a good
+      Open Door/path toward drafting the
+      rest of the mansion
+Part 5: Case Studies                    Question 2
+                                     Diﬃculty: Low
+   What room would you draft here?
+Part 5: Case Studies
+
+
+
+   What room would you draft here?
+   Billiard Room
+      -    Deﬁnitely not Commissary,
+           because I have no gold and I
+           am place Commissary far from
+           backtrack position
+      -    Bedroom beneﬁts more from
+           being close to backtrack
+           routes, and I want to ﬁsh for
+           Hammers before having to
+           draft Bedroom
+      -    Once I solve dart the room can
+           be mostly ignored, so putting it
+           far at rank 1 is ﬁne
+Part 5: Case Studies               Question 3
+                                Diﬃculty: Low
+   What would you draft here?
+Part 5: Case Studies
+
+
+
+   What would you draft here?
+   Corridor
+
+      -    Corridor creates the most
+           active Open Door (pointing
+           North, good Draftable Area)
+      -    Parlor is not bad when at 0
+           gem, but I would probably still
+           pick Corridor here
+      -    Even with Hammer I would not
+           pick Bedroom - I’ll see it later
+           and it’s placed better after
+           ﬁshing for Nursery/near
+           backtrack routes
+Part 5: Case Studies                    Question 4
+                                     Diﬃculty: Low
+   What room would you draft here?
+Part 5: Case Studies
+
+
+
+   What room would you draft here?
+   Nook
+      -    Deﬁnitely not Observatory. Gem is
+           precious especially at early-mid
+           stages
+      -    There is enough gold to purchase
+           from Commissary (even if the shop
+           choices will be coinﬂip for Gems),
+           but the rotation is not good
+      -    Nook pointing to East Wing meant
+           that it is likely to give a path north
+           without wasting dice (Orientation is
+           more predictable when drafting
+           along wings)
+      -    Dice is too valuable to be used here,
+           it does not solve any chokepoints
+Part 5: Case Studies                    Question 5
+                                     Diﬃculty: Low
+   What room would you draft here?
+Part 5: Case Studies
+
+
+
+   What room would you draft here?
+   Garage
+
+      -    Rule of thumb - DO NOT SKIP
+           FIRST GARAGE OFFERED
+      -    Garage has bonus appearance
+           rate until it is ﬁrst shown, and it
+           is crucial for drafting Outer
+           Room (on top of being nice 3
+           keys for 1 gem)
+      -    Especially with Billiard Room in
+           this case giving SGK instead of
+           2 keys, the 3 keys will be
+           necessary to travel into the
+           mid-ranks
+Part 5: Case Studies                    Question 6
+                                     Diﬃculty: Low
+   What room would you draft here?
+Part 5: Case Studies
+
+
+
+   What room would you draft here?
+   Billiard Room
+
+      -    The choice of pathing does
+           not particularly matter,
+           because E2 is accessible
+           from Corridor
+      -    What matters here is that
+           you already have Keycard,
+           which is the item to ﬁsh for
+           before opening Dart puzzle
+              -    If Keycard is already in the
+                   mansion, it defaults to 2
+                   keys
+      -    There is also slight
+           preference for taking
+           Storeroom/Billiard
+           because I am at 0 keys
+Part 5: Case Studies                                   Question 7
+                                                 Diﬃculty: Medium
+   You are at Den. Which Open Door do you explore ﬁrst?
+Part 5: Case Studies
+
+
+
+   You are at Den. Which Open Door do you explore ﬁrst?
+
+ The North Door to B2
+    -    Please Please PLEASE if you draft any 3-way room at
+         B1 or D1, explore the North door ﬁrst.
+            -    For Day 2+ I can excuse this behavior because Conservatory
+                 exists and you pick it when you see one, even if a door is wasted
+    -    The key idea is that due to the rule that the game
+         cannot normally offer you 3 dead-ends, thus the
+         Draftable Area of the West door to A1 ALWAYS
+         contains A2 tile.
+    -    So it is better to check the North door ﬁrst, so that you
+         know whether room B2 paths toward A2 or not
+            -    If it does, place a dead end at A1
+            -    If it does not, you place a bend at A1 and reach A2 from there
+Part 5: Case Studies                       Question 8
+                                     Diﬃculty: Medium
+   What room would you draft here?
+Part 5: Case Studies
+
+
+
+   What room would you draft here?
+   Secret Passage into Green
+   rooms
+
+      -    Green Secret Passage
+           while advancing on
+           East Edge is
+           especially valuable
+           because there are two
+           different possible high
+           rolls: Free Veranda or
+           Morning Room
+           (without needing to
+           have Bacon)
+Part 5: Case Studies                    Question 9
+                                     Diﬃculty: Low
+   What room would you draft here?
+Part 5: Case Studies
+
+
+
+   What room would you draft here?
+   Pantry
+      -    Pantry provides good
+           door to traverse the
+           mansion with
+              -    Since this Open Door is
+                   good, it is
+                   recommended to
+                   backtrack to Corridor
+                   after drafting Pantry
+      -    While Utility Closet is
+           important for Day One,
+           you can expect to see it
+           again later - preferably
+           close to Darkroom to
+           reduce backtrack
+Part 5: Case Studies               Question 10
+                              Diﬃculty: Medium
+   Which key would you use?
+   You are at Chapel
+   and the door is
+   locked.
+   Normal key, or Silver
+   key?
+
+
+   Dinner has not been
+   eaten, Kitchen contains
+   Chef Salad (nothing
+   bought yet), all trunks
+   have been opened
+Part 5: Case Studies
+
+
+
+   Which key would you use?
+ Silver Key
+  - First, Silver Key does not
+    use up Garage’s Forced
+    Draft (unlike SGK), letting
+    me ﬁnd it at A7 or A8
+  - Garage on A6 is not bad
+    per se but having a 3-way
+    is better because it gets
+    me 2 more rooms
+  - Then, with holding at least
+    4 gems and enough gem
+    3-ways drafted (Aquarium,
+    Courtyard, Security), I am
+    likely to ﬁnd Pool, which I
+    am saving this Silver key
+    for
+Part 5: Case Studies                              Question 11
+                                                Diﬃculty: Low
+   What Outer Room do you want here the most?
+
+   Possibly relevant
+   info:
+   Kitchen provides
+   Tomato soup and
+   Lab provides
+   steps.
+   Blackbridge has
+   been used to
+   activate Oﬃce
+Part 5: Case Studies
+
+
+
+   What Outer Room do you want here the most?
+
+   Tomb
+      -    Power Hammer provides access
+           to Underground Gearside
+      -    Antechamber access is VERY
+           likely via Weight Room, with the
+           Power Hammer and Furnace
+      -    So what is very sorely needed is
+           Underground Cartside access,
+           and with no Silver Key/Dice,
+           Tomb is best
+      -    Trading is second best Outer
+           Room due to possibility to trade
+           into Silver Key
+      -    Weirdly enough Shrine is the third
+           best Outer Room in this scenario
+           due to Berrypicker
+Part 5: Case Studies                                 Question 12
+                                                Diﬃculty: Medium
+   You are currently at Underground Gear using your Power
+   Hammer. What do you do before you leave the basement?
+   Possibly relevant
+   info:
+   Kitchen provides
+   Tomato soup and
+   Lab provides
+   steps.
+   Blackbridge has
+   been used to
+   activate Oﬃce
+Part 5: Case Studies
+
+
+
+   You are currently at Underground Gear using your Power
+   Hammer. What do you do before you leave the basement?
+  Pick up Mechanarium and leave the gear on
+  this setting.
+
+     -    You still need Underground Cart access
+          and Antechamber access remaining
+     -    Mechanarium solves both, as the 6th
+          door provides Silver Key for ﬁnding
+          Pool
+     -    In fact, in most games, picking up
+          Mechanarium is objectively good play
+     -    Leaving gear to this setting lets you
+          reach Inner Sanctum directly from
+          Cartside
+Part 5: Case Studies                 Question 13
+                                Diﬃculty: Medium
+   What room would you draft?
+   Possibly relevant
+   information:
+
+   Outer room is Tomb
+   with disk obtained
+
+   Only Bacon has been
+   eaten at Kitchen
+
+   Dining Room has been
+   eaten
+
+   Lab experiment sets
+   dice to 2 if room
+   costing 2 gems or more
+   is drafted
+
+   Commissary sells gem
+   (2 left)
+Part 5: Case Studies
+
+
+
+   What room would you draft?
+   Reroll
+
+      -     This run has Tomb and
+            lowered Foundation, it
+            has both sides to
+            Underground already
+      -     A way to get Secret
+            Garden Key (via
+            Locksmith/Music
+            Room), Great Hall, or
+            Workshop is what to
+            look for
+      -     Pool does not provide a
+            branch and Pump Room
+            does not have value, so
+            it should be skipped
+Part 5: Case Studies                     Question 14
+                                    Diﬃculty: Medium
+   What room would you draft?
+   Possibly relevant information:
+   Lab experiment sets step to
+   40 after opening a security
+   door
+   Open Door at Foundation is
+   Security Door
+   Dinner is available
+   Outer Room is Trading Post
+   Car Keys has not been used
+Part 5: Case Studies
+
+
+
+   What room would you draft here?
+   Oﬃce or Reroll
+      -    This room has to reach the back
+           controls for Underground Gearside
+           access
+      -    Oﬃce is good for its Upgrade Disk. With
+           the Foundation Upgrade Disk, this
+           presents 2 opportunities to get Secret
+           Garden Key (from Trading post) for lever
+      -    If reroll is used, then look for a 3-way
+           room. This helps to keep open the
+           possibility of Great Hall access while
+           lowering Foundation
+      -    In this game I rerolled once to ﬁnd
+           Conference Room
+Part 5: Case Studies                               Question 15
+                                                 Diﬃculty: Hard
+   There is trunk at Nook. Do you open it now?
+Part 5: Case Studies
+
+
+
+   There is trunk at Nook. Do you open it now?
+   Open now
+
+      -    While Billiard provided Silver
+           Key and not 2 keys, you do not
+           have good likelihood of ﬁnding
+           Hammer quickly enough (no
+           coin to buy Hammer at Comm)
+      -    Opening Trunk can give
+           possible outs (2 Keys, 3 Keys, 2
+           dice to prevent potential bad
+           bend at Corridor, Lockpick,
+           Keycard)
+      -    Nook is about far enough that
+           when you get Hammer later, it
+           is too expensive step-wise to
+           reach
+              -    Especially true with no early
+                   Nursery/Sleeping Mask
+   The Next Day: The Duck Song
+
+quack
+
+
+
+
+                                 you can ﬁnd ducks in the duckroom
+The Duck Song
+Credits
+A lot of the information here is understood from datamining posts made by:
+
+  -   u/TFMurphy on Reddit
+  -   u/Borelaum_Studios on Reddit
+
+Pictures are taken from the Blue Prince game, and also from the images available at the
+https://blueprince.wiki.gg/ site. This site also compiles and goes into detail the information I have
+discussed, so it makes for excellent follow-up reading.
+
+Blue Prince layout diagrams are made using tool by etotheipi on discord:
+https://etotheipi.github.io/blue_prince_research_tools/#layout . There are many sites for layouting
+blueprints but personally speaking this one is the simplest to use.
+
+Personal thank you to L_A_S_E_R and slabdrill on discord for helping on proofreading the guide.
+
+And of course thank you z4mdogg for providing me with the lovely Speedrunning insight section
+
