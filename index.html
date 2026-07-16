@@ -7360,6 +7360,41 @@
             </div>
           </div>
 
+          <div class="roomtools chessfilter">
+            <div class="field">
+              <label>Chess piece</label>
+              <div class="chesspick" id="rchess">
+                <button type="button" class="cf on" data-piece="">Any</button>
+                <button type="button" class="cf" data-piece="Pawn" style="--pc: #212121">
+                  <span class="pg">&#9823;</span>Pawn
+                </button>
+                <button type="button" class="cf" data-piece="Knight" style="--pc: #816e58">
+                  <span class="pg">&#9822;</span>Knight
+                </button>
+                <button type="button" class="cf" data-piece="Rook" style="--pc: #ffffff">
+                  <span class="pg">&#9820;</span>Rook
+                </button>
+                <button type="button" class="cf" data-piece="Bishop" style="--pc: #6fc4be">
+                  <span class="pg">&#9821;</span>Bishop
+                </button>
+                <button type="button" class="cf" data-piece="King" style="--pc: #ca1f25">
+                  <span class="pg">&#9818;</span>King
+                </button>
+                <button type="button" class="cf" data-piece="Queen" style="--pc: #2280c4">
+                  <span class="pg">&#9819;</span>Queen
+                </button>
+                <button type="button" class="cf" data-piece="__any">Any badge</button>
+                <button type="button" class="cf" data-piece="__none">Unbadged</button>
+              </div>
+            </div>
+          </div>
+          <p class="src">
+            Pick more than one piece to see rooms carrying
+            <strong>any</strong> of them. <em>Any badge</em> and
+            <em>Unbadged</em> are exclusive, and <em>Unbadged</em> is the quick
+            way to see which of the 110 still need assigning.
+          </p>
+
           <div class="room-grid" id="roomgrid"></div>
           <button class="morebtn" id="moreBtn">Show more</button>
           <p class="src mt-12">

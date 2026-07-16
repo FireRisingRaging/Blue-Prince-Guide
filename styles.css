@@ -578,6 +578,74 @@ body.compact .spoiler {
   padding: 8px 12px;
 }
 
+/* ---- chess piece filter ---- */
+.chessfilter {
+  margin-top: -6px;
+}
+.chesspick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.cf {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: var(--radius);
+  color: var(--chalk-dim);
+  background: transparent;
+  border: 1px solid var(--line);
+  transition:
+    color 0.12s,
+    border-color 0.12s,
+    background 0.12s;
+}
+.cf .pg {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0;
+  color: var(--pc, currentColor);
+}
+.cf:hover {
+  color: var(--chalk);
+  border-color: var(--pc, var(--cyan));
+}
+/* selected: the piece's own colour drives the chip */
+.cf.on {
+  color: var(--pc, var(--ink));
+  border-color: var(--pc, var(--cyan));
+  background: color-mix(in srgb, var(--pc, var(--cyan)) 18%, transparent);
+}
+.cf.on .pg {
+  color: var(--pc, var(--cyan));
+}
+/* Any / Any badge / Unbadged carry no --pc, so they take the cyan accent */
+.cf.on:not([style]) {
+  color: var(--cyan);
+  border-color: var(--cyan);
+  background: rgba(95, 211, 243, 0.14);
+}
+/* Pawn is near-black; give it a readable selected state */
+.cf[style*="#212121"].on {
+  color: #cfdae7;
+  background: #212121;
+  border-color: #5a6472;
+}
+.cf[style*="#212121"].on .pg {
+  color: #cfdae7;
+}
+@supports not (background: color-mix(in srgb, red 50%, transparent)) {
+  .cf.on {
+    background: rgba(95, 211, 243, 0.14);
+  }
+}
+
 /* ---- chess badges ----
    Colour comes in per-badge as --pc from script.js, so the six
    piece colours live in one place (CHESS_PIECES) and not here. */

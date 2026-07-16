@@ -553,6 +553,12 @@
       "Aquarium",
     ];
     var WEIGHTED = ["Conservatory", "Garage", "Morning Room", "Utility Closet"];
+
+    /* chess filter state: a set of selected piece names, or the two
+       special tokens __any / __none, which are mutually exclusive with
+       everything else. Empty set = no chess filtering. */
+    var chessPick = Object.create(null);
+    var chessBox = document.getElementById("rchess");
     /* resolve a CHESS entry to canonical piece names, tolerating case
        and stray whitespace so the editable list above stays forgiving */
     var PIECE_KEY = {};
@@ -636,7 +642,17 @@
         hay(r).indexOf("unintent") < 0
       )
         return false;
+      if (!chessOK(r)) return false;
       return true;
+    }
+    function chessOK(r) {
+      var sel = Object.keys(chessPick);
+      if (!sel.length) return true;
+      var p = pieces(r);
+      if (chessPick.__none) return p.length === 0;
+      if (chessPick.__any) return p.length > 0;
+      for (var i = 0; i < p.length; i++) if (chessPick[p[i]]) return true;
+      return false;
     }
     function card(r) {
       var h = '<div class="room-card">';
@@ -745,6 +761,36 @@
         render();
       });
     });
+
+    /* ---- chess piece filter ---- */
+    if (chessBox) {
+      chessBox.addEventListener("click", function (ev) {
+        var b = ev.target.closest ? ev.target.closest(".cf") : null;
+        if (!b || !chessBox.contains(b)) return;
+        var v = b.dataset.piece;
+
+        if (v === "") {
+          chessPick = Object.create(null); // "Any" clears everything
+        } else if (v === "__any" || v === "__none") {
+          var was = chessPick[v];
+          chessPick = Object.create(null);
+          if (!was) chessPick[v] = 1; // exclusive, and clicking again clears
+        } else {
+          delete chessPick.__any;
+          delete chessPick.__none;
+          if (chessPick[v]) delete chessPick[v];
+          else chessPick[v] = 1;
+        }
+
+        var none = !Object.keys(chessPick).length;
+        chessBox.querySelectorAll(".cf").forEach(function (x) {
+          var p = x.dataset.piece;
+          x.classList.toggle("on", p === "" ? none : !!chessPick[p]);
+        });
+        shownCount = PAGE;
+        render();
+      });
+    }
     render();
   })();
 
