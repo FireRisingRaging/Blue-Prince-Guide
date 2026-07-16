@@ -551,6 +551,9 @@ td.num {
 .t-purple {
   background: var(--r-purple);
 }
+.t-dancer {
+  background: #c581b7;
+}
 .t-black {
   background: var(--r-black);
   border: 1px solid var(--line);
@@ -558,6 +561,27 @@ td.num {
 .t-yellow {
   background: var(--r-yellow);
   color: #1b1b1b;
+}
+.t-hroll {
+  background: #d8a225;
+}
+.t-gardener {
+  background: #448a42;
+}
+.t-chef {
+  background: #425f9e;
+}
+.t-general {
+  background: #b31f23;
+}
+.t-tinker {
+  background: #2e9189;
+}
+.t-monk {
+  background: #406f7d;
+}
+.t-berryp {
+  background: #af4064;
 }
 .t-com {
   background: #4c8fd6;
