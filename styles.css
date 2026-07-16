@@ -552,10 +552,10 @@ td.num {
 .spoiler {
   margin-top: 18px;
   padding: 14px 16px;
-  border: 1px solid var(--amber);
+  border: 1px solid var(--r-red);
   border-left-width: 4px;
   border-radius: var(--radius);
-  background: rgba(240, 180, 75, 0.07);
+  background: rgba(240, 75, 75, 0.07);
 }
 .spoiler p {
   margin: 0 0 8px;
@@ -569,7 +569,7 @@ td.num {
   font-size: 11px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--amber);
+  color: var(--r-red);
 }
 body.compact .spoiler p:not(.spoiler-hd) {
   display: none;
