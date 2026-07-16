@@ -5,6 +5,9 @@ Provenance is tracked per field so the page can show what is verified.
   W = blueprince.wiki.gg (Special Floorplans / Red Rooms / Bedrooms tables)
   T = TFMurphy datamining posts
   ? = not yet sourced, left blank on purpose
+
+Chess badges are hand-maintained here in CHESS and emitted per room as
+"chess". Edit that dict and re-run to rebuild assets/rooms-data.js.
 """
 import json, io
 
@@ -74,6 +77,62 @@ W = {
  "Her Ladyship's Chamber":("HerLadyshipsChamber",["Bedroom"],0,"Rare"),
  "Dormitory":("Dormitory",["Bedroom"],0,"Standard"),
  "Hovel":("Hovel",["Bedroom"],0,"Unusual"),
+}
+
+# ------------------------------------------------------ wiki: free floorplans
+# Every room absent from the Special Floorplans table costs 0 gems -- that page
+# states it lists all gem-costing floorplans except Upgrades, so absence is the
+# source, not an assumption.
+#   colours : Category:Blueprints / Hallways / Green Rooms / Shops (+ directory pages)
+#   rarity  : Category:{Commonplace,Standard,Unusual,Rare} rarity rooms
+# name: (colors, baseRarity). None rarity = preplaced, never drafted, no rarity shown.
+W0 = {
+ # Blueprints
+ "The Foundation":(["Blueprint"],"Rare"),
+ "Entrance Hall":(["Blueprint"],None),
+ "Spare Room":(["Blueprint"],"Commonplace"),
+ "Parlor":(["Blueprint"],"Commonplace"),
+ "Billiard Room":(["Blueprint"],"Commonplace"),
+ "Gallery":(["Blueprint"],"Rare"),
+ "Room 8":(["Blueprint"],"Rare"),
+ "Closet":(["Blueprint"],"Commonplace"),
+ "Storeroom":(["Blueprint"],"Commonplace"),
+ "Nook":(["Blueprint"],"Commonplace"),
+ "Den":(["Blueprint"],"Commonplace"),
+ "Wine Cellar":(["Blueprint"],"Unusual"),
+ "Pantry":(["Blueprint"],"Commonplace"),
+ "Study":(["Blueprint"],"Unusual"),
+ "Library":(["Blueprint"],"Unusual"),
+ "Chamber of Mirrors":(["Blueprint"],"Rare"),
+ "Utility Closet":(["Blueprint"],"Standard"),
+ "Pump Room":(["Blueprint"],"Unusual"),
+ "Workshop":(["Blueprint"],"Unusual"),
+ "Sauna":(["Blueprint"],"Unusual"),
+ "Coat Check":(["Blueprint"],"Standard"),
+ "Mail Room":(["Blueprint"],"Unusual"),
+ "Freezer":(["Blueprint"],"Rare"),
+ "Dining Room":(["Blueprint"],"Standard"),
+ "Conference Room":(["Blueprint"],"Unusual"),
+ "Antechamber":(["Blueprint"],None),
+ "Room 46":(["Blueprint"],None),
+ "Dovecote":(["Blueprint"],"Unusual"),
+ "The Kennel":(["Blueprint"],"Standard"),
+ "Planetarium":(["Blueprint"],"Standard"),
+ "Mechanarium":(["Blueprint"],"Unusual"),
+ # Hallways
+ "Hallway":(["Hallway"],"Commonplace"),
+ "West Wing Hall":(["Hallway"],"Standard"),
+ "East Wing Hall":(["Hallway"],"Unusual"),
+ "Corridor":(["Hallway"],"Commonplace"),
+ "Great Hall":(["Hallway"],"Unusual"),
+ "Tunnel":(["Hallway"],"Standard"),
+ # Green Rooms
+ "Terrace":(["Green Room"],"Standard"),
+ "Morning Room":(["Green Room"],"Rare"),
+ "Secret Garden":(["Green Room"],"Rare"),
+ # Shops
+ "Armory":(["Shop"],"Standard"),            # wiki page: The Armory
+ "Mount Holly Gift Shop":(["Shop"],"Rare"), # wiki page: Gift Shop
 }
 
 # ------------------------------------------------- TFMurphy: default dynamic rarity
@@ -343,6 +402,135 @@ PATCH = {
  "Office":"1.6","Casino":"1.6","Classroom":"1.6","Garage":"1.6",
 }
 
+# --------------------------------------------------------------- chess badges
+# EDIT THIS LIST. One entry per room, all 110, alphabetical.
+# Set a value and a badge shows on that room's card in the Room reference.
+#
+#     Pawn    #212121        Bishop  #6fc4be
+#     Knight  #816e58        King    #ca1f25
+#     Rook    #ffffff        Queen   #2280c4
+#
+# Accepted values:
+#     None                 no badge (default)
+#     "Rook"               one badge
+#     ["Rook", "Pawn"]     several badges, drawn in order
+#
+# Names are case-insensitive. An unknown name is skipped at render time and
+# logged to the browser console, so a typo cannot break the grid.
+# The six colours live in CHESS_PIECES in script.js, not here.
+CHESS = {
+ "Antechamber":            None,
+ "Aquarium":               None,
+ "Archives":               None,
+ "Armory":                 None,
+ "Attic":                  None,
+ "Ballroom":               None,
+ "Bedroom":                None,
+ "Billiard Room":          None,
+ "Boiler Room":            None,
+ "Bookshop":               None,
+ "Boudoir":                None,
+ "Bunk Room":              None,
+ "Casino":                 None,
+ "Chamber of Mirrors":     None,
+ "Chapel":                 None,
+ "Classroom":              None,
+ "Clock Tower":            None,
+ "Cloister":               None,
+ "Closed Exhibit":         None,
+ "Closet":                 None,
+ "Coat Check":             None,
+ "Commissary":             None,
+ "Conference Room":        None,
+ "Conservatory":           None,
+ "Corridor":               None,
+ "Courtyard":              None,
+ "Darkroom":               None,
+ "Den":                    None,
+ "Dining Room":            None,
+ "Dormitory":              None,
+ "Dovecote":               None,
+ "Drafting Studio":        None,
+ "Drawing Room":           None,
+ "East Wing Hall":         None,
+ "Entrance Hall":          None,
+ "Foyer":                  None,
+ "Freezer":                None,
+ "Furnace":                None,
+ "Gallery":                None,
+ "Garage":                 None,
+ "Great Hall":             None,
+ "Greenhouse":             None,
+ "Guest Bedroom":          None,
+ "Gymnasium":              None,
+ "Hallway":                None,
+ "Her Ladyship's Chamber": None,
+ "Hovel":                  None,
+ "Kitchen":                None,
+ "Laboratory":             None,
+ "Laundry Room":           None,
+ "Lavatory":               None,
+ "Library":                None,
+ "Locker Room":            None,
+ "Locksmith":              None,
+ "Lost & Found":           None,
+ "Maid's Chamber":         None,
+ "Mail Room":              None,
+ "Master Bedroom":         None,
+ "Mechanarium":            None,
+ "Morning Room":           None,
+ "Mount Holly Gift Shop":  None,
+ "Music Room":             None,
+ "Nook":                   None,
+ "Nursery":                None,
+ "Observatory":            None,
+ "Office":                 None,
+ "Pantry":                 None,
+ "Parlor":                 None,
+ "Passageway":             None,
+ "Patio":                  None,
+ "Planetarium":            None,
+ "Pump Room":              None,
+ "Room 46":                None,
+ "Room 8":                 None,
+ "Root Cellar":            None,
+ "Rotunda":                None,
+ "Rumpus Room":            None,
+ "Sauna":                  None,
+ "Schoolhouse":            None,
+ "Secret Garden":          None,
+ "Secret Passage":         None,
+ "Security":               None,
+ "Servant's Quarters":     None,
+ "Shelter":                None,
+ "Showroom":               None,
+ "Shrine":                 None,
+ "Solarium":               None,
+ "Spare Room":             None,
+ "Storeroom":              None,
+ "Study":                  None,
+ "Terrace":                None,
+ "The Foundation":         None,
+ "The Kennel":             None,
+ "The Pool":               None,
+ "Throne Room":            None,
+ "Tomb":                   None,
+ "Toolshed":               None,
+ "Trading Post":           None,
+ "Treasure Trove":         None,
+ "Trophy Room":            None,
+ "Tunnel":                 None,
+ "Utility Closet":         None,
+ "Vault":                  None,
+ "Veranda":                None,
+ "Vestibule":              None,
+ "Walk-In Closet":         None,
+ "Weight Room":            None,
+ "West Wing Hall":         None,
+ "Wine Cellar":            None,
+ "Workshop":               None,
+}
+
 OUTER = ["Toolshed","Shelter","Schoolhouse","Shrine","Root Cellar","Hovel","Trading Post","Tomb"]
 OUTER_IMG = {"Toolshed":"Toolshed","Shelter":"Shelter","Schoolhouse":"Schoolhouse","Shrine":"Shrine",
  "Root Cellar":"RootCellar","Hovel":"Hovel","Trading Post":"TradingPost","Tomb":"Tomb"}
@@ -350,14 +538,14 @@ OUTER_COLOR = {"Toolshed":["Blueprint"],"Shelter":["Blueprint"],"Schoolhouse":["
  "Shrine":["Blueprint"],"Root Cellar":["Green Room"],"Hovel":["Bedroom"],
  "Trading Post":["Shop"],"Tomb":["Blackprint"]}
 OUTER_NOTES = {
- "Tomb":["99% chance of being pushed to slot 8 of the Outer Room list. Reduced Chances drop that to 45%, and V Mode activation or Room 46 drop it to 10%.",
-   "Reduced Chances need the Foundation Elevator crank plus 3+ Outer Room drafts, or Day 8+, or Room 46.",
+ "Tomb":["45% chance of being pushed to slot 8 of the Outer Room list. V Mode activation or Room 46 drops it to 10%.",
+   "V Mode activation on Day 1 and Room 46 both drop it to 10%. Room 46 makes that permanent.",
    "Black Color Filter or Draxus Filter moves it to slot 1, applied last, so it overrides everything else."],
- "Schoolhouse":["95% chance of being pushed to slot 7. Reduced Chances 45%. V Mode activation or Room 46: 10%.",
-   "Reduced Chances start from your 4th Outer Room draft, or Day 8+, or Room 46.",
+ "Schoolhouse":["45% chance of being pushed to slot 7. V Mode activation or Room 46: 10%.",
+   "V Mode activation on Day 1 and Room 46 both drop it to 10%. Room 46 makes that permanent.",
    "Activates the Classrooms filter at 35% for Classroom, Dormitory and Library."],
- "Shrine":["60% chance of being pushed to slot 6. Reduced Chances 30%. V Mode activation or Room 46: 10%.",
-   "Reduced Chances start from your 4th Outer Room draft, or Day 8+, or Room 46."],
+ "Shrine":["30% chance of being pushed to slot 6. V Mode activation or Room 46: 10%.",
+   "V Mode activation on Day 1 and Room 46 both drop it to 10%. Room 46 makes that permanent."],
  "Root Cellar":["Forced to slot 1 by the Green Color Filter, which a Greenhouse also activates."],
  "Hovel":["Forced to slot 1 by the Violet Color Filter."],
  "Trading Post":["Forced to slot 1 by the Yellow Color Filter."],
@@ -382,11 +570,18 @@ IMG_OVERRIDE = {"Lost & Found":"Lost&Found","Walk-In Closet":"WalkinCloset"}
 rooms = []
 for n in sorted(names):
     w = W.get(n)
+    w0 = W0.get(n)
     img = IMG_OVERRIDE.get(n) or (w[0] if w else OUTER_IMG.get(n) or slug(n))
-    colors = w[1] if w else OUTER_COLOR.get(n, [])
-    gems = w[2] if w else (0 if n in OUTER else None)
-    base = w[3] if w else None
     is_outer = n in OUTER
+    if w:
+        colors, gems, base = w[1], w[2], w[3]
+    elif w0:
+        colors, gems, base = w0[0], 0, w0[1]
+    else:
+        colors = OUTER_COLOR.get(n, [])
+        gems = 0 if is_outer else None
+        # every Outer Room sits in Category:Unusual rarity rooms on the wiki
+        base = "Unusual" if is_outer else None
 
     # placement
     place = []
@@ -422,13 +617,14 @@ for n in sorted(names):
 
     rooms.append({
         "n": n, "img": img, "colors": colors, "gems": gems,
+        "chess": CHESS.get(n),
         "base": base, "dyn": dyn, "week1": wk, "vmode": vm,
         "outer": is_outer, "place": place,
         "notes": (NOTES.get(n, []) + OUTER_NOTES.get(n, [])),
         "patch": PATCH.get(n),
-        "src": {"gems": "W" if w else ("T" if is_outer else "?"),
-                "base": "W" if w else "?",
-                "color": "W" if w else ("W" if is_outer else "?"),
+        "src": {"gems": "W" if (w or w0 or is_outer) else "?",
+                "base": "W" if (w or w0 or is_outer) else "?",
+                "color": "W" if (w or w0 or is_outer) else "?",
                 "place": "T" if (n in WING or n in NS) else "T"},
     })
 

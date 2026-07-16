@@ -63,11 +63,16 @@
           ><a href="#s-econ">Econ-<br />omy</a
           ><a href="#s-sec">Secu-<br />rity</a
           ><a href="#s-place">Place-<br />ment</a><a href="#s-bingo">Bingo</a>
+          <a href="#s-trading">Trading<br />post</a
+          ><a href="#s-shops">Basic<br />shops</a
+          ><a href="#s-itemrooms">Item<br />rooms</a
+          ><a href="#s-luck">Luck</a
+          ><a href="#s-items">Tools<br />&amp; disks</a>
           <a href="#s-rooms">Room<br />ref</a
           ><a href="#s-morajai">Mora<br />Jai</a
           ><a href="#s-sheet">Cheat<br />sheet</a
-          ><a href="#s-items">Tools<br />&amp; disks</a
-          ><a href="#s-shrine">Shrine</a> <a class="void">·</a
+          ><a href="#s-shrine">Shrine</a
+          ><a class="void">·</a> <a class="void">·</a
           ><a class="void">·</a
           ><a class="entry" href="#s-start">Start<br />here</a
           ><a class="void">·</a><a class="void">·</a>
@@ -88,6 +93,20 @@
             routes, and the answers. Search finds anything. Compact mode strips
             the prose and leaves the tables. Checkboxes remember themselves.
           </p>
+          <div class="spoiler">
+            <p class="spoiler-hd">Spoilers · all of them · no exceptions</p>
+            <p>
+              This page assumes you have finished the house and now want to take
+              the machine apart. Below this line it names every room and every
+              Outer Room, lists what the Commissary stocks, prints what is behind
+              the dartboard, and says plainly what is at the top of the stairs.
+              Nothing is held back and nothing is revealed progressively.
+            </p>
+            <p class="src">
+              If this is your first run, the estate is a great deal better cold.
+              Come back when you want the numbers rather than the surprise.
+            </p>
+          </div>
         </header>
 
         <section class="sec" id="s-start">
@@ -802,23 +821,23 @@
               <tr>
                 <td>Tomb</td>
                 <td class="num">34.73%</td>
-                <td class="num">68.46%</td>
+                <td class="num">68.15%</td>
               </tr>
               <tr>
                 <td>Trading Post</td>
                 <td class="num">39.16%</td>
-                <td class="num">77.18%</td>
+                <td class="num">76.85%</td>
               </tr>
               <tr>
                 <td>Either one</td>
                 <td class="num">63.59%</td>
-                <td class="num">95.82%</td>
+                <td class="num">95.70%</td>
               </tr>
             </tbody>
           </table>
           <div class="note">
             With <strong>2 dice you get either, 100%</strong>. With
-            <strong>1 die, 94.76%</strong> to see at least one, provided no
+            <strong>1 die, 95.70%</strong> to see at least one, provided no
             Archives or Greenhouse. If you see one while holding dice, just take
             it rather than rerolling to force the other.
           </div>
@@ -1297,16 +1316,20 @@
               </p>
               <ul>
                 <li>
-                  Power room → <strong>only connectors</strong> can appear.
-                  Connector → anything.
+                  Power room → <strong>only connectors</strong> can appear. A
+                  Powered Room has a <strong>0% chance</strong> of duct drafting
+                  into another Powered Room. Connector → anything.
                 </li>
                 <li>
-                  Slot 1 duct draw → only free duct rooms: Pump Room, Furnace,
-                  Archives, Darkroom, Weight Room.
+                  Slot 1 must be a free draw, so gem-cost rooms simply cannot
+                  land there. What survives: Pump Room, Furnace, Archives,
+                  Darkroom, Weight Room. <em>This is not a duct preference</em>,
+                  it is the slot rule doing the work.
                 </li>
                 <li>
-                  Selection is <strong>uniform</strong>. Rarity ignored
-                  entirely. Best Rare-duct engine in the game.
+                  Selection is <strong>uniform</strong> over whatever is legal.
+                  Rarity, colour and gem cost are all ignored. Best Rare-duct
+                  engine in the game.
                 </li>
                 <li>
                   Duct draws <strong>sum</strong> pool lists rather than taking
@@ -1331,11 +1354,13 @@
                 is decoration.
               </div>
               <div class="note">
-                <strong>Resolved.</strong> TFMurphy confirms the wiki version:
-                only <strong>Slot 1</strong> is barred from gem-cost duct rooms,
-                which leaves it Pump Room, Archives, Darkroom, Weight Room and
-                Furnace. Slots 2 and 3 pick uniformly from whatever survives.
-                The deck's "prefers gemless" was over-generalised.
+                <strong>Resolved: there is no gemless preference.</strong> Duct
+                draws do not prefer anything, by rarity, colour or cost. Slot 1
+                is barred from gem-cost rooms because
+                <em>Slot 1 is a free draw</em>, which leaves it Pump Room,
+                Archives, Darkroom, Weight Room and Furnace. Slots 2 and 3 pick
+                uniformly from whatever survives. The only real bias in the
+                system is Powered → Powered being impossible.
               </div>
             </div>
           </details>
@@ -1353,7 +1378,7 @@
                 Rarity still technically matters, but the pool gets so pinched
                 that rarity effects become negligible.
               </p>
-              <h4>Colours <span class="pb">1.7</span></h4>
+              <h4>colors <span class="pb">1.7</span></h4>
               <table>
                 <thead>
                   <tr>
@@ -1707,7 +1732,7 @@
               </ol>
               <p class="src">
                 The first attempt almost never finds a deck large enough, even
-                with a colour filter on, which flattens the odds across every
+                with a color filter on, which flattens the odds across every
                 rarity that has passing floorplans.
               </p>
 
@@ -1831,7 +1856,7 @@
                   <strong>3-ways at corners</strong>.
                 </li>
                 <li>
-                  Prism on an Aquarium → reselect colour by hovering in and out.
+                  Prism on an Aquarium → reselect color by hovering in and out.
                 </li>
               </ul>
             </div>
@@ -4796,7 +4821,7 @@
                 <select id="c4pin">
                   <option value="0">no</option>
                   <option value="1">
-                    yes, Draxus / Blackprint day / colour day
+                    yes, Draxus / Blackprint day / color day
                   </option>
                 </select>
               </div>
@@ -5470,6 +5495,1690 @@
           </div>
         </section>
 
+        <!-- ============ TRADING POST ============ -->
+        <section class="sec" id="s-trading">
+          <h2>Trading Post</h2>
+          <p class="sub">Six tiers, one offer per item per day</p>
+          <p>
+            Every tradable item in your inventory is handed a
+            <strong>Trade Offer</strong> the moment you interact with the
+            Trading Post. That offer is <strong>locked for the rest of the
+            day</strong>. It is only ever replaced if the thing being offered has
+            become invalid by the time you look at it again.
+          </p>
+          <p>
+            Each tradable item belongs to a <strong>Trade Tier</strong>. There
+            are six, numbered 0 to 5. You can initiate a Tier 1 to 5 trade, and
+            the Post answers with a Tier 0 to 5 offer. The swap is usually
+            level-for-level, and an item offered at a tier is usually accepted
+            back at that tier, but <em>neither of those is guaranteed</em> and
+            the exceptions are where the value is.
+          </p>
+
+          <h3>What counts as a valid offer</h3>
+          <p>
+            An offer is either a currency item (Keys, Gems, Dice, Allowance
+            Tokens) or an inventory item. Currency is always valid. An inventory
+            item is only valid if it is <strong>not already in your
+            inventory</strong> and is <strong>still in the Spawn Pool</strong>.
+          </p>
+          <div class="note">
+            A stale offer is not refreshed until you select that item again. So
+            an offer that has gone invalid can be made valid again behind the
+            Post's back: put the item back in the Spawn Pool, get it out of your
+            inventory, and the frozen offer still stands. Look at an invalid
+            offer, though, and it is rerolled from scratch.
+          </div>
+
+          <h3>The offer routine, in order</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Step</th>
+                <th>Chance</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Ivory Dice</strong></td>
+                <td class="num">10%</td>
+                <td>
+                  Dice equal to the tier of the item you are trading in. Tier 5
+                  in → 5 dice.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Allowance Token</strong></td>
+                <td class="num">50% of the rest</td>
+                <td>
+                  Tier 5 offers only. +2 Allowance. Fires only after the dice
+                  check fails.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Regular tier swap</strong></td>
+                <td class="num">remainder</td>
+                <td>
+                  Random valid item of the same tier. None valid → try the tier
+                  below → still none, or you were already Tier 1 → Tier 0 offer.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="src">
+            So a Tier 5 trade is exactly 10% dice · 45% Allowance Token · 45%
+            everything else.
+          </p>
+
+          <h3>The downgrade ladder</h3>
+          <p>
+            Trades get worse as you make them. This is per day and it counts
+            <em>accepted</em> trades, not offers viewed. Dice and Allowance
+            chances are untouched by it.
+          </p>
+          <div class="bars" id="tp-bars"></div>
+          <p class="src">
+            Chance a new offer is pulled from the tier <em>below</em> the item
+            you traded in.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Trades accepted today</th>
+                <th>Chance of a tier drop</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td class="num">0%</td>
+              </tr>
+              <tr>
+                <td>1 to 4</td>
+                <td class="num">30%</td>
+              </tr>
+              <tr>
+                <td><strong>5+</strong></td>
+                <td class="num">50%</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            When a drop fires and no valid item exists at the lower tier, it
+            tries the same tier again, provided you traded in Tier 2 or higher.
+            Failing that, or if you were already Tier 1, you get a
+            <strong>Tier 0 offer: 1 Key or 2 Gems, 50/50</strong>.
+          </p>
+          <div class="note">
+            <strong>The lesson.</strong> Make your Tier 5 and Tier 4 trades
+            <em>first</em>. Everything after your fifth accepted trade of the day
+            is a coin flip to be worth a tier less than it should be. Tier 1
+            trades are the exception: they are the cleanest way to farm Keys and
+            Gems, and they are already at the bottom, so the ladder cannot hurt
+            them.
+          </div>
+
+          <h3>Loop avoidance</h3>
+          <p>
+            Before making an offer the game checks whether it would create a
+            two-state loop, where A offers B and B already offers A. If it would:
+          </p>
+          <div class="bars" id="tp-loop"></div>
+          <p>
+            The rerolls do not exclude the offer that triggered the check, so a
+            reroll can land on the same item again. If a reroll finds nothing
+            valid at its chosen tier, the offer is
+            <strong>scrapped entirely</strong>: that item shows no offer and
+            vanishes from the menu until something forces new offers, which means
+            closing and reopening the menu or accepting a trade. Tier 0 offers
+            are not made when rerolling for loop avoidance.
+          </p>
+
+          <h3>The Trading Post Upgrade Disk</h3>
+          <p>
+            The <strong>only</strong> Tier 5 offer item in the game is the
+            Trading Post Upgrade Disk. If it is unavailable, an inventory-item
+            offer at Tier 5 automatically drops to Tier 4. Upgrade Disks are
+            <em>offered</em> at Tier 5 but only <em>accepted</em> at Tier 4.
+          </p>
+          <p>
+            The Post removes the Disk from the Tier 5 list if any of four things
+            are true: it is in your inventory, it is in the Coat Check, it has
+            been used at a terminal, or it has already been available to trade
+            for today.
+          </p>
+          <div class="bug">
+            <p>
+              <strong>Two bugs, and they interact.</strong> The first set of
+              offers each day is generated <em>before</em> the Disk is stripped
+              from the list. And the "available today" flag is set on your first
+              interaction whether or not you owned a single Tier 5 item.
+            </p>
+            <p>The result is a hard window that depends on your save history:</p>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Have you ever used the Trading Post Disk?</th>
+                <th>Disk can appear in new offers on…</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>No</strong></td>
+                <td>
+                  the <strong>1st and 2nd</strong> time you open the menu today
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Yes, on a previous day</strong></td>
+                <td>the <strong>1st</strong> time only</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="note">
+            Bring <strong>all three Showroom items</strong> (Emerald Bracelet,
+            Master Key, Ornate Compass) at once and open the menu on turn one.
+            Each is an independent Tier 5 trade at 45% for a normal offer, so
+            that is roughly an <strong>83% chance</strong> at least one lands the
+            Disk or a Tier 4 item. Trading for the Disk scraps and rerolls any
+            other Disk offer you are holding.
+          </div>
+          <p class="src">
+            Duplicate Disks do not mean duplicate upgrades. Nothing in the code
+            checks whether you have used a given upgrade before when deciding
+            what a Disk grants, so all 16 upgrades from the Trading Post alone is
+            plausible. TFMurphy confirmed two Disks deep without hitting a
+            repeat.
+          </p>
+
+          <h3>Accepting a trade</h3>
+          <p>
+            The item you gave up goes <strong>back into the Spawn Pool</strong>.
+            It can turn up again the same day somewhere else on the estate, and
+            you can trade back for it at the Post.
+          </p>
+          <div class="bug">
+            <p>
+              <strong>The Stopwatch.</strong> It is Tier 4 and tradable, but it
+              disappears from your inventory when its timer expires. If it
+              expires while the menu is open, the offer stays clickable and
+              misbehaves.
+            </p>
+            <p>
+              Traded for <strong>currency</strong>: you get the currency, and the
+              expired Stopwatch is added back to the Spawn Pool, which it should
+              never be able to do.
+            </p>
+            <p>
+              Traded for an <strong>inventory item</strong>: you receive a fake
+              copy. The icon opens and shows details, but you get none of the
+              item's effects, because the item is not really there. The real copy
+              stays available to spawn and the Stopwatch is not returned to the
+              pool.
+            </p>
+          </div>
+
+          <h3>Tier lists</h3>
+          <p class="sub">
+            Left column: what the Post can offer <em>you</em>. Right column: what
+            it accepts <em>from</em> you at that tier.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Tier</th>
+                <th>Offered to you</th>
+                <th>Also accepted from you</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>0</strong></td>
+                <td>1 Key <em>or</em> 2 Gems, 50/50</td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <td><strong>1</strong></td>
+                <td>
+                  Battery Pack · Magnifying Glass · Salt Shaker · Sleeping Mask
+                </td>
+                <td>Broken Lever</td>
+              </tr>
+              <tr>
+                <td><strong>2</strong></td>
+                <td>
+                  Car Keys · Coin Purse · Compass · Coupon Book · Shovel · Sledge
+                  Hammer
+                </td>
+                <td>
+                  Microchips · Treasure Maps · Wind-up Keys.
+                  <span class="src"
+                    >Each Microchip is a separate item for offer purposes.</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td><strong>3</strong></td>
+                <td>
+                  Keycard · Lock Pick Kit · Lucky Rabbit's Foot · Metal Detector ·
+                  Running Shoes · Silver Key · Vault Key
+                </td>
+                <td>
+                  The Axe · Knights Shield · Morning Star · Torch (Armory) · Moon
+                  Pendant · Silver Spoon (Showroom)
+                </td>
+              </tr>
+              <tr>
+                <td><strong>4</strong></td>
+                <td>
+                  Gear Wrench · Hall Pass · Prism Key · Secret Garden Key ·
+                  Telescope
+                </td>
+                <td>
+                  Any Workshop Contraption · Basement Key · Diary Key · Key 8 ·
+                  Chronograph · Lunch Box · Repellent · Stopwatch · Watering Can ·
+                  Upgrade Disks
+                </td>
+              </tr>
+              <tr>
+                <td><strong>5</strong></td>
+                <td>
+                  <strong>Trading Post Upgrade Disk only.</strong> Unavailable →
+                  drops to Tier 4.
+                </td>
+                <td>
+                  Emerald Bracelet · Master Key · Ornate Compass (Showroom) · any
+                  Sanctum Key · Cursed Effigy
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="note">
+            <strong>Grouping rules that change your odds.</strong> Each Vault Key
+            is its own entry, unweighted, so more Vault Keys in the pool means a
+            Vault Key is likelier to be offered. All Upgrade Disks count as
+            <em>one</em> item. All Sanctum Keys count as <em>one</em> item.
+          </div>
+
+          <h3>Trading a crafted Contraption</h3>
+          <p>
+            Crafting consumes the parts, and the game hard-codes, per item, which
+            component is held <em>out</em> of the Spawn Pool while you carry the
+            result. Trade the Contraption away and the Contraption returns to the
+            pool, which does nothing, since nothing ever needed to spawn it. The
+            components are not reconsidered.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Contraption</th>
+                <th>Component kept out of the Spawn Pool</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Burning Glass</td>
+                <td>Metal Detector</td>
+              </tr>
+              <tr>
+                <td>Detector Shovel</td>
+                <td>Shovel, Metal Detector</td>
+              </tr>
+              <tr>
+                <td>Dowsing Rod</td>
+                <td>Compass</td>
+              </tr>
+              <tr>
+                <td>Jack Hammer</td>
+                <td>Shovel</td>
+              </tr>
+              <tr>
+                <td>Lucky Purse</td>
+                <td>Coin Purse, Lucky Rabbit's Foot</td>
+              </tr>
+              <tr>
+                <td>Pick Sound Amplifier</td>
+                <td>Lock Pick Kit</td>
+              </tr>
+              <tr>
+                <td>Power Hammer</td>
+                <td>Sledge Hammer</td>
+              </tr>
+              <tr>
+                <td>Powered Electromagnet</td>
+                <td>Compass</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="src">
+            Broken Lever and Battery Pack are always recoverable. The sticking
+            points are the Metal Detector, Shovel and Compass.
+          </p>
+          <div class="depth">
+            <p>
+              <strong>The Dowsing Rod trade, step by step.</strong> Crafting it
+              eats the Shovel and Compass. The Shovel goes straight back into the
+              pool; the Compass does not, because for this recipe the Compass is
+              the designated main component. The Compass also joins the
+              "Combined" list, a holding pen for important parts, which is the
+              source of the Compass rotation bug: whoever wrote random rotations
+              assumed Combined tracks your inventory, and it does not.
+            </p>
+            <p>
+              Coat Check the Rod or carry it over by Moon Pendant and the Compass
+              is pulled from the pool again at the start of the next day. Trade
+              the Rod, though, and nothing is done about its components: the
+              Compass stays out until tomorrow, and the Shovel may well already
+              have turned back up.
+            </p>
+          </div>
+        </section>
+        <!-- ============ BASIC SHOPS ============ -->
+        <section class="sec" id="s-shops">
+          <h2>Basic shops</h2>
+          <p class="sub">Commissary · Locksmith · Kitchen</p>
+          <div class="note">
+            <strong>1.6 fixed two things.</strong> Prices for Bananas, Salt
+            Shakers and Running Shoes now display correctly, and Special Orders
+            for Compass, Magnifying Glass and Metal Detector now actually check
+            the Spawn Pool before trying to fill the order.
+          </div>
+
+          <h3>Commissary · regular stock</h3>
+          <p>
+            On draft, the Commissary picks one <strong>Item Set</strong> of four
+            items. A set is <strong>invalid if even one</strong> of its inventory
+            items has left the Spawn Pool. It picks one of the seven at random;
+            if that one is invalid it walks <strong>down</strong> the list,
+            wrapping from G back to A, until it finds a valid set or exhausts all
+            seven.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Set</th>
+                <th>Item 1</th>
+                <th>Item 2</th>
+                <th>Item 3</th>
+                <th>Item 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>A</strong></td>
+                <td>1x Gem</td>
+                <td>Magnifying Glass</td>
+                <td>Shovel</td>
+                <td>4x Gem</td>
+              </tr>
+              <tr>
+                <td><strong>B</strong></td>
+                <td>1x Gem</td>
+                <td>Salt Shaker</td>
+                <td>Shovel</td>
+                <td>1x Key</td>
+              </tr>
+              <tr>
+                <td><strong>C</strong></td>
+                <td>Salt Shaker</td>
+                <td>Compass</td>
+                <td>Shovel</td>
+                <td>Sledge Hammer</td>
+              </tr>
+              <tr>
+                <td><strong>D</strong></td>
+                <td>Magnifying Glass</td>
+                <td>Sledge Hammer</td>
+                <td>Sleeping Mask</td>
+                <td>Running Shoes</td>
+              </tr>
+              <tr>
+                <td><strong>E</strong></td>
+                <td>1x Gem</td>
+                <td>Salt Shaker</td>
+                <td>Sledge Hammer</td>
+                <td>Metal Detector</td>
+              </tr>
+              <tr>
+                <td><strong>F</strong></td>
+                <td>1x Gem</td>
+                <td>Sledge Hammer</td>
+                <td>4x Gem</td>
+                <td>Running Shoes</td>
+              </tr>
+              <tr>
+                <td><strong>G</strong></td>
+                <td>Salt Shaker</td>
+                <td>Shovel</td>
+                <td>Sleeping Mask</td>
+                <td>Metal Detector</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="note">
+            Because the search runs top-to-bottom, invalid sets make the sets
+            <em>below</em> them likelier. Kill F and G and Set A becomes
+            <strong>three times</strong> as likely, since rolling F or G now
+            lands on A.
+          </div>
+
+          <h3>Emptying the Commissary on purpose</h3>
+          <p>
+            Invalidating all seven sets is the only way to reach the Emergency
+            Stock, and that is the only route to the Commissary Upgrade Disk.
+            These are the minimal combinations that do it:
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Take these out of the pool</th>
+                <th>Count</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Shovel + Sledge Hammer</strong></td>
+                <td class="num">2</td>
+              </tr>
+              <tr>
+                <td>Shovel + Running Shoes + Salt Shaker</td>
+                <td class="num">3</td>
+              </tr>
+              <tr>
+                <td>Shovel + Running Shoes + Metal Detector</td>
+                <td class="num">3</td>
+              </tr>
+              <tr>
+                <td>Magnifying Glass + Salt Shaker + Sledge Hammer</td>
+                <td class="num">3</td>
+              </tr>
+              <tr>
+                <td>Magnifying Glass + Salt Shaker + Running Shoes</td>
+                <td class="num">3</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="src">
+            Shovel and Sledge Hammer is the whole trick. Two items, and the shop
+            falls over.
+          </p>
+
+          <h3>Emergency stock</h3>
+          <p>
+            All seven invalid → fallback sets, and the
+            <strong>Commissary Upgrade Disk</strong> becomes available, provided
+            it has not been used and is not in your inventory or the Coat Check.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Disk available?</th>
+                <th>Shovel in pool?</th>
+                <th>Item 1</th>
+                <th>Item 2</th>
+                <th>Item 3</th>
+                <th>Item 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2"><strong>Yes</strong></td>
+                <td>yes</td>
+                <td>1x Gem</td>
+                <td>Shovel</td>
+                <td>1x Key</td>
+                <td>Upgrade Disk</td>
+              </tr>
+              <tr>
+                <td>no</td>
+                <td>1x Gem</td>
+                <td>4x Gem</td>
+                <td>1x Key</td>
+                <td>Upgrade Disk</td>
+              </tr>
+              <tr>
+                <td rowspan="2">No</td>
+                <td>yes</td>
+                <td>1x Gem</td>
+                <td>Shovel</td>
+                <td>1x Key</td>
+                <td>4x Gem</td>
+              </tr>
+              <tr>
+                <td>no</td>
+                <td>Banana</td>
+                <td>1x Gem</td>
+                <td>1x Key</td>
+                <td>4x Gem</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="bug">
+            Both lists were meant to have a third set offering the Sledge Hammer
+            when the Shovel is gone but the Hammer is not. The Sledge Hammer
+            check in the Emergency routine is bugged, so those sets never fire
+            and only the four above exist.
+          </div>
+
+          <h3>Commissary · prices and stock</h3>
+          <div class="cols2">
+            <div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Sale</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Compass</td>
+                    <td class="num">6</td>
+                    <td class="num">3</td>
+                  </tr>
+                  <tr>
+                    <td>Magnifying Glass</td>
+                    <td class="num">4</td>
+                    <td class="num">2</td>
+                  </tr>
+                  <tr>
+                    <td>Metal Detector</td>
+                    <td class="num">10</td>
+                    <td class="num">5</td>
+                  </tr>
+                  <tr>
+                    <td>Running Shoes</td>
+                    <td class="num">8</td>
+                    <td class="num">4</td>
+                  </tr>
+                  <tr>
+                    <td>Salt Shaker</td>
+                    <td class="num">5</td>
+                    <td class="num">3</td>
+                  </tr>
+                  <tr>
+                    <td>Shovel</td>
+                    <td class="num">6</td>
+                    <td class="num">3</td>
+                  </tr>
+                  <tr>
+                    <td>Sledge Hammer</td>
+                    <td class="num">8</td>
+                    <td class="num">4</td>
+                  </tr>
+                  <tr>
+                    <td>Sleeping Mask</td>
+                    <td class="num">8</td>
+                    <td class="num">4</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Upgrade Disk</strong></td>
+                    <td class="num">15</td>
+                    <td class="num">8</td>
+                  </tr>
+                  <tr>
+                    <td>Banana</td>
+                    <td class="num">3</td>
+                    <td class="num">2</td>
+                  </tr>
+                  <tr>
+                    <td>1x Gem</td>
+                    <td class="num">3</td>
+                    <td class="num">2</td>
+                  </tr>
+                  <tr>
+                    <td>1x Key</td>
+                    <td class="num">10</td>
+                    <td class="num">5</td>
+                  </tr>
+                  <tr>
+                    <td>4x Gem</td>
+                    <td class="num">10</td>
+                    <td class="num">5</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div>
+              <h4>Minor item stock per day</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Stock</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Banana</td>
+                    <td class="num">4</td>
+                  </tr>
+                  <tr>
+                    <td>1x Gem</td>
+                    <td class="num">5</td>
+                  </tr>
+                  <tr>
+                    <td>1x Key</td>
+                    <td class="num">3</td>
+                  </tr>
+                  <tr>
+                    <td>4x Gem</td>
+                    <td class="num">1</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="note">
+                <strong>Sold Out is lazy.</strong> Items are only checked and
+                pulled from sale <em>when you interact with the Commissary</em>.
+                Something that spawns elsewhere and returns to the pool before
+                you next open the menu is never removed. An inventory item you
+                have actually bought never comes back, pool or not.
+              </div>
+            </div>
+          </div>
+
+          <h3>Commissary · Special Orders</h3>
+          <p>
+            Ordered from the Terminal Network. Of the 8 stockable inventory
+            items, only the <strong>Salt Shaker cannot be ordered</strong>.
+          </p>
+          <p>
+            Whatever the Special Order text implies, every order arrives
+            <strong>the day after you place it</strong>, and then persists every
+            day until either the Commissary is drafted with the item in the
+            chosen set, or you replace it with a different order.
+          </p>
+          <p>
+            On draft with an order active: if the item is still in the pool, a set
+            containing it is selected and the order is marked complete. If none of
+            the default sets work, a special set with the ordered item plus minor
+            items is used. If the item is <em>not</em> in the pool, the Commissary
+            ignores the order entirely and stocks normally, and the order rolls to
+            tomorrow.
+          </p>
+          <p>
+            Fulfilment checks candidate sets <strong>in a fixed order</strong>, not
+            at random:
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Ordered item</th>
+                <th>Sets checked, in order</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Compass</td>
+                <td>C → <em>Gem · Compass · Key · 4x Gem</em></td>
+              </tr>
+              <tr>
+                <td>Magnifying Glass</td>
+                <td>D → A → <em>Gem · Mag Glass · Key · 4x Gem</em></td>
+              </tr>
+              <tr>
+                <td>Metal Detector</td>
+                <td>E → G → <em>Banana · Gem · Key · Metal Detector</em></td>
+              </tr>
+              <tr>
+                <td>Running Shoes</td>
+                <td>D → F → <em>Banana · Gem · Key · Running Shoes</em></td>
+              </tr>
+              <tr>
+                <td>Shovel</td>
+                <td>G → C → A → <em>Gem · Shovel · Key · 4x Gem</em></td>
+              </tr>
+              <tr>
+                <td>Sledge Hammer</td>
+                <td>D → E → F → <em>Gem · Sledge · Key · 4x Gem</em></td>
+              </tr>
+              <tr>
+                <td>Sleeping Mask</td>
+                <td>G → D → <em>Banana · Gem · Sleeping Mask · 4x Gem</em></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="src">
+            Italic entries are the special fallback set, used when no default set
+            is valid.
+          </p>
+
+          <h3>Locksmith</h3>
+          <p>
+            Gold into Keys. The four options never change: 1 Key, 3 Keys, Special
+            Key, Lockpick Kit. Regular Keys are unlimited. The
+            <strong>Special Key is once per day</strong>. The Lockpick Kit shows
+            Sold Out if it is out of the pool when you interact.
+          </p>
+          <div class="cols2">
+            <div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Sale</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1x Key</td>
+                    <td class="num">5</td>
+                    <td class="num">3</td>
+                  </tr>
+                  <tr>
+                    <td>3x Key</td>
+                    <td class="num">12</td>
+                    <td class="num">6</td>
+                  </tr>
+                  <tr>
+                    <td>Special Key</td>
+                    <td class="num">8</td>
+                    <td class="num">4</td>
+                  </tr>
+                  <tr>
+                    <td>Lockpick Kit</td>
+                    <td class="num">10</td>
+                    <td class="num">5</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="bug">
+                The prices shown <strong>while The Sail is active are
+                wrong</strong>. The Sale column above is what you actually pay.
+              </div>
+            </div>
+            <div>
+              <h4>Special Key, what you get</h4>
+              <p>
+                One of three keys is picked to check first, then the others in a
+                fixed order behind it, skipping anything not in the pool:
+              </p>
+              <div class="bars" id="sk-bars"></div>
+              <p class="src">
+                30% Silver → Secret Garden → Prism · 40% Secret Garden → Prism →
+                Silver · 30% Prism → Secret Garden → Silver.
+              </p>
+              <p>Fall-through, in order, if all three are gone:</p>
+              <ol>
+                <li><strong>Car Keys</strong>, if in the pool.</li>
+                <li>
+                  <strong>Master Key</strong>, if in the pool.
+                  <span class="src"
+                    >It never starts a day in the pool. You must put it there, and
+                    the practical route is to get it normally then trade it at the
+                    Trading Post.</span
+                  >
+                </li>
+                <li>
+                  Otherwise an <strong>extra Silver Key</strong> is created. Hold
+                  one already and you now carry two, though the inventory only
+                  ever draws one.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="note">
+            <strong>Breaking the shop.</strong> A specific item interaction empties
+            the Locksmith of regular keys: <strong>24 Keys</strong> at once, and
+            the 1 Key and 3 Keys options are dead for the rest of the day. Special
+            Key and Lockpick Kit still work afterwards.
+          </div>
+          <div class="todo">
+            TFMurphy reports a Master Key spawning in the Music Room that could
+            not be picked up, and flags it as needing more investigation rather
+            than a confirmed mechanic. Treat Music Room Master Key sightings as
+            unverified.
+          </div>
+
+          <h3>Kitchen</h3>
+          <p>Gold into Steps, but unlike the Locksmith the food runs out.</p>
+          <div class="cols2">
+            <div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Sale</th>
+                    <th>Buys</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Banana</td>
+                    <td class="num">2</td>
+                    <td class="num">1</td>
+                    <td class="num">5</td>
+                  </tr>
+                  <tr>
+                    <td>Club Sandwich</td>
+                    <td class="num">8</td>
+                    <td class="num">4</td>
+                    <td class="num">1</td>
+                  </tr>
+                  <tr>
+                    <td>Bacon &amp; Eggs</td>
+                    <td class="num">8</td>
+                    <td class="num">4</td>
+                    <td class="num">1</td>
+                  </tr>
+                  <tr>
+                    <td>Green Salad</td>
+                    <td class="num">5</td>
+                    <td class="num">3</td>
+                    <td class="num">1</td>
+                  </tr>
+                  <tr>
+                    <td>Tomato Soup</td>
+                    <td class="num">5</td>
+                    <td class="num">3</td>
+                    <td class="num">1</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="src">
+                Always Banana and Club Sandwich, plus a third slot: 40% Bacon
+                &amp; Eggs, 30% Green Salad, 30% Tomato Soup. Kitchen prices, in
+                contrast to the Locksmith's, display correctly.
+              </p>
+            </div>
+            <div>
+              <h4>Dinner preview</h4>
+              <p>
+                The Kitchen previews the Dining Room main course, which is not
+                random at all. It is a five-day cycle keyed to the day number.
+              </p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Day</th>
+                    <th>Main course</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1, 6, 11 …</td>
+                    <td>Glazed Salmon</td>
+                  </tr>
+                  <tr>
+                    <td>2, 7, 12 …</td>
+                    <td>Porterhouse Steak</td>
+                  </tr>
+                  <tr>
+                    <td>3, 8, 13 …</td>
+                    <td>Beef Stew Pie</td>
+                  </tr>
+                  <tr>
+                    <td>4, 9, 14 …</td>
+                    <td>Stuffed Wild Quail</td>
+                  </tr>
+                  <tr>
+                    <td>5, 10, 15 …</td>
+                    <td>Wood-fired Pizza</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="src">
+                You never need the preview. Count days instead.
+              </p>
+              <div class="bug">
+                Past <strong>Day 1000</strong> the Dining Room keeps cycling but
+                the Kitchen preview jams on Wood-fired Pizza forever.
+              </div>
+            </div>
+          </div>
+          <div class="bug">
+            <strong>The free Banana.</strong> The Sail plus Coupon Book takes the
+            Banana to <strong>0 Gold</strong>. It is a bug: the routine sets the
+            cost, subtracts the coupon bonus, then clamps <em>the Banana's base
+            price</em> between 1 and 4 instead of clamping the cost it just
+            calculated. The Banana is the only price anyone bothered to write a
+            clamp for, and the clamp is on the wrong variable.
+          </div>
+        </section>
+        <!-- ============ ITEM ROOMS ============ -->
+        <section class="sec" id="s-itemrooms">
+          <h2>Item rooms</h2>
+          <p class="sub">Closet · Walk-in Closet · Attic · Lost &amp; Found</p>
+          <p>
+            These four rooms hand out items on a script rather than by Luck. Three
+            of them ignore your Luck stat completely, which makes them the most
+            predictable item sources on the estate.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Room</th>
+                <th>Uses Luck?</th>
+                <th>Items</th>
+                <th>Dirt Piles</th>
+                <th>Metal Detector</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Closet</strong></td>
+                <td>No</td>
+                <td>0, 2, 3 or 4, by draft origin</td>
+                <td>Never</td>
+                <td>Nothing extra</td>
+              </tr>
+              <tr>
+                <td><strong>Walk-in Closet</strong></td>
+                <td>No</td>
+                <td>Always 4</td>
+                <td>Never</td>
+                <td>Nothing extra</td>
+              </tr>
+              <tr>
+                <td><strong>Attic</strong></td>
+                <td>No</td>
+                <td>Always 8</td>
+                <td>Never</td>
+                <td>
+                  Small chance of <strong>4x Gold or 1x Key</strong>, on top of
+                  the 8
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Lost &amp; Found</strong></td>
+                <td><strong>Sometimes</strong></td>
+                <td>1 to 4, see below</td>
+                <td>Never</td>
+                <td>—</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Closet</h3>
+          <p>
+            Item count depends entirely on <strong>where it was drafted from</strong>
+            and whether it is upgraded. Luck is never consulted.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Variant</th>
+                <th>Drafted from</th>
+                <th>Items</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Closet (default)</td>
+                <td>anywhere</td>
+                <td class="num">2</td>
+              </tr>
+              <tr>
+                <td>Hallway Closet</td>
+                <td>Orange Room</td>
+                <td class="num">3</td>
+              </tr>
+              <tr>
+                <td>Bedroom Closet</td>
+                <td>Violet Room</td>
+                <td class="num">4</td>
+              </tr>
+              <tr>
+                <td rowspan="2"><strong>Empty Closet</strong></td>
+                <td>Red Room</td>
+                <td class="num">4</td>
+              </tr>
+              <tr>
+                <td>anything else</td>
+                <td class="num"><strong>0</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            The Closet draws each item as either a <strong>Unique Item</strong> or
+            a <strong>Stock Item</strong>, picking from one list or the other,
+            never from a merged pool.
+          </p>
+          <div class="cols2">
+            <div>
+              <h4>Unique list</h4>
+              <p class="src">Spawns only if still in the Spawn Pool.</p>
+              <p>
+                Coin Purse · Compass · Keycard · Lucky Rabbit's Foot · Metal
+                Detector · Running Shoes · Shovel · Silver Key · Sledge Hammer ·
+                Sleeping Mask
+              </p>
+            </div>
+            <div>
+              <h4>Stock list</h4>
+              <p>1x Key · 1x Gem · 1x Ivory Die</p>
+              <h4>Splits</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Items</th>
+                    <th>Split</th>
+                    <th>Chance</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="2">2</td>
+                    <td>1 Unique + 1 Stock</td>
+                    <td class="num">50%</td>
+                  </tr>
+                  <tr>
+                    <td>2 Stock</td>
+                    <td class="num">50%</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3</td>
+                    <td>2 Unique + 1 Stock</td>
+                    <td class="num">80%</td>
+                  </tr>
+                  <tr>
+                    <td>1 Unique + 2 Stock</td>
+                    <td class="num">20%</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td colspan="2">as 3, plus one extra Stock Item</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <p>
+            Fallbacks: the 2-Unique option needs 2 Uniques in the pool or it
+            collapses to all-Stock. The 1-Unique option needs 1. Four Stock Items
+            means the fourth is an extra <strong>1x Key</strong>.
+          </p>
+          <div class="bug">
+            <p>
+              <strong>The Day 1 guarantee, and the V Mode hole.</strong> On Day 1 a
+              2-item Closet is guaranteed to include a Unique Item. That guarantee
+              <strong>does not fire if V Mode is active</strong>, or if you are
+              drafting an Upgraded Closet. Remember the Compass is not in the Spawn
+              Pool on Day 1 unless V Mode is on.
+            </p>
+            <p>
+              The unupgraded Closet also carried conditions that were meant to
+              strip certain items from the Unique list early. They are bugged and
+              never apply, so any Closet can pull the full list.
+            </p>
+          </div>
+          <div class="note">
+            <strong>Sheltered Empty Closet.</strong> Sheltered and drafted from a
+            Red Room gives an extra <strong>1x Key and 1x Banana</strong> on top of
+            the usual 4. Knight's Shield does <em>not</em> do this and takes
+            priority if both could apply, leaving you the plain 4. Shielded or
+            Sheltered but <em>not</em> from a Red Room gives 2 items rather than 0.
+            <span class="src"
+              >If a Sheltered Empty Closet rolls 4 Stock Items, the extra Key
+              spawns in the same position as the fourth, so you appear to pick up
+              the same Key twice.</span
+            >
+          </div>
+
+          <h3>Walk-in Closet</h3>
+          <p>Always 4 items. Luck is never consulted.</p>
+          <div class="cols2">
+            <div>
+              <h4>Unique list</h4>
+              <p>
+                Car Keys · Coin Purse · Compass · Coupon Book · 2x Ivory Dice ·
+                Keycard · Lock Pick Kit · Lucky Rabbit's Foot · Running Shoes ·
+                Salt Shaker · Sleeping Mask · Telescope · Vault Key 304
+              </p>
+            </div>
+            <div>
+              <h4>Stock list</h4>
+              <p>3x Gold · 1x Key (3 copies) · 1x Gem (2 copies) · Cupcake</p>
+            </div>
+          </div>
+          <p>
+            Two Stock Items are locked in first and removed from the stock list,
+            <strong>50/50</strong> between <strong>Gem + Gem</strong> and
+            <strong>Gem + Key</strong>. The remaining two items are then drawn at
+            random from everything left in both lists.
+          </p>
+          <div class="note">
+            So a Walk-in Closet is <strong>always at least 2 gems, or a gem and a
+            key</strong>, before it draws anything interesting. Vault Key 304 lives
+            here and nowhere else on this page's lists.
+          </div>
+
+          <h3>Attic</h3>
+          <p>
+            Always 8 items, drawn at random from both lists with
+            <strong>no weighting and no restriction</strong> on how many come from
+            each. The most generous room in the game, and the most purely random.
+          </p>
+          <div class="cols2">
+            <div>
+              <h4>Unique list</h4>
+              <p>
+                Battery Pack · Broken Lever · Coin Purse · Compass · Coupon Book ·
+                Lock Pick Kit · Magnifying Glass · Metal Detector ·
+                <strong>Secret Garden Key</strong> · Shovel · Sledge Hammer ·
+                Treasure Map · Vault Key 149
+              </p>
+            </div>
+            <div>
+              <h4>Stock list</h4>
+              <p>1x Gold · 1x Key (4 copies) · 1x Gem (4 copies) · Trunk</p>
+            </div>
+          </div>
+
+          <h3>Lost &amp; Found</h3>
+          <p>
+            The odd one out. It checks for a <strong>Guaranteed Item</strong> first,
+            and whether one spawns decides whether Luck matters at all.
+          </p>
+          <p>
+            Three candidates, checked in this order. Only one can spawn.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Item</th>
+                <th>Conditions</th>
+                <th>Chance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="num">1</td>
+                <td><strong>Vault Key 370</strong></td>
+                <td>
+                  Day 31+ · Room 46 reached · Lost &amp; Found drafted 3+ times ·
+                  still in pool
+                </td>
+                <td class="num">
+                  30% on Days 31–65<br /><strong>50% from Day 66</strong>
+                </td>
+              </tr>
+              <tr>
+                <td class="num">2</td>
+                <td><strong>Key 8</strong></td>
+                <td>
+                  Day 365+.
+                  <span class="src"
+                    >Fires even if you already found Key 8 in the Gallery
+                    today.</span
+                  >
+                </td>
+                <td class="num">30%</td>
+              </tr>
+              <tr>
+                <td class="num">3</td>
+                <td><strong>Upgrade Disk</strong></td>
+                <td>
+                  Not carried, not used, not in the Coat Check, and nothing above
+                  was chosen
+                </td>
+                <td class="num"><strong>100%</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="note">
+            The Disk is a <strong>guarantee, not a roll</strong>. If you have not
+            used the Lost &amp; Found Disk and are not carrying it, and you are not
+            in the Vault Key 370 or Key 8 windows, drafting Lost &amp; Found gives
+            you the Disk. Every time.
+          </div>
+          <p>
+            <strong>If a Guaranteed Item spawns:</strong> Luck is ignored, and you
+            get the guaranteed item plus <strong>exactly 1</strong> random item.
+            Balance Penalty does not increase, however lucky you are.
+          </p>
+          <p>
+            <strong>If none spawns:</strong> Luck runs normally and the Drop Target
+            converts as follows.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Drop Target</th>
+                <th>Items</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="num">0 to 1</td>
+                <td class="num">2</td>
+              </tr>
+              <tr>
+                <td class="num">2</td>
+                <td class="num">3</td>
+              </tr>
+              <tr>
+                <td class="num">3 to 4</td>
+                <td class="num">4</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="src">
+            Which makes Lost &amp; Found the only Item Room where stacking Luck is
+            worth anything, and only on the days it has nothing guaranteed to give
+            you. See <a href="#s-luck">Luck</a> for how Drop Target is built.
+          </p>
+        </section>
+        <!-- ============ LUCK ============ -->
+        <section class="sec" id="s-luck">
+          <h2>Luck</h2>
+          <p class="sub">Room Luck → Luck Tier → Drop Tier → Drop Target</p>
+          <p>
+            Luck decides how many items a room spawns. It runs as a four-stage
+            pipeline, and every stage can bend the result, which is why raw Luck
+            numbers feel unreliable in play.
+          </p>
+          <div class="viz">
+            <svg viewBox="0 0 720 92" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <marker
+                  id="lk-ar"
+                  markerWidth="8"
+                  markerHeight="8"
+                  refX="7"
+                  refY="3"
+                  orient="auto"
+                >
+                  <path d="M0,0 L7,3 L0,6 z" fill="#8fadcb" />
+                </marker>
+              </defs>
+              <g
+                font-family="IBM Plex Mono, monospace"
+                font-size="11"
+                text-anchor="middle"
+              >
+                <rect
+                  x="4"
+                  y="26"
+                  width="148"
+                  height="40"
+                  fill="rgba(95,211,243,.09)"
+                  stroke="#5FD3F3"
+                />
+                <text x="78" y="42" fill="#DCE9F5">Room Luck</text>
+                <text x="78" y="57" fill="#8FADCB">base + bonus − penalty</text>
+
+                <line
+                  x1="156"
+                  y1="46"
+                  x2="184"
+                  y2="46"
+                  stroke="#8fadcb"
+                  marker-end="url(#lk-ar)"
+                />
+
+                <rect
+                  x="188"
+                  y="26"
+                  width="148"
+                  height="40"
+                  fill="rgba(46,92,138,.3)"
+                  stroke="#2E5C8A"
+                />
+                <text x="262" y="42" fill="#DCE9F5">Luck Tier</text>
+                <text x="262" y="57" fill="#8FADCB">7 bands</text>
+
+                <line
+                  x1="340"
+                  y1="46"
+                  x2="368"
+                  y2="46"
+                  stroke="#8fadcb"
+                  marker-end="url(#lk-ar)"
+                />
+
+                <rect
+                  x="372"
+                  y="26"
+                  width="148"
+                  height="40"
+                  fill="rgba(46,92,138,.3)"
+                  stroke="#2E5C8A"
+                />
+                <text x="446" y="42" fill="#DCE9F5">Drop Tier</text>
+                <text x="446" y="57" fill="#8FADCB">0 – 4, can upgrade</text>
+
+                <line
+                  x1="524"
+                  y1="46"
+                  x2="552"
+                  y2="46"
+                  stroke="#8fadcb"
+                  marker-end="url(#lk-ar)"
+                />
+
+                <rect
+                  x="556"
+                  y="26"
+                  width="160"
+                  height="40"
+                  fill="rgba(240,180,75,.1)"
+                  stroke="#F0B44B"
+                />
+                <text x="636" y="42" fill="#DCE9F5">Drop Target</text>
+                <text x="636" y="57" fill="#8FADCB">items in the room</text>
+
+                <text x="360" y="14" fill="#8FADCB" font-size="10">
+                  the room may still clamp or override the Drop Target
+                </text>
+                <text x="360" y="86" fill="#8FADCB" font-size="10">
+                  reaching Drop Tier 2 or higher raises Balance Penalty, which
+                  feeds back into Room Luck
+                </text>
+              </g>
+            </svg>
+          </div>
+
+          <h3>Luckless rooms</h3>
+          <p>
+            These 19 never consult Luck at all. Items can still appear via Spread,
+            Trunks or a room's own feature, but Luck is not checked when the room
+            is created.
+          </p>
+          <p class="src">
+            Entrance Hall · Rotunda · Room 8 · Closet · Walk-in Closet · Attic ·
+            Chamber of Mirrors · Freezer · Antechamber · Passageway · Locksmith ·
+            Showroom · Mount Holly Gift Shop · Vestibule · Mechanarium · Treasure
+            Trove · Toolshed · Shelter · Shrine
+          </p>
+
+          <h3>Building Room Luck</h3>
+          <p>
+            Your personal Luck is <strong>set to 10 at the start of every
+            day</strong>. Three things move the base stat itself:
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Effect on base Luck</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Cloister of Rynna</strong></td>
+                <td class="num">+6 per Green Room drafted from it</td>
+              </tr>
+              <tr>
+                <td><strong>Maid's Chamber</strong></td>
+                <td class="num">−7 on draft</td>
+              </tr>
+              <tr>
+                <td><strong>Spiral of Stars</strong></td>
+                <td>
+                  <strong>sets</strong> Luck to 25, once "…your luck has been
+                  increased" is written
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="note">
+            Spiral of Stars <strong>overrides</strong> anything you did earlier, it
+            does not add. Activate it <em>before</em> working the Cloister of
+            Rynna, never after. Guest Bedroom mimicking a Maid's Chamber applies
+            the −7 too.
+          </div>
+          <p>
+            On top of the base sit <strong>bonuses</strong>, which apply per room
+            rather than to your stat:
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Bonus</th>
+                <th>Condition</th>
+                <th>Room Luck</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lucky Rabbit's Foot <em>or</em> Lucky Purse</td>
+                <td>carried while drafting</td>
+                <td class="num">+3</td>
+              </tr>
+              <tr>
+                <td><strong>Veranda</strong></td>
+                <td>
+                  drafting a <strong>Green Room</strong>, per Veranda or Spare
+                  Veranda already in the house
+                </td>
+                <td class="num">+6</td>
+              </tr>
+              <tr>
+                <td><strong>First Veranda of the day</strong></td>
+                <td>Green Room draft</td>
+                <td class="num"><strong>+12</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="bug">
+            The first Veranda's +12 is a bug. Some room scripts are allowed to run
+            twice when the room is first created, so the bonus is applied twice.
+            The Spare Veranda does not get it and only ever adds +6. Any Veranda
+            may add its own bonus to itself as it is being drafted.
+            <span class="src"
+              >The same double-run bug affects Security Door chances.</span
+            >
+          </div>
+          <p>
+            Finally, <strong>Balance Penalty</strong> is subtracted. It starts at 0
+            each day and creeps up whenever Luck is used to decide a room's item
+            count, throttling later rooms.
+          </p>
+          <p class="src">
+            Room Luck = base Luck + bonuses − Balance Penalty.
+          </p>
+
+          <h3>Average Luck Rate</h3>
+          <p>
+            At ordinary Luck the game gives you a quiet nudge instead of a flat
+            zero. This is the Average Luck Rate, and it is what the 5–10 band rolls
+            against.
+          </p>
+          <div class="cols2">
+            <div>
+              <h4>Normal</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th>State</th>
+                    <th>Rate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Day 1 to 2</td>
+                    <td class="num">18%</td>
+                  </tr>
+                  <tr>
+                    <td>Day 3 to 5</td>
+                    <td class="num">20%</td>
+                  </tr>
+                  <tr>
+                    <td>Day 6+</td>
+                    <td class="num">25%</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Room 46 reached</strong></td>
+                    <td class="num"><strong>15%</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div>
+              <h4>V Mode</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th>State</th>
+                    <th>Rate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Day 1 to 5</td>
+                    <td class="num">15%</td>
+                  </tr>
+                  <tr>
+                    <td>Day 6+</td>
+                    <td class="num">25%</td>
+                  </tr>
+                  <tr>
+                    <td>Room 46 reached</td>
+                    <td class="num">15%</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Activating V Mode on Day 1</strong>
+                    </td>
+                    <td class="num"><strong>23%</strong> for the rest of the day</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="bug">
+            <p>
+              <strong>Room 46 makes you unluckier, permanently.</strong> Reaching it
+              drops the rate to 15%, below every normal band past Day 2. Two
+              separate faults: the early-day rates were raised in early patches and
+              the Room 46 rate was never updated, and the Day 6+ rule that should
+              overwrite it never fires because the Room 46 check makes every day
+              comparison in that routine think you are on Day 0. TFMurphy confirmed
+              you are stuck on 15% afterwards via an uninitialised variable.
+            </p>
+          </div>
+          <p class="src">
+            Dare and Curse Mode start with V Mode on but use the plain "Day 1 to 5"
+            15% rate. They only reach the 23% Day 1 rate if you also perform the
+            actions that would activate V Mode in Bequest Mode.
+          </p>
+
+          <h3>Luck Tiers</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Luck Tier</th>
+                <th>Room Luck</th>
+                <th>Drop Tier</th>
+                <th>How you get there</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Bad Luck</td>
+                <td class="num">0 – 4</td>
+                <td class="num">0</td>
+                <td>after a Maid's Chamber</td>
+              </tr>
+              <tr>
+                <td><strong>Average Luck</strong></td>
+                <td class="num">5 – 10</td>
+                <td class="num">0 – 1</td>
+                <td>
+                  the default. Rolls the Average Luck Rate, 15–25%. Pass → Drop
+                  Tier 1
+                </td>
+              </tr>
+              <tr>
+                <td>Kinda Lucky</td>
+                <td class="num">11 – 15</td>
+                <td class="num">0 – 1</td>
+                <td>Lucky Rabbit's Foot. <strong>40%</strong> → Drop Tier 1</td>
+              </tr>
+              <tr>
+                <td>Lucky</td>
+                <td class="num">16 – 18</td>
+                <td class="num">0 – 1</td>
+                <td>
+                  Spare Veranda, or one Cloister of Rynna.
+                  <strong>80%</strong> → Drop Tier 1
+                </td>
+              </tr>
+              <tr>
+                <td>Very Lucky</td>
+                <td class="num">19 – 22</td>
+                <td class="num"><strong>2</strong></td>
+                <td>direct, no roll</td>
+              </tr>
+              <tr>
+                <td>Really Lucky</td>
+                <td class="num">23 – 28</td>
+                <td class="num"><strong>3</strong></td>
+                <td>direct, no roll</td>
+              </tr>
+              <tr>
+                <td>Extremely Lucky</td>
+                <td class="num">29+</td>
+                <td class="num"><strong>4</strong></td>
+                <td>direct, no roll</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="note">
+            <strong>19 is the wall.</strong> Everything below it is a coin flip for
+            a single item. At 19 you stop rolling and start being paid. The gap
+            from 16–18 (80% of one item) to 19–22 (two items, guaranteed) is the
+            largest single step in the system, and it is one Rabbit's Foot wide.
+          </div>
+
+          <h3>Drop Tiers → Drop Target</h3>
+          <p>
+            Drop Tier is not the answer yet. Each tier applies its own clamps and
+            upgrade rolls first.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Drop Tier</th>
+                <th>What happens</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="num"><strong>0</strong></td>
+                <td>
+                  Drop Target 0. But if you arrived from <em>Bad Luck</em> (0–4
+                  Room Luck), <strong>7% chance</strong> of 1 instead.
+                </td>
+              </tr>
+              <tr>
+                <td class="num"><strong>1</strong></td>
+                <td>
+                  Drop Target 1. At Room Luck 11+, a <strong>4% chance</strong> to
+                  upgrade to Drop Tier 2.
+                </td>
+              </tr>
+              <tr>
+                <td class="num"><strong>2</strong></td>
+                <td>
+                  At Room Luck ≤10, Drop Target is clamped to <strong>1</strong> and
+                  it stops there. At 11+, Drop Target 2 and
+                  <strong>Balance Penalty +1</strong>. At 17+, a
+                  <strong>5% chance</strong> to upgrade to Drop Tier 3.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="note">
+            The Drop Tier 2 clamp is why the 4% upgrade from Tier 1 is nearly
+            worthless when your Room Luck is low: you upgrade into Tier 2 and Tier 2
+            immediately clamps you back to a single item. It only pays above 10 Room
+            Luck.
+          </div>
+          <p class="src">
+            Balance Penalty rising at Drop Tier 2 is the mechanism throttling a
+            high-Luck day: each generous room makes the next one stingier, because
+            the penalty comes straight back off Room Luck.
+          </p>
+        </section>
+
         <!-- ============ SECURITY ============ -->
         <section class="sec" id="s-sec">
           <h2>Security doors</h2>
@@ -5576,7 +7285,7 @@
 
           <p>
             Placement restrictions and every rarity mechanic here come from
-            TFMurphy's datamining. Colour, gem cost and Base Rarity come from
+            TFMurphy's datamining. color, gem cost and Base Rarity come from
             the wiki tables. Fields I could not source are left blank on purpose
             rather than guessed at.
           </p>
@@ -5600,7 +7309,7 @@
               />
             </div>
             <div class="field">
-              <label for="rcol">Colour</label>
+              <label for="rcol">color</label>
               <select id="rcol">
                 <option value="">all</option>
                 <option>Blueprint</option>
@@ -5933,129 +7642,38 @@
                 RARE ROOM PENALTY: CHANCE OF BEING SHOVED BACK
               </text>
               <text x="0" y="129" fill="#DCE9F5" font-size="10">Tomb</text>
-              <text x="86" y="129" fill="#8FADCB" font-size="8.5">
-                to slot 8
-              </text>
-              <rect
-                x="150"
-                y="118"
-                width="120"
-                height="14"
-                fill="#0F2340"
-                stroke="#2E5C8A"
-                stroke-width=".5"
-              />
-              <rect x="150" y="118" width="118.8" height="14" fill="#8B5FBF" />
-              <text x="274" y="129" fill="#DCE9F5" font-size="12">99%</text>
-              <text x="150" y="114" fill="#8FADCB" font-size="8">base</text>
-              <rect
-                x="312"
-                y="118"
-                width="120"
-                height="14"
-                fill="#0F2340"
-                stroke="#2E5C8A"
-                stroke-width=".5"
-              />
-              <rect x="312" y="118" width="54.0" height="14" fill="#8B5FBF" />
-              <text x="436" y="129" fill="#DCE9F5" font-size="12">45%</text>
-              <text x="312" y="114" fill="#8FADCB" font-size="8">reduced</text>
-              <rect
-                x="474"
-                y="118"
-                width="120"
-                height="14"
-                fill="#0F2340"
-                stroke="#2E5C8A"
-                stroke-width=".5"
-              />
-              <rect x="474" y="118" width="12.0" height="14" fill="#8B5FBF" />
-              <text x="598" y="129" fill="#DCE9F5" font-size="12">10%</text>
-              <text x="474" y="114" fill="#8FADCB" font-size="8">
-                V-Mode / 46
-              </text>
-              <text x="0" y="159" fill="#DCE9F5" font-size="10">
-                Schoolhouse
-              </text>
-              <text x="86" y="159" fill="#8FADCB" font-size="8.5">
-                to slot 7
-              </text>
-              <rect
-                x="150"
-                y="148"
-                width="120"
-                height="14"
-                fill="#0F2340"
-                stroke="#2E5C8A"
-                stroke-width=".5"
-              />
-              <rect x="150" y="148" width="114.0" height="14" fill="#D9822B" />
-              <text x="274" y="159" fill="#DCE9F5" font-size="12">95%</text>
-              <rect
-                x="312"
-                y="148"
-                width="120"
-                height="14"
-                fill="#0F2340"
-                stroke="#2E5C8A"
-                stroke-width=".5"
-              />
-              <rect x="312" y="148" width="54.0" height="14" fill="#D9822B" />
-              <text x="436" y="159" fill="#DCE9F5" font-size="12">45%</text>
-              <rect
-                x="474"
-                y="148"
-                width="120"
-                height="14"
-                fill="#0F2340"
-                stroke="#2E5C8A"
-                stroke-width=".5"
-              />
-              <rect x="474" y="148" width="12.0" height="14" fill="#D9822B" />
-              <text x="598" y="159" fill="#DCE9F5" font-size="12">10%</text>
+              <text x="86" y="129" fill="#8FADCB" font-size="8.5">to slot 8</text>
+              <text x="150" y="114" fill="#8FADCB" font-size="8">standard</text>
+              <text x="380" y="114" fill="#8FADCB" font-size="8">V-Mode / 46</text>
+              <rect x="150" y="118" width="180" height="14" fill="#0F2340" stroke="#2E5C8A" stroke-width=".5" />
+              <rect x="150" y="118" width="81.0" height="14" fill="#8B5FBF" />
+              <text x="334" y="129" fill="#DCE9F5" font-size="12">45%</text>
+              <rect x="380" y="118" width="180" height="14" fill="#0F2340" stroke="#2E5C8A" stroke-width=".5" />
+              <rect x="380" y="118" width="18.0" height="14" fill="#8B5FBF" opacity=".55" />
+              <text x="564" y="129" fill="#DCE9F5" font-size="12">10%</text>
+              <text x="0" y="159" fill="#DCE9F5" font-size="10">Schoolhouse</text>
+              <text x="86" y="159" fill="#8FADCB" font-size="8.5">to slot 7</text>
+              <rect x="150" y="148" width="180" height="14" fill="#0F2340" stroke="#2E5C8A" stroke-width=".5" />
+              <rect x="150" y="148" width="81.0" height="14" fill="#4C8FD6" />
+              <text x="334" y="159" fill="#DCE9F5" font-size="12">45%</text>
+              <rect x="380" y="148" width="180" height="14" fill="#0F2340" stroke="#2E5C8A" stroke-width=".5" />
+              <rect x="380" y="148" width="18.0" height="14" fill="#4C8FD6" opacity=".55" />
+              <text x="564" y="159" fill="#DCE9F5" font-size="12">10%</text>
               <text x="0" y="189" fill="#DCE9F5" font-size="10">Shrine</text>
-              <text x="86" y="189" fill="#8FADCB" font-size="8.5">
-                to slot 6
-              </text>
-              <rect
-                x="150"
-                y="178"
-                width="120"
-                height="14"
-                fill="#0F2340"
-                stroke="#2E5C8A"
-                stroke-width=".5"
-              />
-              <rect x="150" y="178" width="72.0" height="14" fill="#3FA36B" />
-              <text x="274" y="189" fill="#DCE9F5" font-size="12">60%</text>
-              <rect
-                x="312"
-                y="178"
-                width="120"
-                height="14"
-                fill="#0F2340"
-                stroke="#2E5C8A"
-                stroke-width=".5"
-              />
-              <rect x="312" y="178" width="36.0" height="14" fill="#3FA36B" />
-              <text x="436" y="189" fill="#DCE9F5" font-size="12">30%</text>
-              <rect
-                x="474"
-                y="178"
-                width="120"
-                height="14"
-                fill="#0F2340"
-                stroke="#2E5C8A"
-                stroke-width=".5"
-              />
-              <rect x="474" y="178" width="12.0" height="14" fill="#3FA36B" />
-              <text x="598" y="189" fill="#DCE9F5" font-size="12">10%</text>
-            </svg>
+              <text x="86" y="189" fill="#8FADCB" font-size="8.5">to slot 6</text>
+              <rect x="150" y="178" width="180" height="14" fill="#0F2340" stroke="#2E5C8A" stroke-width=".5" />
+              <rect x="150" y="178" width="54.0" height="14" fill="#3FA36B" />
+              <text x="334" y="189" fill="#DCE9F5" font-size="12">30%</text>
+              <rect x="380" y="178" width="180" height="14" fill="#0F2340" stroke="#2E5C8A" stroke-width=".5" />
+              <rect x="380" y="178" width="18.0" height="14" fill="#3FA36B" opacity=".55" />
+              <text x="564" y="189" fill="#DCE9F5" font-size="12">10%</text>
+              </svg>
             <figcaption>
               The shuffle is uniform. The penalties are what make Tomb feel
-              impossible: at base it is shoved to the very back 99 times out of
-              100. Activating V Mode on Day 1 drops that to 10%, which is the
-              single reason Day One runs can find it.
+              impossible: it is shoved to the very back on 45% of shuffles, and
+              Schoolhouse the same. Activating V Mode on Day 1, or reaching Room
+              46, drops all three to 10%, which is the single reason Day One
+              runs can find the Tomb.
             </figcaption>
             <button class="rawtoggle" data-raw="outer">Show raw data</button>
             <div class="rawdata" id="raw-outer">
@@ -6063,9 +7681,8 @@
                 <thead>
                   <tr>
                     <th>Room</th>
-                    <th>Pushed to</th>
-                    <th>Base</th>
-                    <th>Reduced</th>
+                    <th>Preferred slot</th>
+                    <th>Standard</th>
                     <th>V-Mode or 46</th>
                   </tr>
                 </thead>
@@ -6073,27 +7690,24 @@
                   <tr>
                     <td>Tomb</td>
                     <td class="num">slot 8</td>
-                    <td class="num">99%</td>
                     <td class="num">45%</td>
                     <td class="num">10%</td>
                   </tr>
                   <tr>
                     <td>Schoolhouse</td>
                     <td class="num">slot 7</td>
-                    <td class="num">95%</td>
                     <td class="num">45%</td>
                     <td class="num">10%</td>
                   </tr>
                   <tr>
                     <td>Shrine</td>
                     <td class="num">slot 6</td>
-                    <td class="num">60%</td>
                     <td class="num">30%</td>
                     <td class="num">10%</td>
                   </tr>
                 </tbody>
               </table>
-              <h4>What turns on Reduced Chances</h4>
+              <h4>What drops the penalty to 10%</h4>
               <table>
                 <thead>
                   <tr>
@@ -6103,30 +7717,11 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>4th Outer Room draft onward</td>
-                    <td>Shrine and Schoolhouse</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Foundation Elevator crank pulled, plus 3+ Outer Room
-                      drafts
-                    </td>
-                    <td>Tomb</td>
-                  </tr>
-                  <tr>
-                    <td>Day 8 onward</td>
-                    <td>All three</td>
-                  </tr>
-                  <tr>
-                    <td>V Mode active (permanent effect)</td>
-                    <td>All three</td>
-                  </tr>
-                  <tr>
-                    <td>V Mode activated today, temporary</td>
+                    <td><strong>V Mode activated today</strong>, temporary</td>
                     <td>All three, at 10% for the rest of the day</td>
                   </tr>
                   <tr>
-                    <td>Room 46 reached</td>
+                    <td><strong>Room 46 reached</strong></td>
                     <td>All three, permanently at 10%</td>
                   </tr>
                 </tbody>
@@ -6149,8 +7744,39 @@
                 </li>
                 <li>
                   <strong>Rare Room Penalty.</strong> Tomb, then Schoolhouse,
-                  then Shrine each roll to be shoved to the back. See the chart
-                  above for the three rate tiers.
+                  then Shrine each roll to be shoved to a
+                  <strong>fixed preferred slot</strong>. Rolled in that order,
+                  so a later push can displace an earlier one.
+                  <table style="margin-top: 8px">
+                    <thead>
+                      <tr>
+                        <th>Room</th>
+                        <th>Slot</th>
+                        <th>Chance</th>
+                        <th>Post-46 / V&nbsp;Mode</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Shrine</td>
+                        <td class="num">6</td>
+                        <td class="num">30%</td>
+                        <td class="num">10%</td>
+                      </tr>
+                      <tr>
+                        <td>Schoolhouse</td>
+                        <td class="num">7</td>
+                        <td class="num">45%</td>
+                        <td class="num">10%</td>
+                      </tr>
+                      <tr>
+                        <td>Tomb</td>
+                        <td class="num">8</td>
+                        <td class="num">45%</td>
+                        <td class="num">10%</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </li>
                 <li>
                   <strong>First time ever</strong> drafting an Outer Room: Root
@@ -6165,7 +7791,7 @@
                   shoved to slot 4.
                 </li>
                 <li>
-                  <strong>Colour filters</strong>, each moving its room to slot
+                  <strong>color filters</strong>, each moving its room to slot
                   1, applied in this sequence: Violet moves
                   <strong>Hovel</strong>, Green moves
                   <strong>Root Cellar</strong>, Yellow moves
@@ -7549,7 +9175,7 @@
           <p class="sub">Tile rules, then the answers</p>
 
           <p>
-            3×3 grid, four corner buttons. Get the realm's colour into all four
+            3×3 grid, four corner buttons. Get the realm's color into all four
             corners, then press the sigils. Pressing corners on a wrong state
             <strong>resets</strong>, that's your undo.
           </p>
@@ -7598,7 +9224,7 @@
                   <tr>
                     <td>Orange</td>
                     <td>
-                      Becomes the majority colour of orthogonal neighbours. Tie
+                      Becomes the majority color of orthogonal neighbours. Tie
                       → nothing.
                     </td>
                   </tr>
@@ -7886,27 +9512,28 @@
               <tr>
                 <td><span class="tag t-dancer">Dancer</span></td>
                 <td class="num">1</td>
-                <td>-</td>
+                <td>While drafting, you may pay 1 gem to spin floor plans. If the Dovecote was drawn, then the Dovecote's special ability will supersede the Blessing, and rotating is done via the Dovecote's icon.</td>
               </tr>
               <tr>
                 <td><span class="tag t-hroll">High Roller</span></td>
                 <td class="num">3</td>
-                <td>Dice.</td>
+                <td>Each time you draft a shop, gain an ivory die. Gain 5 gold whenever you roll an ivory die.</td>
               </tr>
               <tr>
                 <td><span class="tag t-gardener">Gardener</span></td>
                 <td class="num">5</td>
-                <td>-</td>
+                <td>Add 8 Courtyards to today’s draft pool.</td>
               </tr>
               <tr>
                 <td><span class="tag t-chef">Chef</span></td>
                 <td class="num">7</td>
-                <td>-</td>
+                <td>Spreads will create themed dishes in the Dining Room based on the exact type of spread performed, once maximum per type.
+                </td>
               </tr>
               <tr>
                 <td><span class="tag t-general">General</span></td>
                 <td class="num">9</td>
-                <td>-</td>
+                <td>After you draft a red room, if you have at least 5 different ranks containing red rooms, gain 5 gems.</td>
               </tr>
               <tr>
                 <td><span class="tag t-tinker">Tinkerer</span></td>
@@ -8317,7 +9944,7 @@
             aren't quoted anywhere I have.
           </div>
           <div class="todo">
-            <strong>Banner of the King / Royal Scepter</strong> per-colour
+            <strong>Banner of the King / Royal Scepter</strong> per-color
             rates.
           </div>
           <div class="todo">
@@ -8326,26 +9953,9 @@
             on my sheet. The "3+ days" duration, the "+" is unexplained.
           </div>
           <div class="todo">
-            <strong>Outer Room step 2 target positions.</strong> The 10% push
-            chance is confirmed for Tomb / Schoolhouse / Shrine, and Tomb's
-            target is position 8. Schoolhouse and Shrine's target positions
-            aren't stated.
-          </div>
-          <div class="todo">
             <strong>Two community open questions.</strong> (1) Depleting a
-            colour's pool sometimes pulls floorplans you don't own. (2) The
+            color's pool sometimes pulls floorplans you don't own. (2) The
             Secret Passage corner-override bug is assumed harmless.
-          </div>
-
-          <div class="conflict">
-            <strong>Furnace red filter: 30% or 40%?</strong> The Furnace slide
-            and the Archives entry say 30%. The Weight Room entry says 40%. The
-            wiki gives no number. Page uses 30%.
-          </div>
-          <div class="conflict">
-            <strong>Duct draws and gemless preference.</strong> The deck says
-            duct draws prefer gemless rooms generally. The wiki restricts that
-            to Slot 1 only. Page uses the wiki's version.
           </div>
 
           <div class="foot" style="margin-top: 26px">

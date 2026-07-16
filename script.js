@@ -86,6 +86,33 @@
   function fmt(n) {
     return Math.round(n * 100) / 100 + "%";
   }
+
+  /* ---- shared bar renderer ----
+     pct is the 0-100 width. val is the text on the right.
+     Clamps so a stray >100 or negative can never blow the track open. */
+  function barHTML(label, pct, val) {
+    var p = +pct;
+    if (!isFinite(p) || p < 0) p = 0;
+    if (p > 100) p = 100;
+    return (
+      '<div class="bar' +
+      (p === 0 ? " zero" : "") +
+      '"><span>' +
+      label +
+      '</span><span class="track"><span class="fill" style="width:' +
+      p.toFixed(1) +
+      '%"></span></span><span class="val">' +
+      val +
+      "</span></div>"
+    );
+  }
+  function drawBars(el, rows) {
+    el.innerHTML = rows
+      .map(function (r) {
+        return barHTML(r[0], r[1], r[2]);
+      })
+      .join("");
+  }
   function calc1() {
     var rank = +document.getElementById("c1rank").value,
       gems = +document.getElementById("c1gems").value || 0,
@@ -181,24 +208,17 @@
       walk(slot + 1, count + 1, prob * p);
       walk(slot + 1, count, prob * (1 - p));
     })(0, 0, 1);
-    var w = document.getElementById("c2bars");
-    w.innerHTML = "";
-    var exp = 0;
+    var exp = 0,
+      rows = [];
     dist.forEach(function (v, i) {
       exp += v * i;
-      w.insertAdjacentHTML(
-        "beforeend",
-        '<div class="bar"><span>' +
-          i +
-          " duct draw" +
-          (i === 1 ? "" : "s") +
-          '</span><span class="track"><span class="fill" style="width:' +
-          (v * 100).toFixed(1) +
-          '%"></span></span><span class="val">' +
-          (v * 100).toFixed(1) +
-          "%</span></div>",
-      );
+      rows.push([
+        i + " duct draw" + (i === 1 ? "" : "s"),
+        v * 100,
+        (v * 100).toFixed(1) + "%",
+      ]);
     });
+    drawBars(document.getElementById("c2bars"), rows);
     document.getElementById("c2exp").textContent = exp.toFixed(2);
   }
   document.getElementById("c2boiler").addEventListener("change", calc2);
@@ -212,25 +232,51 @@
         ["Rare", 99],
       ],
       w = document.getElementById("c3bars");
-    d.forEach(function (r) {
-      w.insertAdjacentHTML(
-        "beforeend",
-        '<div class="bar"><span>' +
-          r[0] +
-          '</span><span class="track"><span class="fill" style="width:' +
-          r[1] +
-          '%"></span></span><span class="val">' +
-          r[1] +
-          "% out</span></div>",
-      );
-    });
+    drawBars(
+      w,
+      d.map(function (r) {
+        return [r[0], r[1], r[1] + "% out"];
+      }),
+    );
   })();
 
-  /* ---- CALC 4 : outer room, measured Day1 Veteran figures ---- */
+  /* ---- TRADING POST: downgrade ladder, loop avoidance, special key ---- */
+  (function () {
+    var b;
+    b = document.getElementById("tp-bars");
+    if (b)
+      drawBars(b, [
+        ["0 trades", 0, "0%"],
+        ["1st to 4th", 30, "30%"],
+        ["5th onward", 50, "50%"],
+      ]);
+    b = document.getElementById("tp-loop");
+    if (b)
+      drawBars(b, [
+        ["Ignore loop", 60, "60%"],
+        ["Reroll, same tier", 20, "20%"],
+        ["Reroll, tier below", 20, "20%"],
+      ]);
+    b = document.getElementById("sk-bars");
+    if (b)
+      drawBars(b, [
+        ["Silver first", 30, "30%"],
+        ["Sec. Garden 1st", 40, "40%"],
+        ["Prism first", 30, "30%"],
+      ]);
+  })();
+
+  /* ---- CALC 4 : outer room, exact Day1 Veteran figures ---- */
+  /* Exact figures, by full enumeration of TFMurphy's documented routine
+     (uniform 8-room shuffle -> Tomb 8th / Schoolhouse 7th / Shrine 6th penalty
+     rolls -> cyclic 3-per-view). Standard penalty rates are 45 / 45 / 30.
+     Day 1 Veteran = V Mode activated, so all three sit at 10% and First Time
+     Drafting is skipped.
+     The 0-redraw column was already correct; the 1-redraw column was not. */
   var OUT = {
-    tomb: [34.73, 68.46, 100],
-    trade: [39.16, 77.18, 100],
-    either: [63.59, 95.82, 100],
+    tomb: [34.73, 68.15, 100],
+    trade: [39.16, 76.85, 100],
+    either: [63.59, 95.7, 100],
   };
   function calc4() {
     var t = document.getElementById("c4t").value,
@@ -252,7 +298,7 @@
     } else {
       out = OUT[t][Math.min(r, 2)];
       note =
-        "Measured Day 1 Veteran figures. These exist because activating V Mode drops the Rare Room Penalty to 10%. At base, Tomb is shoved to slot 8 on 99 of 100 shuffles. 2 redraws is guaranteed; 1 die gives 94.76% for at least one of Tomb or Trading Post, assuming no Archives or Greenhouse.";
+        "Day 1 Veteran figures, exact. These exist because activating V Mode drops the Rare Room Penalty to 10% for the rest of the day. At standard rates Tomb is shoved to slot 8 on 45% of shuffles, Schoolhouse to slot 7 on 45%, Shrine to slot 6 on 30%. 2 redraws is guaranteed, because 3 views of 3 cover a cyclic list of 8. 1 die gives 95.7% for at least one of Tomb or Trading Post, assuming no Archives or Greenhouse.";
     }
     document.getElementById("c4out").textContent =
       Math.round(out * 100) / 100 + "%";
@@ -297,21 +343,13 @@
     var el = marked.filter(function (k) {
       return sizes[k] >= 1;
     });
-    var w = document.getElementById("c5bars");
-    w.innerHTML = "";
-    RN.forEach(function (n, k) {
-      var p = el.indexOf(k) > -1 ? 100 / el.length : 0;
-      w.insertAdjacentHTML(
-        "beforeend",
-        '<div class="bar"><span>' +
-          n +
-          '</span><span class="track"><span class="fill" style="width:' +
-          p.toFixed(1) +
-          '%"></span></span><span class="val">' +
-          p.toFixed(1) +
-          "%</span></div>",
-      );
-    });
+    drawBars(
+      document.getElementById("c5bars"),
+      RN.map(function (n, k) {
+        var p = el.indexOf(k) > -1 ? 100 / el.length : 0;
+        return [n, p, p.toFixed(1) + "%"];
+      }),
+    );
     var note =
       "Gate " +
       gate.join("/") +
@@ -448,6 +486,30 @@
   })();
 
   /* ---- ROOM REFERENCE ---- */
+  /* ==============================================================
+     CHESS BADGES
+     --------------------------------------------------------------
+     The per-room assignments live in gen_rooms.py (the CHESS dict)
+     and ship inside assets/rooms-data.js as each room's "chess"
+     field. Edit them there and re-run gen_rooms.py.
+
+     Only the six colours and glyphs live here, so the look is a
+     presentation concern and the data stays in the data file.
+
+     A room's "chess" value may be null, "Rook", or ["Rook","Pawn"].
+     Names are case-insensitive; an unknown name is skipped and
+     logged, so a typo can't break the grid.
+     ============================================================== */
+  var CHESS_PIECES = {
+    Pawn:   { color: "#212121", glyph: "\u265F" },
+    Knight: { color: "#816E58", glyph: "\u265E" },
+    Rook:   { color: "#FFFFFF", glyph: "\u265C" },
+    Bishop: { color: "#6FC4BE", glyph: "\u265D" },
+    King:   { color: "#CA1F25", glyph: "\u265A" },
+    Queen:  { color: "#2280C4", glyph: "\u265B" },
+  };
+
+
   var ROOMS = window.ROOMS || [];
   var PAGE = 5,
     shownCount = PAGE;
@@ -491,6 +553,44 @@
       "Aquarium",
     ];
     var WEIGHTED = ["Conservatory", "Garage", "Morning Room", "Utility Closet"];
+    /* resolve a CHESS entry to canonical piece names, tolerating case
+       and stray whitespace so the editable list above stays forgiving */
+    var PIECE_KEY = {};
+    Object.keys(CHESS_PIECES).forEach(function (k) {
+      PIECE_KEY[k.toLowerCase()] = k;
+    });
+    function pieces(room) {
+      var v = room && room.chess;
+      if (!v) return [];
+      return (Array.isArray(v) ? v : [v])
+        .map(function (p) {
+          var k = PIECE_KEY[String(p).trim().toLowerCase()];
+          if (!k)
+            console.warn(
+              'CHESS: unknown piece "' + p + '" on room "' + room.n + '"',
+            );
+          return k;
+        })
+        .filter(Boolean);
+    }
+    function chessHTML(room) {
+      return pieces(room)
+        .map(function (k) {
+          var d = CHESS_PIECES[k];
+          return (
+            '<span class="chess" style="--pc:' +
+            d.color +
+            '" title="' +
+            k +
+            '"><span class="pg">' +
+            d.glyph +
+            "</span>" +
+            k +
+            "</span>"
+          );
+        })
+        .join("");
+    }
     function esc(s) {
       return String(s)
         .replace(/&/g, "&amp;")
@@ -509,7 +609,9 @@
         " " +
         (r.place || []).join(" ") +
         " " +
-        (r.notes || []).join(" ")
+        (r.notes || []).join(" ") +
+        " " +
+        pieces(r).join(" ")
       ).toLowerCase();
     }
     function match(r) {
@@ -568,6 +670,7 @@
           " gem" +
           (r.gems === 1 ? "" : "s") +
           "</span>";
+      h += chessHTML(r);
       h += "</div>";
       if (r.dyn || r.week1 || r.vmode) {
         h +=

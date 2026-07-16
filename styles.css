@@ -502,6 +502,29 @@ td.num {
   color: var(--amber);
   margin-bottom: 4px;
 }
+.bug {
+  border-left: 3px solid var(--r-orange);
+  background: rgba(217, 130, 43, 0.09);
+  padding: 10px 13px;
+  margin: 12px 0;
+  font-size: 17.5px;
+}
+.bug::before {
+  content: "BUG / OVERSIGHT";
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  color: var(--r-orange);
+  margin-bottom: 5px;
+}
+.bug p {
+  margin: 0 0 8px;
+}
+.bug p:last-child {
+  margin-bottom: 0;
+}
+
 .conflict {
   border-left: 3px solid var(--r-red);
   background: rgba(216, 72, 74, 0.09);
@@ -523,6 +546,72 @@ td.num {
   font-size: 13px;
   color: var(--chalk-dim);
   letter-spacing: 0.05em;
+}
+
+/* ---- spoiler warning, under the mast ---- */
+.spoiler {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 1px solid var(--amber);
+  border-left-width: 4px;
+  border-radius: var(--radius);
+  background: rgba(240, 180, 75, 0.07);
+}
+.spoiler p {
+  margin: 0 0 8px;
+  font-size: 14.5px;
+}
+.spoiler p:last-child {
+  margin-bottom: 0;
+}
+.spoiler-hd {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+body.compact .spoiler p:not(.spoiler-hd) {
+  display: none;
+}
+body.compact .spoiler {
+  padding: 8px 12px;
+}
+
+/* ---- chess badges ----
+   Colour comes in per-badge as --pc from script.js, so the six
+   piece colours live in one place (CHESS_PIECES) and not here. */
+.chess {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 2px 6px 2px 4px;
+  border-radius: var(--radius);
+  margin-right: 4px;
+  color: var(--pc, var(--chalk));
+  border: 1px solid var(--pc, var(--line));
+  /* tint of the piece colour, so dark pieces stay legible on the plate */
+  background: color-mix(in srgb, var(--pc) 16%, transparent);
+}
+.chess .pg {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+/* Pawn is near-black: lift the text off the dark plate */
+.chess[style*="#212121"] {
+  color: #b9c6d6;
+  border-color: #4a5462;
+  background: #212121;
+}
+@supports not (background: color-mix(in srgb, red 50%, transparent)) {
+  .chess {
+    background: transparent;
+  }
 }
 
 .tag {
@@ -711,13 +800,26 @@ input:focus {
   font-size: 14.5px;
 }
 .bar .track {
+  display: block;
+  position: relative;
   height: 13px;
   background: rgba(46, 92, 138, 0.35);
   border: 1px solid var(--line);
+  overflow: hidden;
 }
 .bar .fill {
+  display: block;
   height: 100%;
+  width: 0;
+  max-width: 100%;
   background: var(--cyan);
+  transition: width 0.18s ease-out;
+}
+.bar.zero .fill {
+  background: rgba(143, 173, 203, 0.3);
+}
+.bar.zero .val {
+  opacity: 0.55;
 }
 .bar .val {
   text-align: right;
